@@ -57,9 +57,6 @@
       enable = true;
       userEmail = "prayagjain2@gmail.com";
       userName = "Prayag2";
-      config = {
-        safe.directory = "$HOME/nixos";
-      };
     };
     vscode.enable = true;
   };
