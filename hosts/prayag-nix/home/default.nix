@@ -14,6 +14,7 @@
     ./configs/rofi
     ./configs/xresources
     ./configs/dunst
+    ./configs/vscode
   ];
 
   # Information
