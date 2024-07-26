@@ -33,6 +33,7 @@
     logseq
     webcord
     xdg-desktop-portal-hyprland
+    inkscape
   ];
 
   programs = {
