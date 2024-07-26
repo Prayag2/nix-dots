@@ -27,12 +27,10 @@
     alacritty
     kitty
     sxiv
-    afetch
+    neofetch
     vmware-horizon-client
     dunst
-    jq
     logseq
-    zoom-us
     webcord
     xdg-desktop-portal-hyprland
   ];

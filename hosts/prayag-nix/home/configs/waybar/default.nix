@@ -1,6 +1,7 @@
 {config, pkgs, ...}: 
 let
   custom-scr-power = "${(pkgs.callPackage ../../scripts/custom-scr-power.nix {inherit pkgs;})}/bin/custom-scr-power";
+  custom-scr-media = "${(pkgs.callPackage ../../scripts/custom-scr-media.nix {inherit pkgs;})}/bin/custom-scr-media";
 in
 {
   home.file.".config/waybar/style.css" = {
@@ -53,7 +54,7 @@ in
       };
 
       "custom/mpris" = {
-        exec = "$HOME/.local/bin/media.sh";
+        exec = "${custom-scr-media}";
         format = "{}";
         on-click = "playerctl play-pause";
         on-click-middle = "alacritty -e lyrics";
@@ -174,7 +175,7 @@ in
       };
 
       "custom/dunst" = {
-        exec = ''[[ $(dunstctl is-paused) = false ]] && printf '{"text= "󰂚"; "class= "on"}' || printf '{"text = "󰂛"; "class = "off"}' '';
+        exec = ''[[ $(dunstctl is-paused) = false ]] && printf '{"text": "󰂚", "class": "on"}' || printf '{"text": "󰂛", "class": "off"}' '';
         format = "{} ";
         return-type = "json";
         on-click = "dunstctl set-paused toggle";

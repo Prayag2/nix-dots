@@ -117,19 +117,6 @@
   services.fstrim.enable = true;
   services.xserver.videoDrivers = ["nvidia"];
 
-  services.auto-cpufreq.enable = true;
-  services.auto-cpufreq.settings = {
-    battery = {
-       governor = "powersave";
-       turbo = "never";
-    };
-    charger = {
-       governor = "performance";
-       turbo = "never";
-    };
-  };
-
-
   # system packages
   environment.systemPackages = with pkgs; [
     git

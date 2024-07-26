@@ -2,9 +2,7 @@
 
 * {
     border: none;
-    /* border-radius: 0; */
-    /* font-family: "DejaVu Sans Mono"; */
-    font-family: "Symbols Nerd Font Mono", "JetBrainsMono Nerd Font Mono";
+    font-family: "Symbols Nerd Font Mono", "JetBrainsMono";
     font-weight: bold;
     font-size: 12px;
     min-height: 0;
