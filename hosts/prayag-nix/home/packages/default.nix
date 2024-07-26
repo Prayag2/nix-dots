@@ -58,6 +58,7 @@
       userName = "Prayag2";
     };
     vscode.enable = true;
+    emacs.enable = true;
   };
 
   services = {

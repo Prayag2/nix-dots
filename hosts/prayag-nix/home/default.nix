@@ -15,6 +15,7 @@
     ./configs/xresources
     ./configs/dunst
     ./configs/vscode
+    ./configs/emacs
   ];
 
   # Information
