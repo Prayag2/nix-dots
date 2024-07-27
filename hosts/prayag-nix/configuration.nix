@@ -6,6 +6,7 @@
     ./system/printers.nix
     ./system/filesystem.nix
     ./system/bluetooth.nix
+    ./system/graphics.nix
   ];
 
   # Use the systemd-boot EFI boot loader.
@@ -98,24 +99,9 @@
       enable = true;
       daemon.enable = true;
     };
-
-    graphics.enable = true;
-
-    nvidia = {
-      modesetting.enable = true;
-      open = false; # use proprietary drivers
-      nvidiaSettings = true;
-      package = config.boot.kernelPackages.nvidiaPackages.stable;
-      prime = {
-        sync.enable = true; # automatically switches to GPU when required
-        amdgpuBusId = "PCI:6:0:0";
-        nvidiaBusId = "PCI:1:0:0";
-      };
-    };
   };
 
   services.fstrim.enable = true;
-  services.xserver.videoDrivers = ["nvidia"];
 
   # system packages
   environment.systemPackages = with pkgs; [
