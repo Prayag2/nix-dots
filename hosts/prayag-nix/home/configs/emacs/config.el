@@ -61,12 +61,6 @@
     :config
     (evil-collection-init))
 
-(use-package ewal-doom-themes
-  :config (progn
-      (add-to-list 'custom-theme-load-path "/home/prayag/.emacs.d/everforest-theme")
-      (load-theme 'ewal-doom-vibrant t)
-	    (enable-theme 'doom-challenger-deep)))
-
 (use-package general
   :config
   (general-create-definer prayag/leader-keys
@@ -128,7 +122,7 @@
   (smartparens-mode))
 (use-package org-roam
   :custom
-  (org-roam-directory "~/my-stuff/notes/")
+  (org-roam-directory "~/me/notes")
   :config
   (org-roam-db-autosync-enable))
 (use-package evil-org
@@ -323,7 +317,7 @@
 
 ;; FONT
 (add-to-list 'default-frame-alist
-             '(font . "Google Sans Mono-12"))
-(set-frame-font "JetBrains Mono-12" t t)
+             '(font . "JetBrains Mono-16"))
+(set-frame-font "JetBrains Mono-16" t t)
 (set-face-attribute 'default nil :family "JetBrains Mono") 
 (provide 'init)

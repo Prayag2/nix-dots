@@ -1,5 +1,3 @@
 {config, pkgs, ...}: {
-  programs.emacs = {
-    extraConfig = builtins.readFile ./config.el;
-  };
+  home.file.".emacs.d/init.el".source = ./config.el;
 }

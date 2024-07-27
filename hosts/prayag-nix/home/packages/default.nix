@@ -17,7 +17,6 @@
     ranger
     yad
     libnotify
-    pywalfox-native
     imagemagick
     wpgtk
     bibata-cursors
@@ -34,6 +33,8 @@
     webcord
     xdg-desktop-portal-hyprland
     inkscape
+    xournalpp
+    ookla-speedtest
   ];
 
   programs = {
@@ -58,7 +59,7 @@
       userName = "Prayag2";
     };
     vscode.enable = true;
-    emacs.enable = true;
+    emacs.enable = false;
   };
 
   services = {

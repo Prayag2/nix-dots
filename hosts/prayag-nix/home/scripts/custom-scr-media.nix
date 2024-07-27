@@ -1,5 +1,5 @@
 {pkgs}:
-  pkgs.writeShellScriptBin "custom-scr-media" ''
+  pkgs.writeShellScriptBin "custom-scr-media" /*bash*/ ''
     source ~/.cache/wal/colors.sh
     echo " No Media"
     playerctl metadata -f '{{status}} {{title}}' -F 2>/dev/null | while read event; do
