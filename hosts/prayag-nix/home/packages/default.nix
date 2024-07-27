@@ -14,7 +14,6 @@
     grim
     slurp
     optipng
-    ranger
     yad
     libnotify
     imagemagick
@@ -60,6 +59,7 @@
     };
     vscode.enable = true;
     emacs.enable = false;
+    ranger.enable = true;
   };
 
   services = {

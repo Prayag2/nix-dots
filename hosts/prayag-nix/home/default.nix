@@ -16,6 +16,7 @@
     ./configs/dunst
     ./configs/vscode
     ./configs/emacs
+    ./configs/ranger
   ];
 
   # Information
