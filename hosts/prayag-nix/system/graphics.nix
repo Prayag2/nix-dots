@@ -1,5 +1,5 @@
 {config, pkgs, ...}: {
-  nvidia = {
+  hardware.nvidia = {
     modesetting.enable = true;
     open = false; # use proprietary drivers
     nvidiaSettings = true;

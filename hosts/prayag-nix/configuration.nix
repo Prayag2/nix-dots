@@ -7,6 +7,7 @@
     ./system/filesystem.nix
     ./system/bluetooth.nix
     ./system/graphics.nix
+    ./system/boot.nix
   ];
 
   # Use the systemd-boot EFI boot loader.
