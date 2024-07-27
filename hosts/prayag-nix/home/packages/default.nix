@@ -34,6 +34,7 @@
     inkscape
     xournalpp
     ookla-speedtest
+    ueberzugpp
   ];
 
   programs = {

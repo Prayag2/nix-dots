@@ -14,12 +14,8 @@ in
   ];
   home.activation = {
     reloadAction = lib.hm.dag.entryAfter ["writeBoundary"] ''
-      setup_marker="$HOME/.config/onetimesetup"
-      if [[ ! -e $setup_marker ]]; then
-        echo ":: one time setup ::"
-        ${custom-scr-setup}
-        touch $setup_marker
-      fi
+      echo ":: setting up stuff ::"
+      ${custom-scr-setup}
 
       echo ":: reloading pywal ::"
       ${wal} -R

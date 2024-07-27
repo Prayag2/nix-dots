@@ -6,15 +6,18 @@ let
   magick="${pkgs.imagemagick}/bin/magick";
 in
   pkgs.writeShellScriptBin "custom-scr-setup" ''
+    setup_marker="$HOME/.config/onetimesetup"
+
     echo ":: installing gtk theme and icons ::"
-    ${wpg-install} -G
-    ${wpg-install} -i
+    [[ -e $setup_marker ]] || ${wpg-install} -G
+    [[ -e $setup_marker ]] || ${wpg-install} -i
 
     echo ":: creating symlinks ::"
     declare -A paths=(
       ["$HOME/.cache/wal/alacritty.toml"]="$HOME/.config/alacritty/alacritty.toml"
       ["$HOME/.cache/wal/theme.rasi"]="$HOME/.config/rofi/theme.rasi"
       ["$HOME/.cache/wal/dunstrc"]="$HOME/.config/dunst/dunstrc"
+      ["$HOME/.cache/wal/colors-vscode-theme.json"]="$HOME/.vscode/extensions/vscode-wal/themes/colors-vscode-theme.json"
     )
     for original_path in "''${!paths[@]}"; do
       new_path="''${paths[$original_path]}"
@@ -36,4 +39,6 @@ in
     else
       echo ":: theme already present ::"
     fi
+
+    touch $setup_marker
   ''

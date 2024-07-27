@@ -16,4 +16,8 @@
       esbenp.prettier-vscode
     ];
   };
+  home.file = {
+    ".config/wal/templates/colors-vscode-theme.json".source = ./vscode-wal/templates/colors-vscode-theme.json;
+    ".vscode/extensions/vscode-wal/package.json".source = ./vscode-wal/package.json;
+  };
 }
