@@ -8,6 +8,7 @@
     ./system/bluetooth.nix
     ./system/graphics.nix
     ./system/boot.nix
+    ./system/sddm.nix
   ];
 
   # Use the systemd-boot EFI boot loader.
@@ -36,11 +37,6 @@
   # Enable the X11 windowing system.
   services.xserver.enable = true;
 
-  services.displayManager.sddm = {
-    enable = true;
-    enableHidpi = true;
-    autoNumlock = true;
-  };
 
   # Enable sound.
   services.pipewire = {
@@ -114,6 +110,7 @@
     zsh-powerlevel10k
     pulseaudio
     killall
+    sddm-chili-theme
   ];
   
   # experimental features
