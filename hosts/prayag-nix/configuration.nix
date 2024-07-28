@@ -9,15 +9,12 @@
     ./system/graphics.nix
     ./system/boot.nix
     ./system/sddm.nix
+    ./system/network.nix
   ];
 
   # Use the systemd-boot EFI boot loader.
   boot.loader.systemd-boot.enable = true;
   boot.loader.efi.canTouchEfiVariables = true;
-
-  # Networking
-  networking.hostName = "prayag-nix";
-  networking.networkmanager.enable = true;
 
   # Set your time zone.
   time.timeZone = "Asia/Kolkata";

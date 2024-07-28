@@ -73,5 +73,6 @@
     swayosd.enable = true;
     hypridle.enable = true;
     network-manager-applet.enable = true;
+    kdeconnect.enable = true;
   };
 }
