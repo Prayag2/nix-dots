@@ -6,6 +6,7 @@
       "vim.useSystemClipboard" = true;
       "workbench.colorTheme" = "vs-wal";
       "workbench.preferredDarkColorTheme" = "vs-wal";
+      "workbench.startupEditor" = "none";
     };
     extensions = with pkgs.vscode-extensions; [
       vscodevim.vim
@@ -21,5 +22,6 @@
   home.file = {
     ".config/wal/templates/vs-wal-color-theme.json".source = ./theme/template.json;
     ".vscode/extensions/vscode-wal/package.json".source = ./theme/package.json;
+    ".vscode/argv.json".source = ./argv.json;
   };
 }

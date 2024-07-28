@@ -25,6 +25,4 @@
     wpg -a $wall_new_location >/dev/null 2>&1
     [[ $theme_path ]] && wpg -i $wall_new_location $theme_path >/dev/null 2>&1 || wpg -A $wall_new_location >/dev/null 2>&1
     wpg -s $wall_new_location >/dev/null 2>&1
-
-    echo ":: applying sddm theme ::"
   ''
