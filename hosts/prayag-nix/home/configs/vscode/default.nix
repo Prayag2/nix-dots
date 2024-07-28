@@ -4,6 +4,8 @@
       "editor.fontFamily" = "'JetBrains Mono', 'monospace', monospace";
       "editor.fontSize" = 18;
       "vim.useSystemClipboard" = true;
+      "workbench.colorTheme" = "vs-wal";
+      "workbench.preferredDarkColorTheme" = "vs-wal";
     };
     extensions = with pkgs.vscode-extensions; [
       vscodevim.vim
@@ -17,7 +19,7 @@
     ];
   };
   home.file = {
-    ".config/wal/templates/colors-vscode-theme.json".source = ./theme/template.json;
+    ".config/wal/templates/vs-wal-color-theme.json".source = ./theme/template.json;
     ".vscode/extensions/vscode-wal/package.json".source = ./theme/package.json;
   };
 }

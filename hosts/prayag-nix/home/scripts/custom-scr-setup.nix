@@ -17,7 +17,7 @@ in
       ["$HOME/.cache/wal/alacritty.toml"]="$HOME/.config/alacritty/alacritty.toml"
       ["$HOME/.cache/wal/theme.rasi"]="$HOME/.config/rofi/theme.rasi"
       ["$HOME/.cache/wal/dunstrc"]="$HOME/.config/dunst/dunstrc"
-      ["$HOME/.cache/wal/colors-vscode-theme.json"]="$HOME/.vscode/extensions/vscode-wal/themes/colors-vscode-theme.json"
+      ["$HOME/.cache/wal/vs-wal-color-theme.json"]="$HOME/.vscode/extensions/vscode-wal/themes/vs-wal-color-theme.json"
     )
     for original_path in "''${!paths[@]}"; do
       new_path="''${paths[$original_path]}"

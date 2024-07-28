@@ -35,6 +35,7 @@
     xournalpp
     ookla-speedtest
     ueberzugpp
+    gnome.gnome-disk-utility
   ];
 
   programs = {

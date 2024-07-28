@@ -24,7 +24,7 @@
   home.homeDirectory = "/home/prayag";
 
   # Don't change this
-  home.stateVersion = "23.11";
+  home.stateVersion = "24.05";
 
   # Dotfiles
   home.file = {
