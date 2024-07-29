@@ -33,7 +33,7 @@ in
       # Rofi
       "$main_mod, R, exec, rofi -show drun -theme $rofi_theme"
       "$main_mod, Equal, exec, rofi -modi calc -show calc -theme $rofi_theme"
-      "$main_mod, Period, exec, rofi -modi 'emoji:rofimoji' -show emoji -theme $rofi_theme"
+      "$main_mod, Period, exec, rofimoji --selector-args \"-theme '$HOME/.config/rofi/theme.rasi'\""
       "$main_mod, N, exec, dunstctl action"
       "$main_mod, V, exec, cliphist list | rofi -dmenu -p C -theme $rofi_theme | cliphist decode | wl-copy"
       "$main_mod ALT, V, exec, wtype \"$(wl-paste)\""

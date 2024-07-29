@@ -38,6 +38,7 @@
     gnome.gnome-disk-utility
     obs-studio
     baobab
+    cava
   ];
 
   programs = {
