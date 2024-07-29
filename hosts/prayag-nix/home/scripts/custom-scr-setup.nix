@@ -14,6 +14,7 @@ in
 
     echo ":: creating symlinks ::"
     declare -A paths=(
+      ["$HOME/.cache/wal/gtk.css"]="$HOME/.config/gtk-4.0/gtk.css"
       ["$HOME/.cache/wal/alacritty.toml"]="$HOME/.config/alacritty/alacritty.toml"
       ["$HOME/.cache/wal/theme.rasi"]="$HOME/.config/rofi/theme.rasi"
       ["$HOME/.cache/wal/dunstrc"]="$HOME/.config/dunst/dunstrc"

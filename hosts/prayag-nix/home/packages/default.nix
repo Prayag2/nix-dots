@@ -36,6 +36,8 @@
     ookla-speedtest
     ueberzugpp
     gnome.gnome-disk-utility
+    obs-studio
+    baobab
   ];
 
   programs = {
