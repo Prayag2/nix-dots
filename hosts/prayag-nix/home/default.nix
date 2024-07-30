@@ -17,6 +17,7 @@
     ./configs/vscode
     ./configs/emacs
     ./configs/ranger
+    ./configs/opentabletdriver
   ];
 
   # Information

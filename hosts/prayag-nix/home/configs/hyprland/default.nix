@@ -29,6 +29,8 @@
           tap-and-drag = true;
         };
       };
+      
+      debug.disable_logs = false;
 
       xwayland.force_zero_scaling = true;
 
