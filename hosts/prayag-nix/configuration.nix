@@ -1,5 +1,7 @@
-{ config, lib, pkgs, ... }:
-
+{ config, lib, pkgs, inputs, ... }:
+let
+  overlays = import ./overlays {inherit inputs;};
+in
 {
   imports = [ 
     ./hardware-configuration.nix
@@ -27,9 +29,6 @@
     keyMap = lib.mkForce "us";
     useXkbConfig = true; # use xkb.options in tty.
   };
-  nixpkgs.config.permittedInsecurePackages = [
-      "electron-27.3.11"
-    ];
 
   # Enable the X11 windowing system.
   services.xserver.enable = true;
@@ -62,6 +61,7 @@
   # programs
   programs = {
     hyprland = {
+      package = pkgs.unstable.hyprland;
       enable = true;
       xwayland.enable = true;		
     };
@@ -115,8 +115,16 @@
   # experimental features
   nix.settings.experimental-features = ["nix-command" "flakes"];
 
-  nixpkgs.config = {
-    allowUnfree = true;
+  nixpkgs = {
+    overlays = [
+      overlays.unstable-packages  
+    ];
+    config = {
+      allowUnfree = true;
+      permittedInsecurePackages = [
+        "electron-27.3.11"
+      ];
+    };
   };
   
   nix.gc = {
