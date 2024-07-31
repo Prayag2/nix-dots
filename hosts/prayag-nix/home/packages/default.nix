@@ -47,7 +47,9 @@
       enable = true;
       package = pkgs.hyprlock;
     };
-    rofi.enable = true;
+    rofi = {
+      enable = true;
+    };
     waybar.enable = true;
     neovim = {
       enable = true;

@@ -7,6 +7,7 @@ in
   wayland.windowManager.hyprland.settings = {
     "$main_mod" = "SUPER";
     "$rofi_theme" = "$HOME/.config/rofi/theme.rasi";
+    "$focus_rofi" = "& sleep 0.2; hyprctl dispatch focuswindow \"^(Rofi)\"";
 
     bind = [
       # VMWare Horizon Client
@@ -31,11 +32,11 @@ in
       "$main_mod, E, exec, thunar"
 
       # Rofi
-      "$main_mod, R, exec, rofi -show drun -theme $rofi_theme"
-      "$main_mod, Equal, exec, rofi -modi calc -show calc -theme $rofi_theme"
-      "$main_mod, Period, exec, rofimoji --selector-args \"-theme '$HOME/.config/rofi/theme.rasi'\""
-      "$main_mod, N, exec, dunstctl action"
-      "$main_mod, V, exec, cliphist list | rofi -dmenu -p C -theme $rofi_theme | cliphist decode | wl-copy"
+      "$main_mod, R, exec, rofi -show drun -theme $rofi_theme $focus_rofi"
+      "$main_mod, Equal, exec, rofi -modi calc -show calc -theme $rofi_theme $focus_rofi"
+      "$main_mod, Period, exec, rofimoji --selector-args \"-theme '$HOME/.config/rofi/theme.rasi'\" $focus_rofi"
+      "$main_mod, N, exec, dunstctl action $focus_rofi"
+      "$main_mod, V, exec, cliphist list | rofi -dmenu -p C -theme $rofi_theme | cliphist decode | wl-copy $focus_rofi"
       "$main_mod ALT, V, exec, wtype \"$(wl-paste)\""
 
       # Audio

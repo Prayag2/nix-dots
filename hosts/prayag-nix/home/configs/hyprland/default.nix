@@ -126,6 +126,7 @@
         "noanim,class:^(xwaylandvideobridge)$"
         "nofocus,class:^(xwaylandvideobridge)$"
         "noinitialfocus,class:^(xwaylandvideobridge)$"
+        "forceinput,class:^(Rofi)$"
       ];
     };
   };
