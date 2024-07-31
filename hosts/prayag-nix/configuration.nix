@@ -61,7 +61,6 @@ in
   # programs
   programs = {
     hyprland = {
-      package = pkgs.unstable.hyprland;
       enable = true;
       xwayland.enable = true;		
     };
@@ -76,6 +75,17 @@ in
       syntaxHighlighting.enable = true;
       promptInit = "source ${pkgs.zsh-powerlevel10k}/share/zsh-powerlevel10k/powerlevel10k.zsh-theme";
     };
+  };
+
+  nix.settings = {
+    substituters = [
+      "https://cache.nixos.org/"
+      "https://hyprland.cachix.org"
+    ];
+    trusted-public-keys = [
+      "hyprland.cachix.org-1:a7pgxzMz7+chwVL3/pzj6jIBMioiJM7ypFP8PwtkuGc="
+      "cache.nixos.org-1:6NCHdD59X431o0gWypbMrAURkbJ16ZPMQFGspcDShjY="
+    ];
   };
 
   environment.pathsToLink = [ "/share/xdg-desktop-portal" "/share/applications" ];

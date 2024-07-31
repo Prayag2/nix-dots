@@ -1,10 +1,12 @@
-{ config, pkgs, ... }:
-
+{ config, pkgs, inputs, ... }:
+let
+  overlays = import ../overlays {inherit inputs;};
+in
 {
   imports = [
     ./scripts
     ./packages
-    ./configs/hyprland 
+    ./configs/hyprland
     ./configs/hypridle
     ./configs/hyprlock
     ./configs/gtk
@@ -18,6 +20,7 @@
     ./configs/emacs
     ./configs/ranger
     ./configs/opentabletdriver
+    ./configs/xournalpp
   ];
 
   # Information
@@ -33,4 +36,8 @@
     ".local/bin".source = ./scripts;
     ".config/themes/".source = configs/themes;
   };
+
+  nixpkgs.overlays = [
+    overlays.unstable-packages    
+  ];
 }

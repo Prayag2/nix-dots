@@ -138,16 +138,16 @@ in
       };
 
       "temperature#cpu" = {
-        thermal-zone = 0;
-        hwmon-path = "/sys/devices/virtual/thermal/thermal_zone0/hwmon1/temp1_input";
+        # thermal-zone = 0;
+        # hwmon-path = "/sys/devices/virtual/thermal/thermal_zone0/hwmon1/temp1_input";
         critical-threshold = 80;
         format-critical = "  {temperatureC}°C";
         format = "  {temperatureC}°C";
       };
 
       "temperature#gpu" = {
-          thermal-zone = 0;
-          hwmon-path = "/sys/devices/virtual/thermal/thermal_zone0/hwmon1/temp1_input";
+          #thermal-zone = 0;
+          #hwmon-path = "/sys/devices/virtual/thermal/thermal_zone0/hwmon1/temp1_input";
           critical-threshold = 80;
           format-critical = "  {temperatureC}°C";
           format = "  {temperatureC}°C";

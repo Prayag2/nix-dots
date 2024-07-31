@@ -3,6 +3,13 @@
     source = ./gtk.css;
     force = true;
   };
+  home.pointerCursor = {
+    gtk.enable = true;
+    #x11.enable = true;
+    package = pkgs.bibata-cursors;
+    name = "Bibata-Original-Classic";
+    size = 20;
+  };
   gtk = {
     enable = true;
     cursorTheme.name = "Bibata-Original-Classic";

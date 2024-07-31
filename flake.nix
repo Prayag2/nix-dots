@@ -2,7 +2,7 @@
     description = "haxnix";
     
     inputs = {
-        nixpkgs.url = "github:NixOS/nixpkgs/nixos-24.05";
+        nixpkgs.url = "github:NixOS/nixpkgs/0c19708cf035f50d28eb4b2b8e7a79d4dc52f6bb";
         nixpkgs-unstable.url = "github:nixos/nixpkgs/nixos-unstable";
         home-manager = {
           url = "github:nix-community/home-manager/release-24.05";
@@ -24,7 +24,7 @@
                 home-manager.nixosModules.home-manager {
                   home-manager.useGlobalPkgs = true;
                   home-manager.useUserPackages = true;
-                  home-manager.extraSpecialArgs = inputs;
+                  home-manager.extraSpecialArgs = {inherit inputs;};
                   home-manager.users.prayag = import ./hosts/prayag-nix/home;
                   home-manager.backupFileExtension = "backup";
                 }

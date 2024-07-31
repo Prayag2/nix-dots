@@ -43,7 +43,10 @@
 
   programs = {
     home-manager.enable = true;
-    hyprlock.enable = true;
+    hyprlock = {
+      enable = true;
+      package = pkgs.hyprlock;
+    };
     rofi.enable = true;
     waybar.enable = true;
     neovim = {
@@ -68,13 +71,15 @@
   };
 
   services = {
-    #dunst.enable = true;
     cliphist = {
       enable = true;
       systemdTarget = "hyprland-session.target";
     };
     swayosd.enable = true;
-    hypridle.enable = true;
+    hypridle = {
+      enable = true;
+      package = pkgs.hypridle;
+    };
     network-manager-applet.enable = true;
     kdeconnect.enable = true;
   };

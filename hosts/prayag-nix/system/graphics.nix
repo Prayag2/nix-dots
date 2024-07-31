@@ -1,4 +1,5 @@
-{config, pkgs, ...}: {
+{config, pkgs, inputs, ...}: 
+{
   hardware.nvidia = {
     modesetting.enable = true;
     open = false; # use proprietary drivers
@@ -13,6 +14,8 @@
       nvidiaBusId = "PCI:1:0:0";
     };
   };
-  hardware.opengl.enable = true;
+  hardware.opengl = {
+    enable = true;
+  };
   #services.xserver.videoDrivers = ["nvidia"];
 }
