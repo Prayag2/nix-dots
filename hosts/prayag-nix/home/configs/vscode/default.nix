@@ -17,6 +17,7 @@
       ms-python.python
       ms-python.debugpy
       esbenp.prettier-vscode
+      bbenoist.nix
     ];
   };
   home.file = {

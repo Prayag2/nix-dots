@@ -39,6 +39,7 @@
     obs-studio
     baobab
     cava
+    telegram-desktop
   ];
 
   programs = {
@@ -49,6 +50,7 @@
     };
     rofi = {
       enable = true;
+      package = pkgs.rofi-wayland;
     };
     waybar.enable = true;
     neovim = {

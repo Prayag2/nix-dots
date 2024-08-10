@@ -179,7 +179,7 @@ in
         format = "{} ";
         return-type = "json";
         on-click = "dunstctl set-paused toggle";
-        interval = 5;
+        interval = 1;
       };
 
       "tray" = {

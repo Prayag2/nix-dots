@@ -24,7 +24,6 @@ configuration {{
 
 /*****----- Global Properties -----*****/
 * {{
-    font:                        "JetBrainsMono Nerd Font 11.2";
     background:                  {background}B3;
     background-alt:              {background};
     foreground:                  {foreground};
@@ -35,12 +34,13 @@ configuration {{
 
 /*****----- Main Window -----*****/
 window {{
+    font: "JetBrainsMono 14";
     /* properties for window widget */
     transparency:                "real";
     location:                    center;
     anchor:                      center;
     fullscreen:                  false;
-    width:        600px;
+    width:                       750px;
     x-offset:                    0px;
     y-offset:                    0px;
 
@@ -48,7 +48,7 @@ window {{
     enabled:                     true;
     border-radius:               0px; /* 16px */
     border-color:                {color8}; 
-    border:                      2.5px;
+    border:                      3.125px;
     cursor:                      "default";
     background-color:            @background;
 }}
@@ -63,7 +63,7 @@ mainbox {{
 }}
 
 imagebox {{
-    padding:                     16px;
+    padding:                     20px;
     border-radius: 0px; /* 11px */
     background-color:            transparent;
     background-image:            url("~/.local/share/wallpapers/wall.png", width);
@@ -72,8 +72,8 @@ imagebox {{
 }}
 
 listbox {{
-    spacing:                     4px;
-    padding:                     4px 0px;
+    spacing:                     5px;
+    padding:                     5px 0px;
     background-color:            transparent;
     orientation:                 vertical;
     children:                    [ "message", "listview" ];
@@ -86,8 +86,8 @@ dummy {{
 /*****----- Inputbar -----*****/
 inputbar {{
     enabled:                     true;
-    spacing:                     8px;
-    padding:                     40px 40px 40px;
+    spacing:                     10px;
+    padding:                     50px 50px 50px;
     border-radius:               0px; /* 8px */
     border:  2px;
     border-color: {color8};
@@ -121,12 +121,12 @@ entry {{
 /*****----- Mode Switcher -----*****/
 mode-switcher{{
     enabled:                     true;
-    spacing:                     4px;
+    spacing:                     5px;
     background-color:            transparent;
     text-color:                  @foreground;
 }}
 button {{
-    padding:                     12px;
+    padding:                     15px;
     border-radius:               0px; /* 8px */
     background-color:            @background-alt;
     text-color:                  inherit;
@@ -162,8 +162,8 @@ listview {{
 /*****----- Elements -----*****/
 element {{
     enabled:                     true;
-    spacing:                     12px;
-    padding:                     9.5px;
+    spacing:                     15px;
+    padding:                     12px;
     border-radius:               0px; /* 8px */
     background-color:            transparent;
     text-color:                  @foreground;
@@ -201,7 +201,7 @@ element selected.active {{
 element-icon {{
     background-color:            transparent;
     text-color:                  inherit;
-    size:                        25.6px;
+    size:                        32px;
     cursor:                      inherit;
 }}
 element-text {{
@@ -218,7 +218,7 @@ message {{
     border: none;
 }}
 textbox {{
-    padding:                     12px;
+    padding:                     15px;
     border-radius:               0px; /* 8px */
     background-color:            @background-alt;
     text-color:                  @foreground;
@@ -226,7 +226,7 @@ textbox {{
     horizontal-align:            0.0;
 }}
 error-message {{
-    padding:                     12px;
+    padding:                     15px;
     border-radius:               0px; /* 16px */
     background-color:            @background;
     text-color:                  @foreground;

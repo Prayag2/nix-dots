@@ -12,7 +12,6 @@ in
     (import ./custom-scr-power.nix {inherit pkgs;})
     (import ./custom-scr-wall.nix {inherit pkgs;})
     (import ./custom-scr-media.nix {inherit pkgs;})
-    (import ./rofi.nix {inherit pkgs;})
   ];
   home.activation = {
     reloadAction = lib.hm.dag.entryAfter ["writeBoundary"] ''

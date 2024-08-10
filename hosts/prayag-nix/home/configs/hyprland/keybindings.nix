@@ -7,7 +7,8 @@ in
   wayland.windowManager.hyprland.settings = {
     "$main_mod" = "SUPER";
     "$rofi_theme" = "$HOME/.config/rofi/theme.rasi";
-    "$focus_rofi" = "& sleep 0.2; hyprctl dispatch focuswindow \"^(Rofi)\"";
+    #"$focus_rofi" = "& sleep 0.2; hyprctl dispatch focuswindow \"^(Rofi)\"";
+    "$focus_rofi" = "";
 
     bind = [
       # VMWare Horizon Client

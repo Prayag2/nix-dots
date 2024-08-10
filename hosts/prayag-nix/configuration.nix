@@ -68,6 +68,7 @@ in
       enable = true;
       plugins = with pkgs.xfce; [ thunar-volman thunar-archive-plugin ];
     };
+    file-roller.enable = true;
     zsh = {
       enable = true;
       enableCompletion = true;
