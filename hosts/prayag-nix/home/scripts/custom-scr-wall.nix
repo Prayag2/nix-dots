@@ -20,9 +20,9 @@
 
     echo ":: setting wallpaper ::"
     rm $wall_new_location
-    magick "$wall_location" $wall_new_location >/dev/null 2>&1
-    swww img $wall_new_location -t any --transition-fps 120 >/dev/null 2>&1
-    wpg -a $wall_new_location >/dev/null 2>&1
-    [[ $theme_path ]] && wpg -i $wall_new_location $theme_path >/dev/null 2>&1 || wpg -A $wall_new_location >/dev/null 2>&1
-    wpg -s $wall_new_location >/dev/null 2>&1
+    magick "$wall_location" $wall_new_location >/dev/null
+    swww img $wall_new_location -t any --transition-fps 120 >/dev/null
+    wpg -a $wall_new_location >/dev/null
+    [[ $theme_path ]] && wpg -i $wall_new_location $theme_path >/dev/null || wpg -A $wall_new_location >/dev/null
+    wpg -s $wall_new_location >/dev/null
   ''
