@@ -3,6 +3,8 @@
     loader.systemd-boot.enable = true;
     loader.efi.canTouchEfiVariables = true;
 
+    kernelPackages = pkgs.linuxKernel.packages.linux_6_6;
+
     consoleLogLevel = 0;
     initrd.verbose = false;
     plymouth.enable = true;

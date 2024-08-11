@@ -1,21 +1,54 @@
-{config, pkgs, inputs, ...}: 
+{config, pkgs, lib, inputs, ...}: 
+let
+  kver = config.boot.kernelPackages.kernel.version;
+in
 {
   hardware.nvidia = {
-    modesetting.enable = true;
-    open = false; # use proprietary drivers
+    open = false;
     nvidiaSettings = true;
+    modesetting.enable = true;
     package = config.boot.kernelPackages.nvidiaPackages.stable;
     prime = {
-      offload = {
-        enable = true;
-        enableOffloadCmd = true;
-      };
+      # offload = {
+      #   enable = true;
+      #   enableOffloadCmd = true;
+      # };
+      sync.enable = true;
       amdgpuBusId = "PCI:6:0:0";
       nvidiaBusId = "PCI:1:0:0";
     };
   };
-  hardware.opengl = {
-    enable = true;
+
+  hardware = {
+    opengl = {
+      enable = true;
+    };
   };
-  #services.xserver.videoDrivers = ["nvidia"];
+
+  # nvidia
+  services.xserver.videoDrivers = ["modesetting" "nvidia"];
+
+  # pstate cpu driver
+  boot = lib.mkMerge [
+    (lib.mkIf
+      (
+        (lib.versionAtLeast kver "5.17")
+        && (lib.versionOlder kver "6.1")
+      )
+      {
+        kernelParams = [ "initcall_blacklist=acpi_cpufreq_init" ];
+        kernelModules = [ "amd-pstate" ];
+      })
+    (lib.mkIf
+      (
+        (lib.versionAtLeast kver "6.1")
+        && (lib.versionOlder kver "6.3")
+      )
+      {
+        kernelParams = [ "amd_pstate=passive" ];
+      })
+    (lib.mkIf (lib.versionAtLeast kver "6.3") {
+      kernelParams = [ "amd_pstate=active" ];
+    })
+  ];
 }

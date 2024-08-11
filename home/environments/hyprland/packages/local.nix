@@ -23,6 +23,12 @@
     dunst
     xdg-desktop-portal-hyprland
     ueberzugpp
+    mpv
+
+    # ranger optional dependencies
+    ffmpegthumbnailer
+    mediainfo
+    poppler
   ];
   programs = {
     home-manager.enable = true;

@@ -1,0 +1,352 @@
+*PPD-Adobe: "4.3"
+*%
+*% Create By CommUnit 2017/04/05 11:13
+*%
+*FormatVersion: "4.3"
+*FileVersion: "1.0"
+*LanguageVersion: English
+*LanguageEncoding: ISOLatin1
+*PCFileName: "TE244.ppd"
+*Manufacturer: "TSC"
+*Product: "(TE244)"
+*ModelName: "TSC TE244"
+*ShortNickName: "TSC TE244"
+*NickName: "TSC TE244"
+*PSVersion: "(3010.000) 550"
+*PSVersion: "(3010.000) 651"
+*PSVersion: "(3010.000) 652"
+*PSVersion: "(3010.000) 653"
+*PSVersion: "(3010.000) 704"
+*PSVersion: "(3010.000) 705"
+*PSVersion: "(3010.000) 800"
+*LanguageLevel: "3"
+*ColorDevice: False
+*DefaultColorSpace: Gray
+*FileSystem: False
+*Throughput: "1"
+*LandscapeOrientation: Plus90
+*TTRasterizer: Type42
+*cupsVersion: 1.2
+*cupsManualCopies: False
+*cupsFilter: "application/vnd.cups-raster 0 rastertobarcodetspl"
+*cupsLanguages: "en zh_CN zh_TW"
+
+*TscAttr tscLanguage: TSPL2
+*TscAttr tscUtility: BarCodeUtility
+*TscAttr MaxPaperWidth: 317.48
+
+*MaxMediaWidth: "306.14"
+*MaxMediaHeight: "70000"
+*HWMargins: 0.00 0.00 0.00 0.00
+*CustomPageSize True: "pop pop pop <</PageSize[5 -2 roll]/ImagingBBox null>>setpagedevice"
+*ParamCustomPageSize Width: 1 points 14.17 306.14
+*ParamCustomPageSize Height: 2 points 14.17 70000
+*ParamCustomPageSize WidthOffset: 3 points 0 0
+*ParamCustomPageSize HeightOffset: 4 points 0 0
+*ParamCustomPageSize Orientation: 5 int 0 0
+*RequiresPageRegion All: True
+
+*OpenGroup: General/General
+
+*OpenUI *PageSize/Page Size: PickOne
+*OrderDependency: 10 AnySetup *PageSize
+*DefaultPageSize: w2h4
+*PageSize w2h4/2 x 4 (2.00 in x 4.00 in): "<</PageSize[144 288]/ImagingBBox null>>setpagedevice"
+*PageSize w4h4/4 x 4 (4.00 in x 4.00 in): "<</PageSize[288 288]/ImagingBBox null>>setpagedevice"
+*PageSize w4h6/4 x 6 (4.00 in x 6.00 in): "<</PageSize[288 432]/ImagingBBox null>>setpagedevice"
+*CloseUI: *PageSize
+
+*OpenUI *PageRegion/Page Size: PickOne
+*OrderDependency: 10 AnySetup *PageRegion
+*DefaultPageRegion: w2h4
+*PageRegion w2h4/2 x 4 (2.00 in x 4.00 in): "<</PageSize[144 288]/ImagingBBox null>>setpagedevice"
+*PageRegion w4h4/4 x 4 (4.00 in x 4.00 in): "<</PageSize[288 288]/ImagingBBox null>>setpagedevice"
+*PageRegion w4h6/4 x 6 (4.00 in x 6.00 in): "<</PageSize[288 432]/ImagingBBox null>>setpagedevice"
+*CloseUI: *PageRegion
+
+*ImageableArea w2h4/2 x 4 (2.00 in x 4.00 in): "0 0 144 288"
+*ImageableArea w4h4/4 x 4 (4.00 in x 4.00 in): "0 0 288 288"
+*ImageableArea w4h6/4 x 6 (4.00 in x 6.00 in): "0 0 288 432"
+
+*PaperDimension w2h4/2 x 4 (2.00 in x 4.00 in): "144 288"
+*PaperDimension w4h4/4 x 4 (4.00 in x 4.00 in): "288 288"
+*PaperDimension w4h6/4 x 6 (4.00 in x 6.00 in): "288 432"
+
+*OpenUI *Resolution/Resolution: PickOne
+*OrderDependency: 300 AnySetup *Resolution
+*DefaultResolution: 203dpi
+*Resolution 203dpi/203 dpi x 203 dpi: "<</HWResolution[203 203]/cupsBitsPerColor 1/cupsRowCount 8/cupsRowFeed 0/cupsRowStep 0/cupsColorSpace 3>>setpagedevice"
+*CloseUI: *Resolution
+
+*OpenUI *Collate/Collate: Boolean
+*OrderDependency: 200 AnySetup *Collate
+*DefaultCollate: True
+*Collate True/Yes: "%%"
+*Collate False/No: "%%"
+*CloseUI: *Collate
+
+*CloseGroup: General
+
+*OpenGroup: Media/Media Setting
+
+*OpenUI *MediaMethod/Method: PickOne
+*OrderDependency: 110 AnySetup *MediaMethod
+*DefaultMediaMethod: Normal
+*MediaMethod Normal/Use Currently Printer Setting: "%%"
+*MediaMethod Direct/Direct Thermal: "%%"
+*MediaMethod Transfer/Thermal Transfer: "%%"
+*CloseUI: *MediaMethod
+
+*OpenUI *PaperType/Type: PickOne
+*OrderDependency: 120 AnySetup *PaperType
+*DefaultPaperType: LabelGaps
+*PaperType LabelGaps/Label with Gaps: "%%"
+*PaperType LabelMark/Label with Mark: "%%"
+*PaperType Continue/Continue: "%%"
+*CloseUI: *PaperType
+
+*OpenUI *PostAction/Post-Print Action: PickOne
+*OrderDependency: 130 AnySetup *PostAction
+*DefaultPostAction: TearOff
+*PostAction None/None: "%%"
+*PostAction TearOff/Tear Off: "%%"
+*PostAction PeelOff/Peel Off: "%%"
+*PostAction Cut/Cut: "%%"
+*PostAction PartialCut/Partial Cut: "%%"
+*CloseUI: *PostAction
+
+*OpenUI *Occurrence/Occurrence: PickOne
+*OrderDependency: 140 AnySetup *Occurrence
+*DefaultOccurrence: Every
+*Occurrence Every/After Every Page: "%%"
+*Occurrence Copies/After Identical Copies: "%%"
+*Occurrence Job/After Job: "%%"
+*Occurrence Specified/After Specified interval: "%%"
+*CloseUI: *Occurrence
+
+*CloseGroup: Media
+
+*OpenGroup: Effects/Effects
+
+*OpenUI *MirrorImage/Mirror Image: Boolean
+*OrderDependency: 200 AnySetup *MirrorImage
+*DefaultMirrorImage: False
+*MirrorImage True/Yes: "%%"
+*MirrorImage False/No: "%%"
+*CloseUI: *MirrorImage
+
+*OpenUI *NegativeImage/Negative Image: Boolean
+*OrderDependency: 210 AnySetup *NegativeImage
+*DefaultNegativeImage: False
+*NegativeImage True/Yes: "%%"
+*NegativeImage False/No: "%%"
+*CloseUI: *NegativeImage
+
+*CloseGroup: Effects
+
+*OpenGroup: PrinterOptions/Printer Options
+
+*OpenUI *PrintSpeed/Print Speed: PickOne
+*OrderDependency: 110 AnySetup *PrintSpeed
+*DefaultPrintSpeed: 50
+*PrintSpeed 20/2.00 in/sec: "%%"
+*PrintSpeed 30/3.00 in/sec: "%%"
+*PrintSpeed 40/4.00 in/sec: "%%"
+*PrintSpeed 50/5.00 in/sec: "%%"
+*PrintSpeed 60/6.00 in/sec: "%%"
+*CloseUI: *PrintSpeed
+
+*OpenUI *Darkness/Darkness: PickOne
+*OrderDependency: 120 AnySetup *Darkness
+*DefaultDarkness: 7
+*Darkness 0: "%%"
+*Darkness 1: "%%"
+*Darkness 2: "%%"
+*Darkness 3: "%%"
+*Darkness 4: "%%"
+*Darkness 5: "%%"
+*Darkness 6: "%%"
+*Darkness 7: "%%"
+*Darkness 8: "%%"
+*Darkness 9: "%%"
+*Darkness 10: "%%"
+*Darkness 11: "%%"
+*Darkness 12: "%%"
+*Darkness 13: "%%"
+*Darkness 14: "%%"
+*Darkness 15: "%%"
+*CloseUI: *Darkness
+
+*CloseGroup: PrinterOptions
+
+*OpenGroup: GraphicsFormat/Graphics Format
+
+*OpenUI *DirectBuffer/Direct to Buffer: PickOne
+*OrderDependency: 210 AnySetup *DirectBuffer
+*DefaultDirectBuffer: AUTO
+*DirectBuffer AUTO/Automatic: "%%"
+*CloseUI: *DirectBuffer
+
+*OpenUI *StoredGraphics/Stored Graphics: PickOne
+*OrderDependency: 220 AnySetup *StoredGraphics
+*DefaultStoredGraphics: AUTO
+*StoredGraphics AUTO/Automatic: "%%"
+*CloseUI: *StoredGraphics
+
+*CloseGroup: GraphicsFormat
+
+*OpenGroup: InstallableOptions
+
+*OpenUI *OptionDisplayUnit/Measurement Units: PickOne
+*DefaultOptionDisplayUnit: AUTO
+*OptionDisplayUnit AUTO/Automatic: "%%"
+*OptionDisplayUnit MM/mm: "%%"
+*OptionDisplayUnit Inch/Inch: "%%"
+*CloseUI: *OptionDisplayUnit
+
+*CloseGroup: InstallableOptions
+
+*zh_CN.Translation General/基本功能: ""
+*zh_CN.Translation PageSize/纸张大小: ""
+*zh_CN.PageSize w2h4/2 x 4 (50.8 mm x 101.6 mm): ""
+*zh_CN.PageSize w4h4/4 x 4 (101.6 mm x 101.6 mm): ""
+*zh_CN.PageSize w4h6/4 x 6 (101.6 mm x 152.4 mm): ""
+*zh_CN.Translation Resolution/分辨率: ""
+*zh_CN.Resolution 203dpi/8.0 每毫米点数 x 8.0 每毫米点数: ""
+*zh_CN.Collate True/是: ""
+*zh_CN.Collate False/否: ""
+*zh_CN.Translation Media/纸张设置: ""
+*zh_CN.Translation MediaMethod/方式: ""
+*zh_CN.MediaMethod Normal/使用当前打印机设置: ""
+*zh_CN.MediaMethod Direct/热敏: ""
+*zh_CN.MediaMethod Transfer/热转印: ""
+*zh_CN.Translation PaperType/类型: ""
+*zh_CN.PaperType LabelGaps/有间距的标签: ""
+*zh_CN.PaperType LabelMark/有标记的标签: ""
+*zh_CN.PaperType Continue/继续: ""
+*zh_CN.Translation PostAction/打印后操作: ""
+*zh_CN.PostAction None/无: ""
+*zh_CN.PostAction TearOff/撕去: ""
+*zh_CN.PostAction PeelOff/剥去: ""
+*zh_CN.PostAction Cut/裁切: ""
+*zh_CN.PostAction PartialCut/部分剪切: ""
+*zh_CN.Translation Occurrence/发生: ""
+*zh_CN.Occurrence Every/每张打印后: ""
+*zh_CN.Occurrence Copies/打印相同内容后: ""
+*zh_CN.Occurrence Job/打印完后: ""
+*zh_CN.Occurrence Specified/指定的间隔之后: ""
+*zh_CN.Translation Effects/效果: ""
+*zh_CN.Translation MirrorImage/镜像: ""
+*zh_CN.MirrorImage True/是: ""
+*zh_CN.MirrorImage False/否: ""
+*zh_CN.Translation NegativeImage/负片图像: ""
+*zh_CN.NegativeImage True/是: ""
+*zh_CN.NegativeImage False/否: ""
+*zh_CN.Translation PrinterOptions/打印机选项: ""
+*zh_CN.Translation PrintSpeed/打印速度: ""
+*zh_CN.PrintSpeed 20/50.80 mm/秒: ""
+*zh_CN.PrintSpeed 30/76.20 mm/秒: ""
+*zh_CN.PrintSpeed 40/101.60 mm/秒: ""
+*zh_CN.PrintSpeed 50/127.00 mm/秒: ""
+*zh_CN.PrintSpeed 60/152.40 mm/秒: ""
+*zh_CN.Translation Darkness/深度: ""
+*zh_CN.Translation GraphicsFormat/图像格式: ""
+*zh_CN.Translation DirectBuffer/指向缓冲器: ""
+*zh_CN.DirectBuffer AUTO/自动: ""
+*zh_CN.Translation StoredGraphics/存储的图像: ""
+*zh_CN.StoredGraphics AUTO/自动: ""
+*zh_CN.Translation OptionDisplayUnit/度量单位: ""
+*zh_CN.OptionDisplayUnit AUTO/自动: ""
+*zh_CN.OptionDisplayUnit MM/毫米: ""
+*zh_CN.OptionDisplayUnit Inch/英寸: ""
+
+*zh_TW.Translation General/基本設定: ""
+*zh_TW.Translation PageSize/纸张大小: ""
+*zh_TW.PageSize w2h4/2 x 4 (50.8 mm x 101.6 mm): ""
+*zh_TW.PageSize w4h4/4 x 4 (101.6 mm x 101.6 mm): ""
+*zh_TW.PageSize w4h6/4 x 6 (101.6 mm x 152.4 mm): ""
+*zh_TW.Translation Resolution/解析度: ""
+*zh_TW.Resolution 203dpi/8.0 每毫米點數 x 8.0 每毫米點數: ""
+*zh_TW.Translation Media/紙張設定: ""
+*zh_TW.Translation MediaMethod/方式: ""
+*zh_TW.MediaMethod Normal/使用目前印表機設定: ""
+*zh_TW.MediaMethod Direct/直接感熱: ""
+*zh_TW.MediaMethod Transfer/感熱轉印: ""
+*zh_TW.Translation PaperType/類型: ""
+*zh_TW.PaperType LabelGaps/間隔式標籤: ""
+*zh_TW.PaperType LabelMark/黑標式標籤: ""
+*zh_TW.PaperType Continue/連續的: ""
+*zh_TW.Translation PostAction/列印後動作: ""
+*zh_TW.PostAction None/無: ""
+*zh_TW.PostAction TearOff/撕開: ""
+*zh_TW.PostAction PeelOff/剝落: ""
+*zh_TW.PostAction Cut/裁切: ""
+*zh_TW.PostAction PartialCut/部分裁切: ""
+*zh_TW.Translation Occurrence/發生: ""
+*zh_TW.Occurrence Every/每張列印後: ""
+*zh_TW.Occurrence Copies/相同内容列印後: ""
+*zh_TW.Occurrence Job/列印完後: ""
+*zh_TW.Occurrence Specified/所指定的間隔之後: ""
+*zh_TW.Translation Effects/效果: ""
+*zh_TW.Translation MirrorImage/鏡映影像: ""
+*zh_TW.Translation NegativeImage/反白: ""
+*zh_TW.Translation PrinterOptions/印表機選項: ""
+*zh_TW.Translation PrintSpeed/列印速度: ""
+*zh_TW.PrintSpeed 20/50.80 mm/秒: ""
+*zh_TW.PrintSpeed 30/76.20 mm/秒: ""
+*zh_TW.PrintSpeed 40/101.60 mm/秒: ""
+*zh_TW.PrintSpeed 50/127.00 mm/秒: ""
+*zh_TW.PrintSpeed 50/152.40 mm/秒: ""
+*zh_TW.Translation Darkness/明暗度: ""
+*zh_TW.Translation GraphicsFormat/圖形格式: ""
+*zh_TW.Translation DirectBuffer/指向緩衝區: ""
+*zh_TW.DirectBuffer AUTO/自動: ""
+*zh_TW.Translation StoredGraphics/存儲的圖形: ""
+*zh_TW.StoredGraphics AUTO/自動: ""
+*zh_TW.Translation OptionDisplayUnit/度量單位: ""
+*zh_TW.OptionDisplayUnit AUTO/自動: ""
+*zh_TW.OptionDisplayUnit MM/毫米: ""
+*zh_TW.OptionDisplayUnit Inch/英寸: ""
+
+*% Generic boilerplate PPD stuff as standard PostScript fonts and so on
+
+*DefaultFont: Courier
+*Font AvantGarde-Book: Standard "(001.006S)" Standard ROM
+*Font AvantGarde-BookOblique: Standard "(001.006S)" Standard ROM
+*Font AvantGarde-Demi: Standard "(001.007S)" Standard ROM
+*Font AvantGarde-DemiOblique: Standard "(001.007S)" Standard ROM
+*Font Bookman-Demi: Standard "(001.004S)" Standard ROM
+*Font Bookman-DemiItalic: Standard "(001.004S)" Standard ROM
+*Font Bookman-Light: Standard "(001.004S)" Standard ROM
+*Font Bookman-LightItalic: Standard "(001.004S)" Standard ROM
+*Font Courier: Standard "(002.004S)" Standard ROM
+*Font Courier-Bold: Standard "(002.004S)" Standard ROM
+*Font Courier-BoldOblique: Standard "(002.004S)" Standard ROM
+*Font Courier-Oblique: Standard "(002.004S)" Standard ROM
+*Font Helvetica: Standard "(001.006S)" Standard ROM
+*Font Helvetica-Bold: Standard "(001.007S)" Standard ROM
+*Font Helvetica-BoldOblique: Standard "(001.007S)" Standard ROM
+*Font Helvetica-Narrow: Standard "(001.006S)" Standard ROM
+*Font Helvetica-Narrow-Bold: Standard "(001.007S)" Standard ROM
+*Font Helvetica-Narrow-BoldOblique: Standard "(001.007S)" Standard ROM
+*Font Helvetica-Narrow-Oblique: Standard "(001.006S)" Standard ROM
+*Font Helvetica-Oblique: Standard "(001.006S)" Standard ROM
+*Font NewCenturySchlbk-Bold: Standard "(001.009S)" Standard ROM
+*Font NewCenturySchlbk-BoldItalic: Standard "(001.007S)" Standard ROM
+*Font NewCenturySchlbk-Italic: Standard "(001.006S)" Standard ROM
+*Font NewCenturySchlbk-Roman: Standard "(001.007S)" Standard ROM
+*Font Palatino-Bold: Standard "(001.005S)" Standard ROM
+*Font Palatino-BoldItalic: Standard "(001.005S)" Standard ROM
+*Font Palatino-Italic: Standard "(001.005S)" Standard ROM
+*Font Palatino-Roman: Standard "(001.005S)" Standard ROM
+*Font Symbol: Special "(001.007S)" Special ROM
+*Font Times-Bold: Standard "(001.007S)" Standard ROM
+*Font Times-BoldItalic: Standard "(001.009S)" Standard ROM
+*Font Times-Italic: Standard "(001.007S)" Standard ROM
+*Font Times-Roman: Standard "(001.007S)" Standard ROM
+*Font ZapfChancery-MediumItalic: Standard "(001.007S)" Standard ROM
+*Font ZapfDingbats: Special "(001.004S)" Standard ROM
+
+*%
+*% End of PPD
+*%

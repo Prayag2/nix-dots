@@ -1,0 +1,14 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=BarCode Printer Setting
+Name[zh_CN]=BarCode打印机设置
+Name[zh_TW]=BarCode印表機設置
+Comment=BarCode Printer Setting
+Comment[zh_CN]=BarCode打印机设置
+Comment[zh_TW]=BarCode印表機設置
+Exec=/usr/local/share/tscbarcode/printer/thermalprinterui
+Icon=/usr/local/share/tscbarcode/printer/thermalprinterui.png
+Terminal=false
+Type=Application
+Categories=HardwareSettings;Settings;Printing;
+
