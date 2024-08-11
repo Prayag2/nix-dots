@@ -1,0 +1,204 @@
+@import url("../../.cache/wal/colors-waybar.css");
+
+* {
+    border: none;
+    font-family: "Symbols Nerd Font Mono", "JetBrainsMono";
+    font-weight: bold;
+    font-size: 12px;
+    min-height: 0;
+}
+
+window#waybar {
+    background: alpha(@background, 0.6);
+    color: @foreground;
+    border-bottom: 2.5px solid @color8;
+    box-shadow: 0px 10px 12px 0px rgba(0,0,0,0.5);
+}
+
+#workspaces {
+    outline: none;
+    /* background: alpha(@color8, 1); */
+    /* margin: 6px 6px 6px 0; */
+    /* border-radius: 24px; */
+}
+
+#workspaces button {
+    outline: none;
+    padding: 0 8px;
+    color: @color6;
+    border-bottom: none;
+    border-top: 2.5px solid transparent;
+    /* background: alpha(#fff, 0.1); */
+    /* background: @color8; */
+    border-radius: 0;
+}
+#workspaces button:last-child {
+    /*border-hypridle radius: 0 24px 24px 0;*/
+}
+#workspaces button:first-child {
+    /* border-radius: 24px 0 0 24px; */
+}
+#workspaces button:only-child {
+    /* border-radius: 24px; */
+}
+#workspaces button.empty {
+    /* background: alpha(#fff, 0); */
+}
+#workspaces button.active {
+    border-top: 2.5px solid @color6;
+    background: @color8;
+    /* background: alpha(#fff, 0.2); */
+}
+
+tooltip {
+    background: alpha(@color8, 1);
+}
+tooltip label {
+    color: @foreground;
+}
+
+#idle_inhibitor,
+#clock,
+#cpu,
+#memory,
+#pulseaudio,
+#tray,
+#temperature,
+#keyboard-state,
+#custom-microphone,
+#custom-ping,
+#custom-power,
+#gamemode,
+#backlight,
+#battery,
+#custom-pkgs,
+#custom-dunst,
+#custom-mpris {
+    /* margin: 6px 0px 6px 0; */
+    /* background: alpha(@color8, 1); */
+    background: transparent;
+    padding: 0 10px;
+    transition: background 0.2s;
+}
+
+#gamemode {
+  /* border-radius: 24px; */
+  margin-right: 6px;
+}
+
+#custom-mpris {
+    /* margin-left: 8px; */
+    /* border-radius: 24px; */
+    padding: 8px;
+    color: @color6;
+}
+
+#backlight {
+  color: @color4;
+}
+
+#custom-dunst {
+    color: @color4;
+    background-color: @color8;
+    /* border-radius: 24px 0 0 24px; */
+    padding: 0 16px;
+}
+
+#custom-dunst.off {
+    /* background: alpha(@color8, 1); */
+}
+
+#custom-power {
+    color: @color1;
+    padding: 0 16px;
+    /* border-radius: 24px; */
+}
+
+#temperature {
+    color: @color2;
+    /* border-radius: 24px 0 0 24px; */
+    padding-left: 16px;
+}
+
+#temperature.critical {
+    color: alpha(@color1, 0.3);
+}
+
+#cpu {
+    color: @color3;
+}
+
+#memory {
+    color: @color4;
+}
+
+#clock {
+    color: @color5;
+    /* border-radius: 0 24px 24px 0; */
+    /* padding-right: 16px; */
+}
+
+#idle_inhibitor {
+    color: @color5;
+    /* border-radius: 24px 0 0 24px; */
+    padding: 0 16px;
+}
+#idle_inhibitor.activated {
+    background: alpha(@color8, 0.2);
+}
+
+#custom-pkgs {
+    color: @color1;
+}
+
+#custom-ping {
+    color: @color2;
+}
+
+#pulseaudio.speaker {
+    color: @color3;
+}
+
+#pulseaudio.mic {
+    color: @color4;
+}
+
+#pulseaudio.speaker.muted {
+    background: alpha(@color8, 0.3);
+}
+#pulseaudio.mic.source-muted {
+    background: alpha(@color8, 0.3);
+}
+
+#battery {
+    color: @color5;
+    /* margin-right: 8px; */
+    /* border-radius: 0 24px 24px 0; */
+    padding-right: 16px;
+}
+
+#tray {
+    color: @color6;
+    /* margin-right: 8px; */
+    /* border-radius: 0 24px 24px 0; */
+    padding-right: 16px;
+}
+#tray > .needs-attention {
+    border-bottom: 2px solid @color1;
+}
+
+#custom-power {
+    background-color: @color8;
+    /* margin: 6px; */
+}
+
+#tray menu * {
+    font-size: 12px;
+}
+
+@keyframes blink {
+    to {
+        background-color: #ffffff;
+        color: black;
+    }
+}

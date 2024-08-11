@@ -51,6 +51,7 @@ window {{
     border:                      2.5px;
     cursor:                      "default";
     background-color:            @background;
+    padding:                     4px;
 }}
 
 /*****----- Main Box -----*****/

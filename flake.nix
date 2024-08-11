@@ -16,6 +16,7 @@
         pkgs = nixpkgs.legacyPackages.${system};
       in {
         nixosConfigurations = {
+
           prayag-nix = nixpkgs.lib.nixosSystem {
               inherit system;
               specialArgs = { inherit inputs; };
@@ -30,6 +31,23 @@
                 }
               ];
           };
+
+          ideapad-2023 = nixpkgs.lib.nixosSystem {
+              inherit system;
+              specialArgs = { inherit inputs; };
+              modules = [
+                ./hosts/ideapad-2023/configuration.nix
+                ./users/prayag/global.nix
+                home-manager.nixosModules.home-manager {
+                  home-manager.useGlobalPkgs = true;
+                  home-manager.useUserPackages = true;
+                  home-manager.extraSpecialArgs = {inherit inputs;};
+                  home-manager.users.prayag = import ./users/prayag/local.nix;
+                  home-manager.backupFileExtension = "backup";
+                }
+              ];
+          };
+
         };
       };
 }

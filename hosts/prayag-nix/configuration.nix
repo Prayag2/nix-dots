@@ -129,6 +129,7 @@ in
   nixpkgs = {
     overlays = [
       overlays.unstable-packages  
+      overlays.rofi-plugins
     ];
     config = {
       allowUnfree = true;
