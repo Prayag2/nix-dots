@@ -1,10 +1,10 @@
 {config, pkgs, ...}: {
 
   imports = [
-    ./vscode
-    ./emacs
-    ./opentabletdriver
-    ./xournalpp
+    ./configs/vscode
+    # ./configs/emacs
+    ./configs/opentabletdriver
+    ./configs/xournalpp
   ];
 
   home.packages = with pkgs; [

@@ -1,4 +1,4 @@
-{config, pkgs}: {
+{config, pkgs, ...}: {
   imports = [
     ./tlp.nix
     ./bluetooth.nix

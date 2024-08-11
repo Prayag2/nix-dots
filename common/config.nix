@@ -1,4 +1,4 @@
-{config, pkgs, ...}:
+{config, pkgs, lib, inputs, ...}:
 let
   overlays = import ../overlays {inherit inputs;};
 in
@@ -29,7 +29,7 @@ in
       killall
       home-manager
     ];
-  }
+  };
 
   nixpkgs = {
     config.allowUnfree = true;
@@ -59,11 +59,4 @@ in
     dates = "weekly";
     options = "--delete-older-than 10d";
   };
-
-  nixpkgs = {
-    overlays = [
-      overlays.unstable-packages  
-    ];
-  };
-
 }

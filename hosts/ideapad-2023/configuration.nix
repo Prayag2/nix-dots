@@ -7,16 +7,16 @@ in
     ./system
     ./hardware-configuration.nix
 
-    ../devices/printers
+    ../../devices/printers
 
-    ../common/config.nix
-    ../common/audio.nix
-    ../common/boot.nix
-    ../common/filesystem.nix
-    ../common/keyring.nix
-    ../common/network.nix
-    ../common/sddm.nix
-    ../common/touchpad.nix
+    ../../common/config.nix
+    ../../common/audio.nix
+    ../../common/boot.nix
+    ../../common/filesystem.nix
+    ../../common/keyring.nix
+    ../../common/network.nix
+    ../../common/sddm.nix
+    ../../common/touchpad.nix
   ];
 
   networking.hostName = "ideapad-2023";
