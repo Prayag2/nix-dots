@@ -1,4 +1,8 @@
-{config, pkgs, ...}: {
+{config, pkgs, inputs, ...}:
+let
+  local-overlays = import ../overlays {inherit inputs;};
+in
+{
   # not a part of home manager!
   programs = {
     file-roller.enable = true;
@@ -14,4 +18,8 @@
       ];
     };
   };
+
+  nixpkgs.overlays = [
+    local-overlays.rofi-plugins
+  ];
 }

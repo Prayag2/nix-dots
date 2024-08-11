@@ -1,8 +1,4 @@
 { config, pkgs, inputs, ... }:
-let
-  global-overlays = import ../../../overlays {inherit inputs;};
-  local-overlays = import ./overlays {inherit inputs;};
-in
 {
   imports = [
     ./scripts
@@ -20,9 +16,4 @@ in
     ".local/bin".source = ./scripts;
     ".config/themes/".source = configs/themes;
   };
-
-  nixpkgs.overlays = [
-    global-overlays.unstable-packages    
-    local-overlays.rofi-plugins
-  ];
 }
