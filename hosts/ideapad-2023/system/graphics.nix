@@ -20,7 +20,7 @@ in
   };
 
   hardware = {
-    opengl = {
+    graphics = {
       enable = true;
     };
   };

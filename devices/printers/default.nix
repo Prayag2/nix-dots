@@ -7,5 +7,6 @@
   };
   services.printing = {
     enable = true;
+    extraConf = "LogLevel debug";
   };
 }

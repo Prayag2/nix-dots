@@ -18,11 +18,14 @@
     webcord
     inkscape
     ookla-speedtest
-    gnome.gnome-disk-utility
+    gnome-disk-utility
     obs-studio
     baobab
     cava
     telegram-desktop
+    simple-scan
+    gimp
+    corefonts
   ];
 
   programs = {

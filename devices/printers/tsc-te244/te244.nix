@@ -1,4 +1,4 @@
-{ stdenv, autoPatchelfHook, lib, glibc, cups, libusb1, gtk2, cairo, gdk-pixbuf, glib }:
+{ stdenv, autoPatchelfHook, lib, glibc, cups, libusb1, gtk2, cairo, gdk-pixbuf, glib, makeDesktopItem }:
 
 stdenv.mkDerivation rec {
   name = "te244-${version}";
@@ -16,14 +16,25 @@ stdenv.mkDerivation rec {
 
   runtimeDependencies = [ (lib.getLib cups) ];
 
+  desktopItem = makeDesktopItem {
+    name = "tsc_settings";
+    exec = "thermalprinterui %u";
+    icon = "thermalprinterui.png";
+    desktopName = "TSC Printer Settings";
+    comment = "Settings for TSC Barcode Printers";
+    categories = [ "HardwareSettings" "Settings" "Printing" ];
+  };
+
   installPhase = ''
     runHook preInstall
 
-    install_path="$out/share/tscbarcode/printer"
+    application_path="$out/share/applications/"
+    install_path="${desktopItem}/bin/"
     model_path="$out/share/cups/model/tscbarcode/"
     filter_path="$out/lib/cups/filter/"
     backend_path="$out/lib/cups/backend/"
 
+    mkdir -p $application_path
     mkdir -p $install_path
     mkdir -p $model_path
     mkdir -p $filter_path
@@ -40,11 +51,11 @@ stdenv.mkDerivation rec {
     install -Dm755 ./files/teststatus $install_path
     cp ./files/tsc_test_11.prn $install_path
     cp ./files/thermalprinterui.png $install_path
-    cp ./files/barcodeprintersetting.desktop $out/share/applications/
+    #cp ./files/barcodeprintersetting.desktop $application_path
 
-    substituteInPlace \
-      $out/share/applications/barcodeprintersetting.desktop \
-      --replace /usr/local/ $out/share/
+    #substituteInPlace \
+    #  $application_path/barcodeprintersetting.desktop \
+    #  --replace /usr/local/ $out/share/
 
     runHook postInstall
   '';

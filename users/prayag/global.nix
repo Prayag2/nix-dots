@@ -2,7 +2,7 @@
   imports = [
     ../../home/environments/hyprland/packages/global.nix
     ../../home/software/global.nix
-    ../../devices/printers/tsc-te244
+    #../../devices/printers/tsc-te244
   ];
   users.users.prayag = {
     home = "/home/prayag";
