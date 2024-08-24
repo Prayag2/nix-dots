@@ -26,6 +26,7 @@
     simple-scan
     gimp
     corefonts
+    libreoffice-fresh
   ];
 
   programs = {

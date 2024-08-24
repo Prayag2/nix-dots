@@ -46,14 +46,8 @@ in
       ", XF86AudioPlay, exec, playerctl play-pause"
       ", XF86AudioNext, exec, playerctl next"
       ", XF86AudioPrev, exec, playerctl prev"
-      ", XF86AudioRaiseVolume, exec, swayosd-client --output-volume raise"
-      ", XF86AudioLowerVolume, exec, swayosd-client --output-volume lower"
-      "SHIFT, XF86AudioRaiseVolume, exec, swayosd-client --input-volume raise"
-      "SHIFT, XF86AudioLowerVolume, exec, swayosd-client --input-volume lower"
       ", XF86AudioMute, exec, swayosd-client --output-volume mute-toggle"
       ", XF86AudioMicMute, exec, swayosd-client --input-volume mute-toggle"
-      ", XF86MonBrightnessDown, exec, swayosd-client --brightness -10"
-      ", XF86MonBrightnessUp, exec, swayosd-client --brightness +10"
 
       # Tiling
       "$main_mod, T, togglefloating"
@@ -74,9 +68,18 @@ in
       "$main_mod ALT, H, resizeactive, -20 0"
       "$main_mod ALT, K, resizeactive, 0 -20"
       "$main_mod ALT, J, resizeactive, 0 20"
-
-      "$main_mod, mouse:272, movewindow"      
-      # "$main_mod, mouse:273, resizewindow"      
+    ];
+    binde = [
+      ", XF86AudioRaiseVolume, exec, swayosd-client --output-volume raise"
+      ", XF86AudioLowerVolume, exec, swayosd-client --output-volume lower"
+      "SHIFT, XF86AudioRaiseVolume, exec, swayosd-client --input-volume raise"
+      "SHIFT, XF86AudioLowerVolume, exec, swayosd-client --input-volume lower"
+      ", XF86MonBrightnessDown, exec, swayosd-client --brightness -10"
+      ", XF86MonBrightnessUp, exec, swayosd-client --brightness +10"
+    ];
+    bindm = [
+      "$main_mod, mouse:272, movewindow"    
+      "$main_mod, mouse:273, resizewindow"
     ];
   };
 }
