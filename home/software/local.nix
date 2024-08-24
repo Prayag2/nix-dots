@@ -2,6 +2,7 @@
 
   imports = [
     ./configs/vscode
+    ./configs/neovim
     # ./configs/emacs
     ./configs/opentabletdriver
     ./configs/xournalpp
@@ -30,17 +31,6 @@
   ];
 
   programs = {
-    neovim = {
-      enable = true;
-      extraConfig = ''
-        set clipboard=unnamedplus
-        set tabstop=2
-        set shiftwidth=2
-        set softtabstop=2
-        set expandtab
-      '';
-      vimAlias = true;
-    };
     git = {
       enable = true;
       userEmail = "prayagjain2@gmail.com";
