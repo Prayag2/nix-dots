@@ -1,4 +1,4 @@
-{config, pkgs, ...}: {
+{ ... }: {
   home.file.".config/wal/templates/theme.rasi" = {
     source = ./theme.rasi;
     force = true;

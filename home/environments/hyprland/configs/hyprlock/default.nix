@@ -1,4 +1,4 @@
-{configs, pkgs, ...}: {
+{ ... }: {
   programs.hyprlock.settings = {
     source = "~/.cache/wal/colors-hyprland.conf";
     background = {

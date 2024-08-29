@@ -1,8 +1,9 @@
-{config, pkgs, ...}: {
+{ pkgs, ...}: {
 
   imports = [
     ./configs/vscode
     ./configs/neovim
+    ./configs/tmux
     # ./configs/emacs
     ./configs/opentabletdriver
     ./configs/xournalpp

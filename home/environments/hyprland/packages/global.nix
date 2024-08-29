@@ -1,4 +1,4 @@
-{config, pkgs, inputs, ...}:
+{ pkgs, inputs, ... }:
 let
   local-overlays = import ../overlays {inherit inputs;};
 in

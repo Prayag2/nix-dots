@@ -1,4 +1,4 @@
-{config, pkgs, ...}: 
+{ pkgs, ... }: 
 let
   custom-scr-power = "${(pkgs.callPackage ../../scripts/custom-scr-power.nix {inherit pkgs;})}/bin/custom-scr-power";
   custom-scr-media = "${(pkgs.callPackage ../../scripts/custom-scr-media.nix {inherit pkgs;})}/bin/custom-scr-media";

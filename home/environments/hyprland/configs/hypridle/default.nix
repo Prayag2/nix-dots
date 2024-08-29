@@ -1,4 +1,4 @@
-{configs, pkgs, ...}: {
+{ ... }: {
   services.hypridle.settings = {
     general = {
       lock_cmd = "pidof hyprlock || hyprlock";

@@ -9,7 +9,7 @@
 }
 
 window#waybar {
-    background: alpha(@background, 0.6);
+    background: alpha(@background, 0.8);
     color: @foreground;
     border-bottom: 2.5px solid @color8;
     box-shadow: 0px 10px 12px 0px rgba(0,0,0,0.5);

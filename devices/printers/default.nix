@@ -1,4 +1,4 @@
-{config, pkgs, ...}: {
+{ ... }: {
   # enables auto detection of printers using IPP
   services.avahi = {
     enable = true;

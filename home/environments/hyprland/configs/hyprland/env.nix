@@ -1,4 +1,4 @@
-{configs, pkgs, ...}: {
+{ ... }: {
   wayland.windowManager.hyprland.settings.env = [
     "EDITOR,vim"
     "BROWSER,firefox"

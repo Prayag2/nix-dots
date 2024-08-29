@@ -1,4 +1,4 @@
-{config, pkgs, ...}: {
+{ pkgs, ... }: {
   environment.systemPackages = [
     pkgs.cups-pdf-to-pdf
   ];

@@ -1,4 +1,4 @@
-{configs, pkgs, ...}: {
+{ pkgs, ... }: {
   home.file.".config/wal/templates/gtk.css" = {
     source = ./gtk.css;
     force = true;

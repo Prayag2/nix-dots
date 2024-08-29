@@ -1,4 +1,4 @@
-{config, pkgs, ...}: {
+{ pkgs, ...}: {
   environment.systemPackages = with pkgs; [
     zsh-powerlevel10k
     sddm-chili-theme
@@ -22,6 +22,10 @@
       setOptions = [
         "EMACS"
       ];
+      shellInit = ''
+        if [ -t 0 ] && [[ -z $TMUX ]] && [[ $- = *i* ]]; then exec tmux; fi
+        clear
+      '';
     };
   };
 

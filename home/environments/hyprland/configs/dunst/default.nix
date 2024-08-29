@@ -1,4 +1,4 @@
-{config, pkgs, ...}:
+{ pkgs, ... }:
 let
   rofi = "${pkgs.rofi}/bin/rofi -theme $HOME/.config/rofi/theme.rasi";
 in

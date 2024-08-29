@@ -1,8 +1,7 @@
-{lib, config, pkgs, ...}:
+{ lib, pkgs, ... }:
 let
   custom-scr-setup = "${(pkgs.callPackage ./custom-scr-setup.nix {inherit pkgs;})}/bin/custom-scr-setup";
   custom-scr-reload = "${(pkgs.callPackage ./custom-scr-reload.nix {inherit pkgs;})}/bin/custom-scr-reload";
-  wal="${pkgs.pywal}/bin/wal";
 in
 {
   home.packages = [
