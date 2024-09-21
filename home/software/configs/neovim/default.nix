@@ -4,6 +4,7 @@
 
     # lsp servers
     pyright
+    python312Packages.python-lsp-server
     nodePackages.bash-language-server
     nodePackages.typescript-language-server
     clang-tools
@@ -16,6 +17,7 @@
       enable = true;
       vimAlias = true;
       plugins = with pkgs.vimPlugins; [
+        vim-vsnip
         nvim-dap
         nvim-dap-ui
         nvim-lspconfig

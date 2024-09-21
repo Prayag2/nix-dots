@@ -3,7 +3,7 @@
     ../../home/environments/hyprland/packages/global.nix
     ../../home/software/global.nix
     #../../devices/printers/tsc-te244
-    #../../devices/printers
+    ../../devices/printers
 
     ../../common/config.nix
     ../../common/audio.nix

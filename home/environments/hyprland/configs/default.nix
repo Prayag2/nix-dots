@@ -11,5 +11,6 @@
     ./xresources
     ./dunst
     ./ranger
+    ./stylix
   ];
 }

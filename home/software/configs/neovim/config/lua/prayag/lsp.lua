@@ -20,6 +20,7 @@ end
 
 local capabilities = require('cmp_nvim_lsp').default_capabilities()
 lspconf.pyright.setup {capabilities = capabilities}
+lspconf.pylsp.setup {capabilities = capabilities}
 lspconf.nil_ls.setup {capabilities = capabilities}
 lspconf.bashls.setup {capabilities = capabilities}
 lspconf.tsserver.setup {capabilities = capabilities}

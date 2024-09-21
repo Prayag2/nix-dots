@@ -29,6 +29,7 @@
     gimp
     corefonts
     libreoffice-fresh
+    cachix
   ];
 
   programs = {

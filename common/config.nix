@@ -17,9 +17,11 @@ in
   nix.settings = {
     substituters = [
       "https://cache.nixos.org/"
+      "https://prayag2.cachix.org/"
     ];
     trusted-public-keys = [
       "cache.nixos.org-1:6NCHdD59X431o0gWypbMrAURkbJ16ZPMQFGspcDShjY="
+      "prayag2.cachix.org-1:Lu+JhgBkHI0vNG3VcZJAXTniydou+5bUiqf67kEcA4g="
     ];
   };
 
@@ -61,7 +63,8 @@ in
   };
 
   services.xserver.enable = true;
-  
+
+  nix.optimise.automatic = true; 
   nix.gc = {
     automatic = true;
     dates = "weekly";
