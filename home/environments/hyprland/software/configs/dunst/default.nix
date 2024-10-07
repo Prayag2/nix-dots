@@ -3,6 +3,7 @@ let
   rofi = "${pkgs.rofi}/bin/rofi -theme $HOME/.config/rofi/theme.rasi";
 in
 {
+  home.packages = [ pkgs.dunst ];
   home.file.".config/wal/templates/dunstrc".text = ''
     [global]
         follow = none

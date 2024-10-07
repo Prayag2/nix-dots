@@ -1,12 +1,21 @@
 { pkgs, ... }: {
+  imports = [
+    ./configs
+    ./configs/alacritty
+    ./configs/dunst
+    ./configs/hypridle
+    ./configs/hyprlock
+    ./configs/qt
+    ./configs/ranger
+    ./configs/rofi
+    ./configs/waybar
+  ];
   home.packages = with pkgs; [
     imagemagick
-    alacritty
     sxiv
     pavucontrol
     hyprpicker
     wl-clipboard
-    rofimoji
     wtype
     playerctl
     pywal
@@ -20,37 +29,17 @@
     bibata-cursors
     papirus-icon-theme
     pamixer
-    dunst
     xdg-desktop-portal-hyprland
-    ueberzugpp
     mpv
-
-    # ranger optional dependencies
-    ffmpegthumbnailer
-    mediainfo
-    poppler
   ];
   programs = {
     home-manager.enable = true;
-    hyprlock.enable = true;
-    waybar.enable = true;
-    ranger.enable = true;
-    rofi = {
-      enable = true;
-      package = pkgs.rofi-wayland;
-      plugins = with pkgs; [
-        rofi-calc
-      ];
-    };
   };
+  home.file.".config/themes/".source = ./configs/themes;
   services = {
     cliphist = {
       enable = true;
       systemdTarget = "hyprland-session.target";
-    };
-    hypridle = {
-      enable = true;
-      package = pkgs.hypridle;
     };
     swayosd.enable = true;
     network-manager-applet.enable = true;

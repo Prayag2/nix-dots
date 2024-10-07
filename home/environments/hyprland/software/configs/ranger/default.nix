@@ -1,5 +1,13 @@
-{ ... }: {
+{ pkgs, ... }: {
+  home.packages = with pkgs; [
+    # ranger optional dependencies
+    ffmpegthumbnailer
+    mediainfo
+    poppler
+    ueberzugpp
+  ];
   programs.ranger = {
+    enable = true;
     mappings = {
       "N" = "shell nix develop";
     };

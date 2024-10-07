@@ -1,10 +1,11 @@
-{ ... }: 
+{ pkgs, ... }: 
 let
   fontSize = 13;
   fontFamily = "JetBrainsMono Nerd Font";
   opacity = 0.9;
 in
 {
+  home.packages = [ pkgs.alacritty ];
   home.file.".config/wal/templates/alacritty.toml" = {
       text = builtins.readFile ./alacritty.toml + ''
         [font]

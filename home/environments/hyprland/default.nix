@@ -2,8 +2,7 @@
 {
   imports = [
     ./scripts
-    ./configs
-    ./packages/local.nix
+    ./software/local.nix
     ../../software/local.nix
   ];
 
@@ -14,6 +13,5 @@
   home.file = {
     ".local/share/wallpapers/default.png".source = ./wallpaper/default.png;
     ".local/bin".source = ./scripts;
-    ".config/themes/".source = configs/themes;
   };
 }

@@ -1,13 +1,14 @@
 { pkgs, ... }: 
 let
-  custom-scr-power = "${(pkgs.callPackage ../../scripts/custom-scr-power.nix {inherit pkgs;})}/bin/custom-scr-power";
-  custom-scr-media = "${(pkgs.callPackage ../../scripts/custom-scr-media.nix {inherit pkgs;})}/bin/custom-scr-media";
+  custom-scr-power = "${(pkgs.callPackage ../../../scripts/custom-scr-power.nix {inherit pkgs;})}/bin/custom-scr-power";
+  custom-scr-media = "${(pkgs.callPackage ../../../scripts/custom-scr-media.nix {inherit pkgs;})}/bin/custom-scr-media";
 in
 {
   home.file.".config/waybar/style.css" = {
     source = ./style.css;
     force = true;
   };
+  programs.waybar.enable = true;
   programs.waybar.settings = {
     mainBar = {
       layer = "top";

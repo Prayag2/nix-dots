@@ -1,7 +1,7 @@
 { pkgs, ... }: 
 let
-  custom-scr-reload = "${(pkgs.callPackage ../../scripts/custom-scr-reload.nix {inherit pkgs;})}/bin/custom-scr-reload";
-  custom-scr-ss = "${(pkgs.callPackage ../../scripts/custom-scr-ss.nix {inherit pkgs;})}/bin/custom-scr-ss";
+  custom-scr-reload = "${(pkgs.callPackage ../../../scripts/custom-scr-reload.nix {inherit pkgs;})}/bin/custom-scr-reload";
+  custom-scr-ss = "${(pkgs.callPackage ../../../scripts/custom-scr-ss.nix {inherit pkgs;})}/bin/custom-scr-ss";
 in
 {
   wayland.windowManager.hyprland.settings = {
