@@ -1,4 +1,13 @@
-{ ... }: {
+{ pkgs, ... }: {
   home.file.".emacs.d/init.el".source = ./config.el;
-  programs.emacs.enable = true;
+  home.packages = [
+    (pkgs.emacsWithPackagesFromUsePackage {
+      config = ./config.el;
+      defaultInitFile = true;
+      alwaysEnsure = true;
+      extraEmacsPackages = epkgs: [
+        epkgs.use-package
+      ];
+    })
+  ];
 }

@@ -19,6 +19,11 @@ in
     };
   };
 
+  # aliases
+  programs.zsh.shellAliases = {
+    "ranger" = ''ranger --choosedir=$HOME/.rangerdir; LASTDIR=`cat $HOME/.rangerdir`; cd "$LASTDIR"'';
+  };
+
   nixpkgs.overlays = [
     local-overlays.rofi-plugins
   ];

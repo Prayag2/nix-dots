@@ -27,6 +27,7 @@
 (setq use-package-always-ensure t)
 (require 'package)
 (require 'use-package)
+
 (use-package vertico
   :init
   (vertico-mode)
@@ -39,23 +40,26 @@
 
 (use-package rainbow-delimiters
   :hook (prog-mode . rainbow-delimiters-mode))
+
 (use-package rainbow-mode 
     :config
     (rainbow-mode))
+
 (use-package which-key
   :init (which-key-mode)
   :diminish which-key-mode
   :config
   (setq which-key-idle-delay 0.3))
+
 (use-package evil
   :init
   (setq evil-want-integration t)
   (setq evil-want-keybinding nil)
   (setq evil-shift-round nil)
   (setq evil-shift-width 2)
-
   :config
   (evil-mode 1))
+
 (use-package evil-collection
     :after evil
     :config
@@ -71,7 +75,7 @@
 
 (use-package org-bullets :ensure t
   :config
-    (setq org-bullets-bullet-list '( "♣" "♦" "♥" "♠" )))
+    (setq org-bullets-bullet-list '( "*" "#" "*" "#" )))
 
 (use-package consult
   :ensure t
@@ -95,19 +99,18 @@
     (treemacs-fringe-indicator-mode 'always)
     (when treemacs-python-executable
       (treemacs-git-commit-diff-mode t))
-
     (pcase (cons (not (null (executable-find "git")))
                  (not (null treemacs-python-executable)))
       (`(t . t)
        (treemacs-git-mode 'deferred))
       (`(t . _)
        (treemacs-git-mode 'simple)))
-
     (treemacs-hide-gitignored-files-mode nil))
 
 (use-package vterm
   :config
   (setq vterm-timer-delay 0.01))
+
 (use-package vterm-toggle
   :config
   (add-to-list 'display-buffer-alist
@@ -116,15 +119,18 @@
        (window-height . 0.4)
        (side . bottom)
        (slot . 0))))
+
 (use-package smartparens
   :config
   (add-hook 'prog-mode-hook #'smartparens-mode)
   (smartparens-mode))
+
 (use-package org-roam
   :custom
   (org-roam-directory "~/me/notes")
   :config
   (org-roam-db-autosync-enable))
+
 (use-package evil-org
   :ensure t
   :after org
@@ -132,6 +138,7 @@
   :config
   (require 'evil-org-agenda)
   (evil-org-agenda-set-keys))
+
 (use-package perspective
   :bind
   ("C-x C-b" . persp-list-buffers)         ; or use a nicer switcher, see below
@@ -139,49 +146,34 @@
   (persp-mode-prefix-key (kbd "C-c M-p"))  ; pick your own prefix key here
   :init
   (persp-mode))
-(defvar bootstrap-version)
-(let ((bootstrap-file
-       (expand-file-name
-        "straight/repos/straight.el/bootstrap.el"
-        (or (bound-and-true-p straight-base-dir)
-            user-emacs-directory)))
-      (bootstrap-version 7))
-  (unless (file-exists-p bootstrap-file)
-    (with-current-buffer
-        (url-retrieve-synchronously
-         "https://raw.githubusercontent.com/radian-software/straight.el/develop/install.el"
-         'silent 'inhibit-cookies)
-      (goto-char (point-max))
-      (eval-print-last-sexp)))
-  (load bootstrap-file nil 'nomessage))
-(straight-use-package 'use-package)
-(use-package neotree
-  :config
-  (setq neo-theme (if (display-graphic-p) 'icons 'arrow)
-  (setq neo-window-fixed-size nil)
-  (setq neo-window-width 30)))
+
 (use-package 'htmlize
-  :ensure t)
+ :ensure t)
+
+(use-package ewal-doom-themes
+  :config (progn
+	      (enable-theme 'ewal-doom-one)))
+(load-theme 'ewal-doom-one t)
 
 (general-define-key
-"C-=" 'text-scale-increase
-"C--" 'text-scale-decrease
-"C-u" 'evil-scroll-up)
+  "C-=" 'text-scale-increase
+  "C--" 'text-scale-decrease
+  "C-u" 'evil-scroll-up)
 
 (prayag/leader-keys
-"b" '(:ignore t :which-key "buffers")
-"<" '(switch-to-buffer :which-key "switch buffer")
-"bk" '(kill-buffer-and-window :which-key "kill buffer"))
+  "b" '(:ignore t :which-key "buffers")
+  "<" '(switch-to-buffer :which-key "switch buffer")
+  "bk" '(kill-buffer-and-window :which-key "kill buffer"))
 
 (prayag/leader-keys
-"w" '(:ignore t :which-key "windows")
-"wH" '(evil-window-split :which-key "horizontal split")
-"wV" '(evil-window-vsplit :which-key "vertical split")
-"wj" '(evil-window-down :which-key "move cursor to the window below")
-"wk" '(evil-window-up :which-key "move cursor to the window above")
-"wh" '(evil-window-left :which-key "move cursor to the left window")
-"wl" '(evil-window-right :which-key "move cursor to the right window")
-"wd" '(evil-window-delete :which-key "delete window"))
+  "w" '(:ignore t :which-key "windows")
+  "wH" '(evil-window-split :which-key "horizontal split")
+  "wV" '(evil-window-vsplit :which-key "vertical split")
+  "wj" '(evil-window-down :which-key "move cursor to the window below")
+  "wk" '(evil-window-up :which-key "move cursor to the window above")
+  "wh" '(evil-window-left :which-key "move cursor to the left window")
+  "wl" '(evil-window-right :which-key "move cursor to the right window")
+  "wd" '(evil-window-delete :which-key "delete window"))
 
 (prayag/leader-keys
 "f" '(:ignore t :which-key "files")
@@ -276,8 +268,8 @@
 (setq history-length 10)
 (savehist-mode 1)
 (setq use-dialog-box nil)
-(set-frame-parameter nil 'alpha-background 100)
-(add-to-list 'default-frame-alist '(alpha-background . 100))
+(set-frame-parameter nil 'alpha-background 80)
+(add-to-list 'default-frame-alist '(alpha-background . 80))
 (setq display-buffer-base-action
   '(display-buffer-reuse-window
     display-buffer-reuse-mode-window
@@ -309,7 +301,7 @@
 (setq org-ellipsis " ")
 (setq org-habit-graph-column 70)
 (org-babel-do-load-languages
- 'org-babel-load-languages '((C . t) (python . t) (js . t) (typescript . t) (shell . t)))
+ 'org-babel-load-languages '((C . t) (python . t) (js . t) (shell . t)))
 (require 'htmlize)
 (setq org-html-htmlize-output-type 'css)
 (setq org-html-htmlize-font-prefix "org-")
@@ -317,7 +309,8 @@
 
 ;; FONT
 (add-to-list 'default-frame-alist
-             '(font . "JetBrains Mono-16"))
-(set-frame-font "JetBrains Mono-16" t t)
+             '(font . "JetBrains Mono 14"))
+
+(set-frame-font "JetBrains Mono 14" nil t)
 (set-face-attribute 'default nil :family "JetBrains Mono") 
 (provide 'init)

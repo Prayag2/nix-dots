@@ -15,6 +15,7 @@
             inputs.hyprland.follows = "nixpkgs";
         };
         stylix.url = "github:danth/stylix";
+        # legion-kb-rgb.url = "https://github.com/4JX/L5P-Keyboard-RGB"; # for ideapad only
     };
     
     outputs = {self, nixpkgs, home-manager, ...}@inputs:

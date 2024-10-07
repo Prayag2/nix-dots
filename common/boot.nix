@@ -1,5 +1,6 @@
 { pkgs, ... }: {
   boot = {
+    supportedFilesystems = [ "ntfs" ];
     loader.systemd-boot.enable = true;
     loader.systemd-boot.memtest86.enable = true;
     loader.efi.canTouchEfiVariables = true;

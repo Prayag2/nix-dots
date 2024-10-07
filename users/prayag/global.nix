@@ -5,8 +5,8 @@
     #../../devices/printers/tsc-te244
     ../../devices/printers
 
+    ../../common/audio
     ../../common/config.nix
-    ../../common/audio.nix
     ../../common/boot.nix
     ../../common/filesystem.nix
     ../../common/keyring.nix

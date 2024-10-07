@@ -13,11 +13,11 @@ vim.keymap.set("n", "<leader>bd", "<cmd>bdelete<cr>")
 -- open
 vim.keymap.set("n", "<leader>on", "<cmd>NvimTreeToggle<cr>")
 
--- cpp specific (for competitive programming)
+-- Run C/C++ files with timeout
 vim.api.nvim_set_keymap(
   'n',   -- Normal mode keymap
   '<leader>rr',   -- Keybinding: <leader>rr to run this command
-  [[:w !g++ -std=c++20 -O2 -Wall -Wextra -Wshadow -pedantic -fsanitize=address,undefined -fstack-protector % -o /tmp/%< && /tmp/%< < input.txt > output.txt 2>&1 <CR>]],
+  [[:w | lua if vim.fn.expand('%:e') == 'c' then vim.cmd('!touch input.txt && clang % -o /tmp/%< && timeout 5s /tmp/%< < input.txt > output.txt 2>&1 || echo "Time Limit Exceeded (5s)" > output.txt') elseif vim.fn.expand('%:e') == 'cpp' then vim.cmd('!touch input.txt && clang++ -std=c++20 -O2 -Wall -Wextra -Wshadow -pedantic -fsanitize=address,undefined -fstack-protector % -o /tmp/%< && timeout 5s /tmp/%< < input.txt > output.txt 2>&1 || echo "Time Limit Exceeded (5s)" > output.txt') end <CR>]],
   { noremap = true, silent = true }
 )
 

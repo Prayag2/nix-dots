@@ -127,6 +127,13 @@
         "nofocus,class:^(xwaylandvideobridge)$"
         "noinitialfocus,class:^(xwaylandvideobridge)$"
       ];
+
+      bezier = "custom-bzr, 0,.41,.23,.94";
+      animation = [
+        "workspaces, 1, 3, custom-bzr, slidefade 20%"
+        "windows, 1, 2, custom-bzr, slide"
+        "layers, 1, 2, custom-bzr, popin 80%"
+      ];
     };
   };
 }

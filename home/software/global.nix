@@ -1,4 +1,8 @@
-{ pkgs, ...}: {
+{ pkgs, ... }: {
+  imports = [
+    # nothing
+  ];
+
   environment.systemPackages = with pkgs; [
     zsh-powerlevel10k
     sddm-chili-theme

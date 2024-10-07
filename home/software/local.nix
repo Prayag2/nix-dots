@@ -1,10 +1,10 @@
 { pkgs, ...}: {
 
   imports = [
+    ./configs/emacs
     ./configs/vscode
     ./configs/neovim
     ./configs/tmux
-    # ./configs/emacs
     ./configs/opentabletdriver
     ./configs/xournalpp
   ];
@@ -17,7 +17,6 @@
     neofetch
     vmware-horizon-client
     logseq
-    webcord
     inkscape
     ookla-speedtest
     gnome-disk-utility
@@ -30,6 +29,11 @@
     corefonts
     libreoffice-fresh
     cachix
+    qbittorrent
+    jamesdsp
+    # (pkgs.callPackage ./drv/lyrics-in-terminal.nix {})
+    megasync
+    vesktop
   ];
 
   programs = {
