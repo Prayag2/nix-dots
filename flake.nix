@@ -19,9 +19,9 @@
     };
     
     outputs = {self, nixpkgs, home-manager, ...}@inputs:
-      let
-        system = "x86_64-linux";
-      in {
+    let
+      system = "x86_64-linux";
+    in {
         nixosConfigurations = {
           ideapad-2023 = nixpkgs.lib.nixosSystem {
               inherit system;

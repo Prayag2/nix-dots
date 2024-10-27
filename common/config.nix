@@ -66,6 +66,7 @@ in
   };
 
   services.xserver.enable = true;
+  services.xserver.excludePackages = [ pkgs.xterm ]; # i don't want xterm :(
 
   nix.optimise.automatic = true; 
   nix.gc = {

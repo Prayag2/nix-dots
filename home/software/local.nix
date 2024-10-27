@@ -7,13 +7,13 @@
     ./configs/tmux
     ./configs/opentabletdriver
     ./configs/xournalpp
+    ./configs/firefox
+    ./configs/mpv
   ];
 
   home.packages = with pkgs; [
-    firefox
     tree
     btop
-    kitty
     neofetch
     vmware-horizon-client
     logseq
@@ -34,6 +34,22 @@
     # (pkgs.callPackage ./drv/lyrics-in-terminal.nix {})
     megasync
     vesktop
+    ani-cli
+
+    # cracked minecraft :)
+    # (pkgs.prismlauncher.override {
+    #   prismlauncher-unwrapped = pkgs.prismlauncher-unwrapped.overrideAttrs (oldAttrs: {
+    #     src = pkgs.fetchFromGitHub {
+    #       owner = "Diegiwg";
+    #       repo = "PrismLauncher-Cracked";
+    #       rev = "v8.4.1";
+    #       hash = "sha256-ffx3MgvKj9VsRIK9DT5Cxr+3WSrvMglzLE+kFU/cni4=";
+    #     };
+    #     buildInputs = oldAttrs.buildInputs ++ [
+    #       pkgs.kdePackages.qtnetworkauth
+    #     ];
+    #   });
+    # })
   ];
 
   programs = {

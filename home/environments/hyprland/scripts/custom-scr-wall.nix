@@ -19,10 +19,12 @@
     fi
 
     echo ":: setting wallpaper ::"
+    rm -rf $HOME/.config/wpg/schemes # remove cached schemes
+    rm -rf $HOME/.config/wpg/wallpapers # remove cached schemes
     rm $wall_new_location
-    magick "$wall_location" $wall_new_location >/dev/null
+    magick convert "$wall_location" $wall_new_location >/dev/null
     swww img $wall_new_location -t any --transition-fps 120 >/dev/null
     wpg -a $wall_new_location >/dev/null
-    [[ $theme_path ]] && wpg -i $wall_new_location $theme_path >/dev/null || wpg -A $wall_new_location >/dev/null
+    ([[ $theme_path ]] && wpg -i $wall_new_location $theme_path >/dev/null) || wpg -A $wall_new_location >/dev/null
     wpg -s $wall_new_location >/dev/null
   ''

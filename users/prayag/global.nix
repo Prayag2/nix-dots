@@ -1,8 +1,8 @@
 { pkgs, ... }: {
   imports = [
-    ../../home/environments/hyprland/packages/global.nix
+    ../../home/environments/hyprland/software/global.nix
     ../../home/software/global.nix
-    #../../devices/printers/tsc-te244
+    ../../devices/printers/tsc-te244
     ../../devices/printers
 
     ../../common/audio
@@ -11,7 +11,7 @@
     ../../common/filesystem.nix
     ../../common/keyring.nix
     ../../common/network.nix
-    ../../common/sddm.nix
+    ../../common/gdm.nix
     ../../common/touchpad.nix
   ];
   users.users.prayag = {

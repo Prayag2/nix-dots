@@ -23,5 +23,5 @@ lspconf.pyright.setup {capabilities = capabilities}
 lspconf.pylsp.setup {capabilities = capabilities}
 lspconf.nil_ls.setup {capabilities = capabilities}
 lspconf.bashls.setup {capabilities = capabilities}
-lspconf.tsserver.setup {capabilities = capabilities}
+lspconf.ts_ls.setup {capabilities = capabilities}
 lspconf.clangd.setup {capabilities = capabilities}

@@ -70,6 +70,7 @@
           new_optimizations = true;
           ignore_opacity = true;
           noise = 0.1;
+          popups = true;
 
           blurls = [
             "waybar"

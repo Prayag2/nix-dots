@@ -1,6 +1,6 @@
 { ... }: {
+  programs.hyprlock.enable = true;
   programs.hyprlock.settings = {
-    enable = true;
     source = "~/.cache/wal/colors-hyprland.conf";
     background = {
         path = "~/.local/share/wallpapers/wall.png";

@@ -30,7 +30,6 @@
     papirus-icon-theme
     pamixer
     xdg-desktop-portal-hyprland
-    mpv
   ];
   programs = {
     home-manager.enable = true;

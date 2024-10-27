@@ -5,7 +5,7 @@
 
   environment.systemPackages = with pkgs; [
     zsh-powerlevel10k
-    sddm-chili-theme
+    distrobox
   ];
 
   nixpkgs = {
@@ -14,6 +14,11 @@
         "electron-27.3.11"
       ];
     };
+  };
+
+  virtualisation.podman = {
+    enable = true;
+    dockerCompat = true;
   };
 
   programs = {
@@ -30,6 +35,12 @@
         if [ -t 0 ] && [[ -z $TMUX ]] && [[ $- = *i* ]]; then exec tmux; fi
       '';
     };
+  };
+
+  environment.variables = {
+    EDITOR = "vim";
+    BROWSER = "firefox";
+    TERMINAL = "alacritty";
   };
 
   hardware = {
