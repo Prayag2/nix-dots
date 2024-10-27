@@ -23,6 +23,9 @@
       bind -n M-k select-pane -U
       bind -n M-j select-pane -D
 
+      # toggle status bar
+      bind -n M-1 set-option -g status
+
       # DESIGN TWEAKS
       # don't do anything when a 'bell' rings
       set -g visual-activity off

@@ -1,7 +1,7 @@
 {pkgs}:
   pkgs.writeShellScriptBin "custom-scr-media" /*bash*/ ''
     source ~/.cache/wal/colors.sh
-    echo " No Media"
+    echo "   No Media"
     playerctl metadata -f '{{status}} {{title}}' -F 2>/dev/null | while read event; do
         out=$(playerctl metadata -f '{{status}} {{title}}' 2>/dev/null)
         if [[ -z $out || -z $(playerctl metadata -f '{{title}}') ]]; then
