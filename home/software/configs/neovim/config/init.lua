@@ -9,11 +9,12 @@ vim.opt.smartcase = true
 vim.opt.hlsearch = false
 vim.opt.wrap = true
 vim.opt.breakindent = true
-vim.opt.tabstop = 2
-vim.opt.shiftwidth = 2
+vim.opt.tabstop = 4
+vim.opt.shiftwidth = 4
 vim.opt.expandtab = true
 vim.opt.clipboard:append('unnamedplus')
 vim.o.termguicolors = true
+vim.opt.fillchars = { eob = " " }
 
 vim.g.netrw_banner = 0
 vim.g.netrw_winsize = 30

@@ -76,6 +76,9 @@ in
       "SHIFT, XF86AudioLowerVolume, exec, swayosd-client --input-volume lower"
       ", XF86MonBrightnessDown, exec, swayosd-client --brightness -10"
       ", XF86MonBrightnessUp, exec, swayosd-client --brightness +10"
+      ", Caps_Lock, exec, swayosd-client --caps-lock"
+      ", Num_Lock, exec, swayosd-client --num-lock"
+      ", Scroll_Lock, exec, swayosd-client --scroll-lock"
     ];
     bindm = [
       "$main_mod, mouse:272, movewindow"    

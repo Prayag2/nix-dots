@@ -1,6 +1,15 @@
 -- leader key
 vim.g.mapleader = " "
 
+-- snippets
+vim.api.nvim_set_keymap('i', '<C-j>', "vsnip#expandable()  ? '<Plug>(vsnip-expand)' : '<C-j>'", { expr = true, noremap = false })
+vim.api.nvim_set_keymap('s', '<C-j>', "vsnip#expandable()  ? '<Plug>(vsnip-expand)' : '<C-j>'", { expr = true, noremap = false })
+
+vim.api.nvim_set_keymap('i', '<Tab>', "vsnip#jumpable(1)  ? '<Plug>(vsnip-jump-next)' : '<Tab>'", { expr = true, noremap = false })
+vim.api.nvim_set_keymap('s', '<Tab>', "vsnip#jumpable(1)  ? '<Plug>(vsnip-jump-next)' : '<Tab>'", { expr = true, noremap = false })
+vim.api.nvim_set_keymap('i', '<S-Tab>', "vsnip#jumpable(-1)  ? '<Plug>(vsnip-jump-prev)' : '<S-Tab>'", { expr = true, noremap = false })
+vim.api.nvim_set_keymap('s', '<S-Tab>', "vsnip#jumpable(-1)  ? '<Plug>(vsnip-jump-prev)' : '<S-Tab>'", { expr = true, noremap = false })
+
 -- navigating windows
 vim.keymap.set("n", "<leader>wh", "<C-w>h")
 vim.keymap.set("n", "<leader>wl", "<C-w>l")
@@ -13,13 +22,7 @@ vim.keymap.set("n", "<leader>bd", "<cmd>bdelete<cr>")
 -- open
 vim.keymap.set("n", "<leader>on", "<cmd>NvimTreeToggle<cr>")
 
--- Run C/C++ files with timeout
-vim.api.nvim_set_keymap(
-  'n',   -- Normal mode keymap
-  '<leader>rr',   -- Keybinding: <leader>rr to run this command
-  [[:w | lua if vim.fn.expand('%:e') == 'c' then vim.cmd('!touch input.txt && clang % -o /tmp/%< && timeout 5s /tmp/%< < input.txt > output.txt 2>&1 || echo "Time Limit Exceeded (5s)" > output.txt') elseif vim.fn.expand('%:e') == 'cpp' then vim.cmd('!touch input.txt && clang++ -std=c++20 -O2 -Wall -Wextra -Wshadow -pedantic -fsanitize=address,undefined -fstack-protector % -o /tmp/%< && timeout 5s /tmp/%< < input.txt > output.txt 2>&1 || echo "Time Limit Exceeded (5s)" > output.txt') end <CR>]],
-  { noremap = true, silent = true }
-)
-
--- Keybinding
-vim.api.nvim_set_keymap('n', '<Leader>cp', '[[:vsplit | wincmd l | edit input.txt | vertical resize 50 | split | wincmd j | edit output.txt | wincmd h<CR>]]', { noremap = true, silent = true })
+-- rename symbols
+vim.keymap.set('n', '<F2>', function()
+  vim.lsp.buf.rename()
+end, { noremap = true, silent = true, desc = "LSP Rename" })

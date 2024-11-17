@@ -1,13 +1,13 @@
 local lspconf = require('lspconfig')
 
 local border = {
-  {"╭", "FloatBorder"},
+  {"┌", "FloatBorder"},
   {"─", "FloatBorder"},
-  {"╮", "FloatBorder"},
+  {"┐", "FloatBorder"},
   {"│", "FloatBorder"},
-  {"╯", "FloatBorder"},
+  {"┘", "FloatBorder"},
   {"─", "FloatBorder"},
-  {"╰", "FloatBorder"},
+  {"└", "FloatBorder"},
   {"│", "FloatBorder"},
 }
 

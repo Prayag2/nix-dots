@@ -68,7 +68,7 @@
 
       # fix ESC delay in vim
       set -s escape-time 0
+      set-option -g default-command ${pkgs.zsh}/bin/zsh
     '';
-    shell = "${pkgs.zsh}/bin/zsh";
   };
 }

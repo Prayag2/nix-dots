@@ -96,6 +96,7 @@
       layerrule = [
         "ignorezero, notifications"
         "ignorezero, rofi"
+        "noanim,selection"
       ];
 
       windowrule = [

@@ -1,40 +1,36 @@
 local cmp = require'cmp'
 
 local borders = {
-  "╭",
+  "┌",
   "─",
-  "╮",
+  "┐",
   "│",
-  "╯",
+  "┘",
   "─",
-  "╰",
+  "└",
   "│",
 }
 
 cmp.setup({
   snippet = {
-    -- REQUIRED - you must specify a snippet engine
     expand = function(args)
       vim.fn["vsnip#anonymous"](args.body) -- For `vsnip` users.
     end,
   },
   window = {
-    completion = cmp.config.window.bordered({ border = borders }),
-    documentation = cmp.config.window.bordered(),
+    completion = cmp.config.window.bordered({ border = borders, winblend = 0 }),
+    documentation = cmp.config.window.bordered({ winblend = 0 }),
   },
   mapping = cmp.mapping.preset.insert({
     ['<C-b>'] = cmp.mapping.scroll_docs(-4),
     ['<C-f>'] = cmp.mapping.scroll_docs(4),
     ['<C-Space>'] = cmp.mapping.complete(),
     ['<C-e>'] = cmp.mapping.abort(),
-    ['<CR>'] = cmp.mapping.confirm({ select = true }), -- Accept currently selected item. Set `select` to `false` to only confirm explicitly selected items.
+    ['<CR>'] = cmp.mapping.confirm({ select = true }),
   }),
-  sources = cmp.config.sources({
-    { name = 'nvim_lsp' },
-    { name = 'vsnip' },
-  }, {
-    { name = 'buffer' },
-  })
+  sources = cmp.config.sources(
+    {{ name = 'nvim_lsp' }, { name = 'vsnip' }},
+    {{ name = 'buffer' }})
 })
 
 -- To use git you need to install the plugin petertriho/cmp-git and uncomment lines below
@@ -67,3 +63,71 @@ cmp.setup.cmdline(':', {
   matching = { disallow_symbol_nonprefix_matching = false }
 })
 
+
+
+-- Configure diagnostics to show underlines only
+vim.diagnostic.config({
+    virtual_text = false,  -- Disable inline diagnostics
+    signs = true,          -- Enable signs in the gutter
+    underline = true,      -- Enable underlining of problematic lines
+    update_in_insert = false, -- Update diagnostics only in normal mode
+    severity_sort = true,  -- Sort diagnostics by severity
+})
+
+-- Function to show diagnostics in a floating window on hover
+vim.api.nvim_create_autocmd("CursorHold", {
+    callback = function()
+        vim.diagnostic.open_float(nil, { focusable = false, border = "rounded" })
+    end,
+})
+vim.opt.updatetime = 500
+
+-- Configure diagnostics to show underlines only
+vim.diagnostic.config({
+    virtual_text = false,  -- Disable inline diagnostics
+    signs = true,          -- Enable signs in the gutter
+    underline = true,      -- Enable underlining of problematic lines
+    update_in_insert = false, -- Update diagnostics only in normal mode
+    severity_sort = true,  -- Sort diagnostics by severity
+})
+
+-- Function to show diagnostics in a floating window on hover
+vim.api.nvim_create_autocmd("CursorHold", {
+    callback = function()
+        vim.diagnostic.open_float(nil, { focusable = false, border = "rounded" })
+    end,
+})
+vim.opt.updatetime = 500
+-- Configure diagnostics to show underlines only
+vim.diagnostic.config({
+    virtual_text = false,  -- Disable inline diagnostics
+    signs = true,          -- Enable signs in the gutter
+    underline = true,      -- Enable underlining of problematic lines
+    update_in_insert = false, -- Update diagnostics only in normal mode
+    severity_sort = true,  -- Sort diagnostics by severity
+})
+
+-- Function to show diagnostics in a floating window on hover
+vim.api.nvim_create_autocmd("CursorHold", {
+    callback = function()
+        vim.diagnostic.open_float(nil, { focusable = false, border = "rounded" })
+    end,
+})
+vim.opt.updatetime = 500
+
+-- Configure diagnostics to show underlines only
+vim.diagnostic.config({
+    virtual_text = false,  -- Disable inline diagnostics
+    signs = true,          -- Enable signs in the gutter
+    underline = true,      -- Enable underlining of problematic lines
+    update_in_insert = false, -- Update diagnostics only in normal mode
+    severity_sort = true,  -- Sort diagnostics by severity
+})
+
+-- Function to show diagnostics in a floating window on hover
+vim.api.nvim_create_autocmd("CursorHold", {
+    callback = function()
+        vim.diagnostic.open_float(nil, { focusable = false, border = borders })
+    end,
+})
+vim.opt.updatetime = 500

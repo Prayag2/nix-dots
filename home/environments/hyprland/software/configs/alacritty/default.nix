@@ -1,6 +1,6 @@
 { pkgs, ... }: 
 let
-  fontSize = 13;
+  fontSize = 14;
   fontFamily = "JetBrainsMono Nerd Font";
   opacity = 0.9;
 in

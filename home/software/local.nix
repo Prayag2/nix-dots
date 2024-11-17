@@ -9,6 +9,7 @@
     ./configs/xournalpp
     ./configs/firefox
     ./configs/mpv
+    ./drv/cp
   ];
 
   home.packages = with pkgs; [
@@ -31,10 +32,16 @@
     cachix
     qbittorrent
     jamesdsp
-    # (pkgs.callPackage ./drv/lyrics-in-terminal.nix {})
     megasync
     vesktop
     ani-cli
+
+    clang-tools
+    clang
+    (hiPrio gcc)
+    (pkgs.callPackage ./drv/lyrics-in-terminal.nix {})
+    (pkgs.callPackage ./drv/fonts {})
+
 
     # cracked minecraft :)
     # (pkgs.prismlauncher.override {
@@ -53,6 +60,29 @@
   ];
 
   programs = {
+    zsh = {
+      enable = true;
+      enableCompletion = true;
+      autosuggestion.enable = true;
+      syntaxHighlighting.enable = true;
+      initExtraFirst = ''
+        if [[ -r "''${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-''${(%):-%n}.zsh" ]]; then
+          source "''${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-''${(%):-%n}.zsh"
+        fi
+
+        # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+        [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+        source ${pkgs.zsh-powerlevel10k}/share/zsh-powerlevel10k/powerlevel10k.zsh-theme
+      '';
+      initExtra = ''
+        setopt EMACS
+        if [ -t 0 ] && [[ -z $TMUX ]] && [[ $- = *i* ]]; then
+          exec tmux
+        fi
+      '';
+    };
+
     git = {
       enable = true;
       userEmail = "prayagjain2@gmail.com";

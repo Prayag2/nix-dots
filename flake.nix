@@ -29,12 +29,14 @@
               modules = [
                 ./hosts/ideapad-2023/configuration.nix
                 ./users/prayag/global.nix
+                ./users/prayag_kde/global.nix
                 inputs.stylix.nixosModules.stylix
                 home-manager.nixosModules.home-manager {
                   home-manager.useGlobalPkgs = true;
                   home-manager.useUserPackages = true;
                   home-manager.extraSpecialArgs = {inherit inputs;};
                   home-manager.users.prayag = import ./users/prayag/local.nix;
+                  home-manager.users.prayag_kde = import ./users/prayag_kde/local.nix;
                   home-manager.backupFileExtension = "backup";
                 }
               ];

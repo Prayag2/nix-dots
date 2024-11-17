@@ -19,7 +19,7 @@
   <property name="maximized" value="true"/>
   <property name="showToolbar" value="true"/>
   <property name="showSidebar" value="false"/>
-  <property name="sidebarWidth" value="50"/>
+  <property name="sidebarWidth" value="150"/>
   <property name="sidebarNumberingStyle" value="1"/>
   <property name="sidebarOnRight" value="false"/>
   <property name="scrollbarOnLeft" value="false"/>
@@ -48,13 +48,12 @@
   <property name="eraserVisibility" value="always"/>
   <!--The icon theme, allowed values are "iconsColor", "iconsLucide"-->
   <property name="iconTheme" value="iconsColor"/>
-  <!--Dark/light mode, allowed values are "useSystem", "forceLight", "forceDark"-->
-  <property name="themeVariant" value="useSystem"/>
   <property name="highlightPosition" value="false"/>
   <property name="cursorHighlightColor" value="2164260608"/>
   <property name="cursorHighlightBorderColor" value="2147483903"/>
   <property name="cursorHighlightRadius" value="30"/>
   <property name="cursorHighlightBorderWidth" value="0"/>
+  <property name="darkTheme" value="false"/>
   <property name="useStockIcons" value="false"/>
   <property name="disableScrollbarFadeout" value="false"/>
   <property name="disableAudio" value="false"/>
@@ -81,9 +80,9 @@
   <property name="touchDrawing" value="false"/>
   <property name="gtkTouchInertialScrolling" value="true"/>
   <property name="pressureGuessing" value="false"/>
-  <property name="selectionBorderColor" value="4281019179"/>
-  <property name="backgroundColor" value="4280821800"/>
-  <property name="selectionMarkerColor" value="4281019179"/>
+  <property name="selectionBorderColor" value="4294901760"/>
+  <property name="backgroundColor" value="4292664021"/>
+  <property name="selectionMarkerColor" value="4285702095"/>
   <property name="touchZoomStartThreshold" value="0"/>
   <property name="pageRerenderThreshold" value="5"/>
   <!--The count of rendered PDF pages which will be cached.-->
@@ -92,7 +91,7 @@
   <property name="preloadPagesAfter" value="5"/>
   <property name="eagerPageCleanup" value="true"/>
   <!--Config for new pages-->
-  <property name="pageTemplate" value="xoj/template&#10;copyLastPageSize=false&#10;copyLastPageSettings=true&#10;size=595.275591x841.889764&#10;backgroundType=plain&#10;backgroundColor=#151515&#10;"/>
+  <property name="pageTemplate" value="xoj/template&#10;copyLastPageSize=false&#10;copyLastPageSettings=true&#10;size=595.275591x841.889764&#10;backgroundType=graph&#10;backgroundColor=#ffffff&#10;"/>
   <property name="sizeUnit" value="cm"/>
   <property name="audioFolder" value=""/>
   <property name="audioInputDevice" value="-1"/>
@@ -184,15 +183,11 @@
       <attribute name="deviceClass" type="int" value="1"/>
       <attribute name="deviceSource" type="int" value="0"/>
     </data>
-    <data name="Wayland Wheel Scrolling">
-      <attribute name="deviceClass" type="int" value="1"/>
-      <attribute name="deviceSource" type="int" value="0"/>
-    </data>
   </data>
   <data name="lastUsedPageBgColor">
-    <attribute name="color00" type="hex" value="ff151515"/>
-    <attribute name="color01" type="hex" value="ff131a22"/>
-    <attribute name="color02" type="hex" value="fffef8c9"/>
+    <attribute name="color00" type="hex" value="fffef8c9"/>
+    <attribute name="color01" type="hex" value="ffffffff"/>
+    <attribute name="color02" type="hex" value="ffffffff"/>
     <attribute name="color03" type="hex" value="ffffffff"/>
     <attribute name="color04" type="hex" value="ffffffff"/>
     <attribute name="color05" type="hex" value="ffffffff"/>
@@ -240,7 +235,7 @@
       <attribute name="drawingType" type="string" value="default"/>
     </data>
     <data name="pen">
-      <attribute name="color" type="hex" value="ffffff"/>
+      <attribute name="color" type="hex" value="000000"/>
       <attribute name="drawingType" type="string" value="default"/>
       <attribute name="fill" type="int" value="0"/>
       <attribute name="fillAlpha" type="int" value="128"/>
