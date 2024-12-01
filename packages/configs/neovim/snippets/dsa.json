@@ -1,0 +1,17 @@
+{
+  "dsa": {
+    "prefix": "dsa",
+    "body": [
+      "// TL: ${1:<enter time limit here>}s",
+      "#include <cp/inp.h>",
+      "#include <cp/out.h>",
+      "#include <iostream>",
+      "using namespace std;",
+      "",
+      "int main() {",
+      "    return 0;",
+      "}"
+    ],
+    "description": "C++ DSA Template"
+  }
+}

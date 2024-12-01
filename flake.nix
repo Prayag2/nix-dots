@@ -2,7 +2,6 @@
     description = "haxnix";
     
     inputs = {
-        # nixpkgs.url = "github:NixOS/nixpkgs/0c19708cf035f50d28eb4b2b8e7a79d4dc52f6bb";
         nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
         nixpkgs-unstable.url = "github:nixos/nixpkgs/nixos-unstable";
         home-manager = {
@@ -15,7 +14,6 @@
             inputs.hyprland.follows = "nixpkgs";
         };
         stylix.url = "github:danth/stylix";
-        # legion-kb-rgb.url = "https://github.com/4JX/L5P-Keyboard-RGB"; # for ideapad only
     };
     
     outputs = {self, nixpkgs, home-manager, ...}@inputs:
@@ -29,14 +27,12 @@
               modules = [
                 ./hosts/ideapad-2023/configuration.nix
                 ./users/prayag/global.nix
-                ./users/prayag_kde/global.nix
                 inputs.stylix.nixosModules.stylix
                 home-manager.nixosModules.home-manager {
                   home-manager.useGlobalPkgs = true;
                   home-manager.useUserPackages = true;
                   home-manager.extraSpecialArgs = {inherit inputs;};
                   home-manager.users.prayag = import ./users/prayag/local.nix;
-                  home-manager.users.prayag_kde = import ./users/prayag_kde/local.nix;
                   home-manager.backupFileExtension = "backup";
                 }
               ];
