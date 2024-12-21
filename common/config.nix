@@ -58,10 +58,8 @@ in
       jetbrains-mono
       noto-fonts
       noto-fonts-emoji
-      (pkgs.nerdfonts.override { fonts = [
-        "JetBrainsMono"
-        "NerdFontsSymbolsOnly"
-      ]; })
+      nerd-fonts.symbols-only
+      nerd-fonts.jetbrains-mono
     ];
   };
 

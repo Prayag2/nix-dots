@@ -53,11 +53,12 @@
       };
 
       decoration = {
-        rounding = 0;
-        drop_shadow = true;
-        shadow_range = 4;
-        shadow_render_power = 1;
-        "col.shadow" = "rgba(1a1a1a80)";
+        shadow = {
+            enabled = true;
+            range = 4;
+            render_power = 1;
+            color = "rgba(1a1a1a80)";
+        };
 
         active_opacity = 1;
         inactive_opacity = 0.85;

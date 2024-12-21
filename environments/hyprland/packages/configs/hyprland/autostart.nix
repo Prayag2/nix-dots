@@ -15,7 +15,7 @@ in
       "hyprctl setcursor Bibata-Original-Classic 20"
       "xsetroot -cursor_name left_ptr &"
       "sleep 2 && xrdb -merge ~/.Xresources"
-      "${custom-scr-video_wall} &"
+      "sleep 2 && ${custom-scr-video_wall} &"
     ];
 
     source = "$HOME/.cache/wal/colors-hyprland.conf";

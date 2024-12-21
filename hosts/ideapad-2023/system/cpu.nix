@@ -1,5 +1,5 @@
 { ... }: {
   services.auto-cpufreq = {
-    enable = false;
+    enable = true;
   };
 }

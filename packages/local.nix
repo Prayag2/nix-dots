@@ -24,7 +24,6 @@
     gnome-disk-utility
     obs-studio
     baobab
-    cava
     telegram-desktop
     simple-scan
     gimp
