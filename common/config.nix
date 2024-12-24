@@ -58,8 +58,7 @@ in
       jetbrains-mono
       noto-fonts
       noto-fonts-emoji
-      nerd-fonts.symbols-only
-      nerd-fonts.jetbrains-mono
+      nerdfonts
     ];
   };
 

@@ -2,6 +2,7 @@
 let
   custom-scr-power = "${(pkgs.callPackage ../../../scripts/custom-scr-power.nix {inherit pkgs;})}/bin/custom-scr-power";
   custom-scr-media = "${(pkgs.callPackage ../../../scripts/custom-scr-media.nix {inherit pkgs;})}/bin/custom-scr-media";
+  custom-scr-switch_sink = "${(pkgs.callPackage ../../../scripts/custom-scr-switch_sink.nix {inherit pkgs;})}/bin/custom-scr-switch_sink";
 in
 {
   home.file.".config/waybar/style.css" = {
@@ -113,6 +114,7 @@ in
         };
         scroll-step = 5.0;
         on-click = "pamixer -t";
+        on-click-middle = "${custom-scr-switch_sink}";
         on-click-right = "pavucontrol";
       };
 
@@ -121,8 +123,7 @@ in
         format-source = "  {volume}%";
         format-source-muted = "  {volume}%";
         on-click = "pamixer --default-source -t";
-        on-click-middle = "pactl load-module module-loopback";
-        on-click-right = "pactl unload-module module-loopback";
+        on-click-middle = "pactl list modules | grep -q 'Name: module-loopback' && (pactl unload-module module-loopback && notify-send -i 'microphone-sensitivity-muted-symbolic' 'Stopped Listening' -r 421) || (pactl load-module module-loopback && notify-send -i 'microphone-sensitivity-high-symbolic' 'Listening to microphone' -r 421)";
         on-scroll-up = "pamixer --default-source -i 5";
         on-scroll-down = "pamixer --default-source -d 5";
       };
