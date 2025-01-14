@@ -48,6 +48,7 @@ in
     overlays = [
       overlays.unstable-packages  
       overlays.emacs-overlay
+      overlays.old-rnote
     ];
   };
 

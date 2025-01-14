@@ -1,4 +1,5 @@
-{ pkgs, ...}: {
+{ pkgs, ...}: 
+{
 
   imports = [
     ./configs/emacs
@@ -35,15 +36,24 @@
     megasync
     vesktop
     ani-cli
-    rnote
+    cava
+    lorien
+    open-dyslexic
 
+    # for dev
     clang-tools
     clang
     (hiPrio gcc)
     gdb
+
     (pkgs.callPackage ./drv/lyrics-in-terminal.nix {})
     (pkgs.callPackage ./drv/fonts {})
     # (pkgs.libsForQt5.callPackage ./drv/xp-pen {})
+      (retroarch.override {
+        cores = with libretro; [
+            dolphin
+        ];
+      })
 
 
     # cracked minecraft :)
@@ -83,6 +93,21 @@
         if [ -t 0 ] && [[ -z $TMUX ]] && [[ $- = *i* ]]; then
           exec tmux
         fi
+
+        # a run function
+        run() {
+            if [ $# -eq 0 ]; then
+                return
+            fi
+            "$@" >/dev/null 2>&1 &
+            disown >/dev/null 2>&1
+        }
+
+        _run_completion() {
+            _command_names
+        }
+
+        compdef _run_completion run
       '';
     };
 
