@@ -41,10 +41,12 @@
     open-dyslexic
 
     # for dev
+    # yes i don't want to enter a nix shell again and again when I'm just brainstorming
     clang-tools
     clang
     (hiPrio gcc)
     gdb
+    jdk
 
     (pkgs.callPackage ./drv/lyrics-in-terminal.nix {})
     (pkgs.callPackage ./drv/fonts {})

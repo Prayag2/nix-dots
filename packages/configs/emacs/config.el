@@ -301,7 +301,7 @@
 (setq org-ellipsis " ")
 (setq org-habit-graph-column 70)
 (org-babel-do-load-languages
- 'org-babel-load-languages '((C . t) (python . t) (js . t) (shell . t)))
+ 'org-babel-load-languages '((C . t) (python . t) (js . t) (shell . t) (java . t)))
 (require 'htmlize)
 (setq org-html-htmlize-output-type 'css)
 (setq org-html-htmlize-font-prefix "org-")

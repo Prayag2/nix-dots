@@ -63,6 +63,10 @@ in
     ];
   };
 
+  documentation.enable = true;
+  documentation.man.enable = true;
+  documentation.dev.enable = true;
+
   services.xserver.enable = true;
   services.xserver.excludePackages = [ pkgs.xterm ]; # i don't want xterm :(
 
