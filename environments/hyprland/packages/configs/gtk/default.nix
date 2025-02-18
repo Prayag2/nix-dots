@@ -1,4 +1,4 @@
-{ pkgs, ... }: {
+{ config, pkgs, ... }: {
   home.file.".config/wal/templates/gtk.css" = {
     source = ./gtk.css;
     force = true;
@@ -14,7 +14,7 @@
     enable = true;
     cursorTheme.name = "Bibata-Original-Classic";
     cursorTheme.size = 20;
-    font.name = "JetBrainsMono Nerd Font";
+    font.name = config.myFont.font.nerd_name;
     theme.name = "linea-nord-color";
     iconTheme.name = "Papirus-Dark";
 

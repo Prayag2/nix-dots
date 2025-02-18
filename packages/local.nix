@@ -15,6 +15,7 @@
   ];
 
   home.packages = with pkgs; [
+    cava
     tree
     btop
     neofetch
@@ -36,9 +37,9 @@
     megasync
     vesktop
     ani-cli
-    cava
     lorien
     open-dyslexic
+    tauon
 
     # for dev
     # yes i don't want to enter a nix shell again and again when I'm just brainstorming
@@ -51,6 +52,8 @@
     (pkgs.callPackage ./drv/lyrics-in-terminal.nix {})
     (pkgs.callPackage ./drv/fonts {})
     # (pkgs.libsForQt5.callPackage ./drv/xp-pen {})
+    # ydotool
+
       (retroarch.override {
         cores = with libretro; [
             dolphin

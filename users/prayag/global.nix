@@ -13,6 +13,7 @@
     ../../common/network.nix
     ../../common/gdm.nix
     ../../common/touchpad.nix
+    ../../common/fonts.nix
   ];
   users.users.prayag = {
     home = "/home/prayag";

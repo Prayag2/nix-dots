@@ -1,4 +1,4 @@
-{ ... }: {
+{ config, ... }: {
   programs.hyprlock.enable = true;
   programs.hyprlock.settings = {
     source = "~/.cache/wal/colors-hyprland.conf";
@@ -25,7 +25,7 @@
         inner_color = "rgba(0, 0, 0, 0.5)";
         font_color = "rgb(200, 200, 200)";
         fade_on_empty = false;
-        font_family = "JetBrains Mono Nerd Font";
+        font_family = config.myFont.font.nerd_name;
         placeholder_text = "<i><span foreground=\"##cdd6f4\">Input Password...</span></i>";
         hide_input = false;
         position = "0, -120";
@@ -37,7 +37,7 @@
         text = "cmd[update:1000] echo \"$(date +\"%-I:%M%p\")\"";
         color = "$foreground";
         font_size = 120;
-        font_family = "JetBrains Mono Nerd Font ExtraBold";
+        font_family = config.myFont.font.nerd_name;
         position = "0, -300";
         halign = "center";
         valign = "top";
@@ -46,7 +46,7 @@
         text = "Hi there, $USER";
         color = "$foreground";
         font_size = 25;
-        font_family = "JetBrains Mono Nerd Font";
+        font_family = config.myFont.font.nerd_name;
         position = "0, -40";
         halign = "center";
         valign = "center";

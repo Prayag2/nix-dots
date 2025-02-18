@@ -12,7 +12,7 @@
   ];
   home.packages = with pkgs; [
     imagemagick
-    sxiv
+    xfce.ristretto
     pavucontrol
     hyprpicker
     wl-clipboard
@@ -33,6 +33,7 @@
     socat
     mpvpaper
     ffmpeg
+
   ];
   programs = {
     home-manager.enable = true;

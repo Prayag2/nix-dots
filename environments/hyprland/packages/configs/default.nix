@@ -3,7 +3,7 @@
     ./hyprland
     ./gtk
     ./xresources
-    ./stylix
+    # ./stylix
     ./thunar
   ];
 }

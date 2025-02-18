@@ -307,10 +307,3 @@
 (setq org-html-htmlize-font-prefix "org-")
 (setq org-src-fontify-natively t)
 
-;; FONT
-(add-to-list 'default-frame-alist
-             '(font . "JetBrains Mono 14"))
-
-(set-frame-font "JetBrains Mono 14" nil t)
-(set-face-attribute 'default nil :family "JetBrains Mono") 
-(provide 'init)

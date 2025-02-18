@@ -1,9 +1,9 @@
-{ pkgs, ... }: {
+{ config, pkgs, ... }: {
   programs.vscode = {
     enable = true;
     userSettings = {
-      "editor.fontFamily" = "'JetBrains Mono', 'monospace', monospace";
-      "editor.fontSize" = 18;
+      "editor.fontFamily" = "'${config.myFont.font.name}', 'monospace', monospace";
+      "editor.fontSize" = 18*config.myFont.font.size_multiplier;
       "vim.useSystemClipboard" = true;
       "workbench.colorTheme" = "vs-wal";
       "workbench.preferredDarkColorTheme" = "vs-wal";

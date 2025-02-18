@@ -1,7 +1,7 @@
-{ pkgs, ... }: 
+{ config, pkgs, ... }: 
 let
-  fontSize = 14;
-  fontFamily = "JetBrainsMono Nerd Font";
+  fontSize = 14*config.myFont.font.size_multiplier;
+  fontFamily = config.myFont.font.nerd_name;
   opacity = 0.9;
 in
 {

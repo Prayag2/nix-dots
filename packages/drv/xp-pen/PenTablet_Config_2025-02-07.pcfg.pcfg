@@ -1,0 +1,6055 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PenTableLists version="1.5.0">
+  <BPH1001>
+    <DeviceInfo>
+      <DeviceRingNum>1</DeviceRingNum>
+      <DeviceKeyNum>6</DeviceKeyNum>
+      <DevicePenType>4</DevicePenType>
+      <DeviceTrackPad>0</DeviceTrackPad>
+      <DeviceControl>0</DeviceControl>
+    </DeviceInfo>
+    <Common>
+      <ScreenMapping id="0">
+        <SX>0</SX>
+        <SY>0</SY>
+        <SW>0</SW>
+        <SH>0</SH>
+      </ScreenMapping>
+      <TabletPannel Orientation="0">
+        <TX>0</TX>
+        <TY>0</TY>
+        <TW>0</TW>
+        <TH>0</TH>
+      </TabletPannel>
+      <DisableInfo>0</DisableInfo>
+      <DisableQuickKey>0</DisableQuickKey>
+      <DisablePressure>0</DisablePressure>
+      <DisableSlope>0</DisableSlope>
+      <PictureFiles>
+        <T_0 X="274" W="172" Y="72" H="98"/>
+        <T_1 X="314" W="50" Y="86" H="91"/>
+        <T_2 X="233" W="172" Y="72" H="98"/>
+        <T_3 X="315" W="51" Y="66" H="91"/>
+      </PictureFiles>
+    </Common>
+    <CommonAPP>
+      <Pen>
+        <PenBtn1 Actid="207" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen>
+      <K>
+        <K1 Actid="1" Show="1" id="0" Motid="1"/>
+        <K2 Actid="2" Show="1" id="0" Motid="2"/>
+        <K3 Actid="3" Show="1" id="0" Motid="3"/>
+        <K4 Actid="6" Show="1" id="0" Motid="4"/>
+        <K5 Actid="101" Show="1" id="0" Motid="5"/>
+        <K6 Actid="105" Show="1" id="0" Motid="6"/>
+      </K>
+      <R id="0">
+        <W1 id="0"/>
+        <W2 id="0"/>
+        <W3 id="0"/>
+        <W4 id="0"/>
+      </R>
+    </CommonAPP>
+    <Apps>
+      <app id="0" name="0">
+        <path/>
+        <Pen>
+          <PenBtn1 id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen>
+        <K>
+          <K1 id="0"/>
+          <K2 id="0"/>
+          <K3 id="0"/>
+          <K4 id="0"/>
+          <K5 id="0"/>
+          <K6 id="0"/>
+        </K>
+        <R id="0">
+          <W1 id="0"/>
+          <W2 id="0"/>
+          <W3 id="0"/>
+          <W4 id="0"/>
+        </R>
+      </app>
+    </Apps>
+  </BPH1001>
+  <EX07W>
+    <DeviceInfo>
+      <DeviceRingNum>0</DeviceRingNum>
+      <DeviceKeyNum>6</DeviceKeyNum>
+      <DevicePenType>0</DevicePenType>
+      <DeviceTrackPad>0</DeviceTrackPad>
+      <DeviceControl>0</DeviceControl>
+    </DeviceInfo>
+    <Common>
+      <ScreenMapping id="0">
+        <SX>0</SX>
+        <SY>0</SY>
+        <SW>0</SW>
+        <SH>0</SH>
+      </ScreenMapping>
+      <TabletPannel Orientation="0">
+        <TX>0</TX>
+        <TY>0</TY>
+        <TW>0</TW>
+        <TH>0</TH>
+      </TabletPannel>
+      <DisableInfo>0</DisableInfo>
+      <DisableQuickKey>0</DisableQuickKey>
+      <DisablePressure>0</DisablePressure>
+      <DisableSlope>0</DisableSlope>
+      <PictureFiles>
+        <T_0 X="272" W="163" Y="69" H="102"/>
+        <T_1 X="313" W="53" Y="87" H="86"/>
+        <T_2 X="241" W="163" Y="71" H="102"/>
+        <T_3 X="313" W="53" Y="69" H="86"/>
+      </PictureFiles>
+    </Common>
+    <CommonAPP>
+      <Pen>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen>
+      <K>
+        <K1 Actid="1" Show="1" id="0" Motid="7"/>
+        <K2 Actid="2" Show="1" id="0" Motid="8"/>
+        <K3 Actid="6" Show="1" id="0" Motid="1"/>
+        <K4 Actid="21" Show="1" id="0" Motid="5"/>
+        <K5 Actid="22" Show="1" id="0" Motid="3"/>
+        <K6 Actid="101" Show="1" id="0" Motid="4"/>
+      </K>
+    </CommonAPP>
+    <Apps>
+      <app id="0" name="0">
+        <path/>
+        <Pen>
+          <PenBtn1 id="0"/>
+          <PenBtn2 id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen>
+        <K>
+          <K1 id="0"/>
+          <K2 id="0"/>
+          <K3 id="0"/>
+          <K4 id="0"/>
+          <K5 id="0"/>
+          <K6 id="0"/>
+        </K>
+      </app>
+    </Apps>
+  </EX07W>
+  <G430>
+    <DeviceInfo>
+      <DeviceRingNum>0</DeviceRingNum>
+      <DeviceKeyNum>0</DeviceKeyNum>
+      <DevicePenType>0</DevicePenType>
+    </DeviceInfo>
+    <Common>
+      <ScreenMapping id="0">
+        <SX>0</SX>
+        <SY>0</SY>
+        <SW>0</SW>
+        <SH>0</SH>
+      </ScreenMapping>
+      <TabletPannel Orientation="0">
+        <TX>0</TX>
+        <TY>0</TY>
+        <TW>0</TW>
+        <TH>0</TH>
+      </TabletPannel>
+      <DisableInfo>0</DisableInfo>
+      <DisableQuickKey>0</DisableQuickKey>
+      <DisablePressure>0</DisablePressure>
+      <DisableSlope>0</DisableSlope>
+      <PictureFiles>
+        <T_0 X="296" W="128" Y="76" H="93"/>
+        <T_1 X="316" W="48" Y="100" H="67"/>
+        <T_2 X="256" W="128" Y="75" H="93"/>
+        <T_3 X="317" W="48" Y="78" H="68"/>
+      </PictureFiles>
+    </Common>
+    <CommonAPP>
+      <Pen>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen>
+    </CommonAPP>
+    <Apps>
+      <app id="0" name="0">
+        <path/>
+        <Pen>
+          <PenBtn1 id="0"/>
+          <PenBtn2 id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen>
+      </app>
+    </Apps>
+  </G430>
+  <G640>
+    <DeviceInfo>
+      <DeviceRingNum>0</DeviceRingNum>
+      <DeviceKeyNum>0</DeviceKeyNum>
+      <DevicePenType>0</DevicePenType>
+    </DeviceInfo>
+    <Common>
+      <ScreenMapping id="0">
+        <SX>0</SX>
+        <SY>0</SY>
+        <SW>0</SW>
+        <SH>0</SH>
+      </ScreenMapping>
+      <TabletPannel Orientation="0">
+        <TX>0</TX>
+        <TY>0</TY>
+        <TW>0</TW>
+        <TH>0</TH>
+      </TabletPannel>
+      <DisableInfo>0</DisableInfo>
+      <DisableQuickKey>0</DisableQuickKey>
+      <DisablePressure>0</DisablePressure>
+      <DisableSlope>0</DisableSlope>
+      <PictureFiles>
+        <T_0 X="260" W="156" Y="86" H="104"/>
+        <T_1 X="290" W="77" Y="61" H="121"/>
+        <T_2 X="263" W="156" Y="56" H="104"/>
+        <T_3 X="313" W="79" Y="64" H="120"/>
+      </PictureFiles>
+    </Common>
+    <CommonAPP>
+      <Pen>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen>
+    </CommonAPP>
+    <Apps>
+      <app id="0" name="0">
+        <path/>
+        <Pen>
+          <PenBtn1 id="0"/>
+          <PenBtn2 id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen>
+      </app>
+    </Apps>
+  </G640>
+  <G640S>
+    <DeviceInfo>
+      <DeviceRingNum>0</DeviceRingNum>
+      <DeviceKeyNum>6</DeviceKeyNum>
+      <DevicePenType>0</DevicePenType>
+      <DeviceTrackPad>0</DeviceTrackPad>
+      <DeviceControl>0</DeviceControl>
+    </DeviceInfo>
+    <Common>
+      <ScreenMapping id="0">
+        <SX>0</SX>
+        <SY>0</SY>
+        <SW>0</SW>
+        <SH>0</SH>
+      </ScreenMapping>
+      <TabletPannel Orientation="0">
+        <TX>0</TX>
+        <TY>0</TY>
+        <TW>0</TW>
+        <TH>0</TH>
+      </TabletPannel>
+      <DisableInfo>0</DisableInfo>
+      <DisableQuickKey>0</DisableQuickKey>
+      <DisablePressure>0</DisablePressure>
+      <DisableSlope>0</DisableSlope>
+      <PictureFiles>
+        <T_0 X="286" W="142" Y="78" H="88"/>
+        <T_1 X="317" W="46" Y="93" H="76"/>
+        <T_2 X="250" W="142" Y="78" H="88"/>
+        <T_3 X="317" W="46" Y="74" H="76"/>
+      </PictureFiles>
+    </Common>
+    <CommonAPP>
+      <Pen>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen>
+      <K>
+        <K1 Actid="1" Show="1" id="0" Motid="1"/>
+        <K2 Actid="2" Show="1" id="0" Motid="2"/>
+        <K3 Actid="6" Show="1" id="0" Motid="3"/>
+        <K4 Actid="21" Show="1" id="0" Motid="4"/>
+        <K5 Actid="22" Show="1" id="0" Motid="5"/>
+        <K6 Actid="101" Show="1" id="0" Motid="6"/>
+      </K>
+    </CommonAPP>
+    <Apps>
+      <app id="0" name="0">
+        <path/>
+        <Pen>
+          <PenBtn1 id="0"/>
+          <PenBtn2 id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen>
+        <K>
+          <K1 id="0"/>
+          <K2 id="0"/>
+          <K3 id="0"/>
+          <K4 id="0"/>
+          <K5 id="0"/>
+          <K6 id="0"/>
+        </K>
+      </app>
+    </Apps>
+  </G640S>
+  <StarG960>
+    <DeviceInfo>
+      <DeviceRingNum>0</DeviceRingNum>
+      <DeviceKeyNum>4</DeviceKeyNum>
+      <DevicePenType>3</DevicePenType>
+      <DeviceTrackPad>0</DeviceTrackPad>
+      <DeviceControl>0</DeviceControl>
+    </DeviceInfo>
+    <Common>
+      <ScreenMapping id="0">
+        <SX>0</SX>
+        <SY>0</SY>
+        <SW>0</SW>
+        <SH>0</SH>
+      </ScreenMapping>
+      <TabletPannel Orientation="0">
+        <TX>0</TX>
+        <TY>0</TY>
+        <TW>0</TW>
+        <TH>0</TH>
+      </TabletPannel>
+      <DisableInfo>0</DisableInfo>
+      <DisableQuickKey>0</DisableQuickKey>
+      <DisablePressure>0</DisablePressure>
+      <DisableSlope>0</DisableSlope>
+      <PictureFiles>
+        <T_0 X="284" W="135" Y="75" H="86"/>
+        <T_1 X="318" W="46" Y="93" H="72"/>
+        <T_2 X="258" W="135" Y="81" H="86"/>
+        <T_3 X="317" W="46" Y="80" H="72"/>
+      </PictureFiles>
+    </Common>
+    <CommonAPP>
+      <Pen>
+        <PenBtn1 Actid="207" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen>
+      <K>
+        <K1 Actid="1" Show="1" id="0" Motid="1"/>
+        <K2 Actid="2" Show="1" id="0" Motid="2"/>
+        <K3 Actid="3" Show="1" id="0" Motid="3"/>
+        <K4 Actid="4" Show="1" id="0" Motid="4"/>
+        <K5 Actid="5" Show="1" id="0" Motid="5"/>
+        <K6 Actid="6" Show="1" id="0" Motid="6"/>
+      </K>
+    </CommonAPP>
+    <Apps>
+      <app id="0" name="0">
+        <path/>
+        <Pen>
+          <PenBtn1 id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen>
+        <K>
+          <K1 id="0"/>
+          <K2 id="0"/>
+          <K3 id="0"/>
+          <K4 id="0"/>
+          <K5 id="0"/>
+          <K6 id="0"/>
+        </K>
+      </app>
+    </Apps>
+  </StarG960>
+  <Star06>
+    <DeviceInfo>
+      <DeviceRingNum>1</DeviceRingNum>
+      <DeviceKeyNum>6</DeviceKeyNum>
+      <DevicePenType>0</DevicePenType>
+      <DeviceTrackPad>0</DeviceTrackPad>
+      <DeviceControl>0</DeviceControl>
+    </DeviceInfo>
+    <Common>
+      <ScreenMapping id="0">
+        <SX>0</SX>
+        <SY>0</SY>
+        <SW>0</SW>
+        <SH>0</SH>
+      </ScreenMapping>
+      <TabletPannel Orientation="0">
+        <TX>0</TX>
+        <TY>0</TY>
+        <TW>0</TW>
+        <TH>0</TH>
+      </TabletPannel>
+      <DisableInfo>0</DisableInfo>
+      <DisableQuickKey>0</DisableQuickKey>
+      <DisablePressure>0</DisablePressure>
+      <DisableSlope>0</DisableSlope>
+      <PictureFiles>
+        <T_0 X="273" W="167" Y="71" H="101"/>
+        <T_1 X="313" W="52" Y="87" H="88"/>
+        <T_2 X="237" W="167" Y="70" H="101"/>
+        <T_3 X="313" W="52" Y="67" H="88"/>
+      </PictureFiles>
+    </Common>
+    <CommonAPP>
+      <Pen>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen>
+      <K>
+        <K1 Actid="1" Show="1" id="0" Motid="1"/>
+        <K2 Actid="2" Show="1" id="0" Motid="2"/>
+        <K3 Actid="3" Show="1" id="0" Motid="3"/>
+        <K4 Actid="6" Show="1" id="0" Motid="4"/>
+        <K5 Actid="101" Show="1" id="0" Motid="5"/>
+        <K6 Actid="105" Show="1" id="0" Motid="6"/>
+      </K>
+      <R id="0">
+        <W1 id="0"/>
+        <W2 id="0"/>
+        <W3 id="0"/>
+        <W4 id="0"/>
+      </R>
+    </CommonAPP>
+    <Apps>
+      <app id="0" name="0">
+        <path/>
+        <Pen>
+          <PenBtn1 id="0"/>
+          <PenBtn2 id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen>
+        <K>
+          <K1 id="0"/>
+          <K2 id="0"/>
+          <K3 id="0"/>
+          <K4 id="0"/>
+          <K5 id="0"/>
+          <K6 id="0"/>
+        </K>
+        <R id="0">
+          <W1 id="0"/>
+          <W2 id="0"/>
+          <W3 id="0"/>
+          <W4 id="0"/>
+        </R>
+      </app>
+    </Apps>
+  </Star06>
+  <BPU0908_PH2>
+    <DeviceInfo>
+      <DeviceRingNum>0</DeviceRingNum>
+      <DeviceKeyNum>4</DeviceKeyNum>
+      <DevicePenType>4</DevicePenType>
+      <DeviceTrackPad>0</DeviceTrackPad>
+      <DeviceControl>0</DeviceControl>
+    </DeviceInfo>
+    <Common>
+      <ScreenMapping id="0">
+        <SX>0</SX>
+        <SY>0</SY>
+        <SW>0</SW>
+        <SH>0</SH>
+      </ScreenMapping>
+      <TabletPannel Orientation="0">
+        <TX>0</TX>
+        <TY>0</TY>
+        <TW>0</TW>
+        <TH>0</TH>
+      </TabletPannel>
+      <DisableInfo>0</DisableInfo>
+      <DisableQuickKey>0</DisableQuickKey>
+      <DisablePressure>0</DisablePressure>
+      <DisableSlope>0</DisableSlope>
+      <PictureFiles>
+        <T_0 X="283" W="136" Y="75" H="86"/>
+        <T_1 X="318" W="45" Y="91" H="72"/>
+        <T_2 X="257" W="136" Y="81" H="86"/>
+        <T_3 X="316" W="45" Y="78" H="72"/>
+      </PictureFiles>
+    </Common>
+    <CommonAPP>
+      <Pen>
+        <PenBtn1 Actid="207" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen>
+      <K>
+        <K1 Actid="1" Show="1" id="0" Motid="1"/>
+        <K2 Actid="2" Show="1" id="0" Motid="2"/>
+        <K3 Actid="3" Show="1" id="0" Motid="3"/>
+        <K4 Actid="4" Show="1" id="0" Motid="4"/>
+        <K5 Actid="5" Show="1" id="0" Motid="5"/>
+        <K6 Actid="6" Show="1" id="0" Motid="6"/>
+      </K>
+    </CommonAPP>
+    <Apps>
+      <app id="0" name="0">
+        <path/>
+        <Pen>
+          <PenBtn1 id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen>
+        <K>
+          <K1 id="0"/>
+          <K2 id="0"/>
+          <K3 id="0"/>
+          <K4 id="0"/>
+          <K5 id="0"/>
+          <K6 id="0"/>
+        </K>
+      </app>
+    </Apps>
+  </BPU0908_PH2>
+  <Deco01>
+    <DeviceInfo>
+      <DeviceRingNum>0</DeviceRingNum>
+      <DeviceKeyNum>8</DeviceKeyNum>
+      <DevicePenType>0</DevicePenType>
+      <DeviceTrackPad>0</DeviceTrackPad>
+      <DeviceControl>0</DeviceControl>
+    </DeviceInfo>
+    <Common>
+      <ScreenMapping id="0">
+        <SX>0</SX>
+        <SY>0</SY>
+        <SW>0</SW>
+        <SH>0</SH>
+      </ScreenMapping>
+      <TabletPannel Orientation="0">
+        <TX>0</TX>
+        <TY>0</TY>
+        <TW>0</TW>
+        <TH>0</TH>
+      </TabletPannel>
+      <DisableInfo>0</DisableInfo>
+      <DisableQuickKey>0</DisableQuickKey>
+      <DisablePressure>0</DisablePressure>
+      <DisableSlope>0</DisableSlope>
+      <PictureFiles>
+        <T_0 X="274" W="167" Y="71" H="105"/>
+        <T_1 X="312" W="55" Y="87" H="88"/>
+        <T_2 X="238" W="167" Y="70" H="105"/>
+        <T_3 X="313" W="55" Y="67" H="88"/>
+      </PictureFiles>
+    </Common>
+    <CommonAPP>
+      <Pen>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen>
+      <K>
+        <K1 Actid="1" Show="1" id="0" Motid="1"/>
+        <K2 Actid="2" Show="1" id="0" Motid="2"/>
+        <K3 Actid="3" Show="1" id="0" Motid="3"/>
+        <K4 Actid="4" Show="1" id="0" Motid="4"/>
+        <K5 Actid="6" Show="1" id="0" Motid="5"/>
+        <K6 Actid="21" Show="1" id="0" Motid="6"/>
+        <K7 Actid="22" Show="1" id="0" Motid="7"/>
+        <K8 Actid="101" Show="1" id="0" Motid="8"/>
+      </K>
+    </CommonAPP>
+    <Apps>
+      <app id="0" name="0">
+        <path/>
+        <Pen>
+          <PenBtn1 id="0"/>
+          <PenBtn2 id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen>
+        <K>
+          <K1 id="0"/>
+          <K2 id="0"/>
+          <K3 id="0"/>
+          <K4 id="0"/>
+          <K5 id="0"/>
+          <K6 id="0"/>
+          <K7 id="0"/>
+          <K8 id="0"/>
+        </K>
+      </app>
+    </Apps>
+  </Deco01>
+  <Deco01V2>
+    <DeviceInfo>
+      <DeviceRingNum>0</DeviceRingNum>
+      <DeviceKeyNum>8</DeviceKeyNum>
+      <DevicePenType>0</DevicePenType>
+      <DeviceTrackPad>0</DeviceTrackPad>
+      <DeviceControl>1</DeviceControl>
+    </DeviceInfo>
+    <Common>
+      <ScreenMapping id="0">
+        <SX>0</SX>
+        <SY>0</SY>
+        <SW>0</SW>
+        <SH>0</SH>
+      </ScreenMapping>
+      <TabletPannel Orientation="0">
+        <TX>0</TX>
+        <TY>0</TY>
+        <TW>0</TW>
+        <TH>0</TH>
+      </TabletPannel>
+      <DisableInfo>0</DisableInfo>
+      <DisableQuickKey>0</DisableQuickKey>
+      <DisablePressure>0</DisablePressure>
+      <DisableSlope>0</DisableSlope>
+      <PictureFiles>
+        <T_0 X="273" W="168" Y="69" H="106"/>
+        <T_1 X="312" W="55" Y="87" H="88"/>
+        <T_2 X="238" W="168" Y="68" H="106"/>
+        <T_3 X="312" W="55" Y="68" H="88"/>
+      </PictureFiles>
+    </Common>
+    <CommonAPP>
+      <Pen>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen>
+      <K>
+        <K1 Actid="1" Show="1" id="0" Motid="1"/>
+        <K2 Actid="2" Show="1" id="0" Motid="2"/>
+        <K3 Actid="3" Show="1" id="0" Motid="3"/>
+        <K4 Actid="4" Show="1" id="0" Motid="4"/>
+        <K5 Actid="6" Show="1" id="0" Motid="5"/>
+        <K6 Actid="21" Show="1" id="0" Motid="6"/>
+        <K7 Actid="22" Show="1" id="0" Motid="7"/>
+        <K8 Actid="101" Show="1" id="0" Motid="8"/>
+      </K>
+    </CommonAPP>
+    <Apps>
+      <app id="0" name="0">
+        <path/>
+        <Pen>
+          <PenBtn1 id="0"/>
+          <PenBtn2 id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen>
+        <K>
+          <K1 id="0"/>
+          <K2 id="0"/>
+          <K3 id="0"/>
+          <K4 id="0"/>
+          <K5 id="0"/>
+          <K6 id="0"/>
+          <K7 id="0"/>
+          <K8 id="0"/>
+        </K>
+      </app>
+    </Apps>
+  </Deco01V2>
+  <DecoProSW>
+    <DeviceInfo>
+      <DeviceRingNum>1</DeviceRingNum>
+      <DeviceKeyNum>8</DeviceKeyNum>
+      <DevicePenType>0</DevicePenType>
+      <DeviceTrackPad>1</DeviceTrackPad>
+      <DeviceControl>0</DeviceControl>
+    </DeviceInfo>
+    <Common>
+      <ScreenMapping id="0">
+        <SX>0</SX>
+        <SY>0</SY>
+        <SW>0</SW>
+        <SH>0</SH>
+      </ScreenMapping>
+      <TabletPannel Orientation="0">
+        <TX>0</TX>
+        <TY>0</TY>
+        <TW>0</TW>
+        <TH>0</TH>
+      </TabletPannel>
+      <DisableInfo>0</DisableInfo>
+      <DisableQuickKey>0</DisableQuickKey>
+      <DisablePressure>0</DisablePressure>
+      <DisableSlope>0</DisableSlope>
+      <PictureFiles>
+        <T_0 X="272" W="192" Y="67" H="110"/>
+        <T_1 X="312" W="57" Y="87" H="102"/>
+        <T_2 X="216" W="192" Y="67" H="110"/>
+        <T_3 X="312" W="57" Y="57" H="102"/>
+      </PictureFiles>
+    </Common>
+    <CommonAPP>
+      <Pen>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen>
+      <K>
+        <K1 Actid="1" Show="1" id="0" Motid="1"/>
+        <K2 Actid="2" Show="1" id="0" Motid="2"/>
+        <K3 Actid="3" Show="1" id="0" Motid="3"/>
+        <K4 Actid="4" Show="1" id="0" Motid="4"/>
+        <K5 Actid="5" Show="1" id="0" Motid="5"/>
+        <K6 Actid="6" Show="1" id="0" Motid="6"/>
+        <K7 Actid="101" Show="1" id="0" Motid="7"/>
+        <K8 Actid="105" Show="1" id="0" Motid="8"/>
+      </K>
+      <R id="0">
+        <W1 id="0"/>
+        <W2 id="0"/>
+        <W3 id="0"/>
+        <W4 id="0"/>
+      </R>
+      <TR mode="1" id="0">
+        <W1 id="0"/>
+        <W2 id="0"/>
+        <W3 id="0"/>
+        <W4 id="0"/>
+      </TR>
+    </CommonAPP>
+    <Apps>
+      <app id="0" name="0">
+        <path/>
+        <Pen>
+          <PenBtn1 id="0"/>
+          <PenBtn2 id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen>
+        <K>
+          <K1 id="0"/>
+          <K2 id="0"/>
+          <K3 id="0"/>
+          <K4 id="0"/>
+          <K5 id="0"/>
+          <K6 id="0"/>
+          <K7 id="0"/>
+          <K8 id="0"/>
+        </K>
+        <R id="0">
+          <W1 id="0"/>
+          <W2 id="0"/>
+          <W3 id="0"/>
+          <W4 id="0"/>
+        </R>
+        <TR mode="0" id="0">
+          <W1 id="0"/>
+          <W2 id="0"/>
+          <W3 id="0"/>
+          <W4 id="0"/>
+        </TR>
+      </app>
+    </Apps>
+  </DecoProSW>
+  <DecoProS>
+    <DeviceInfo>
+      <DeviceRingNum>1</DeviceRingNum>
+      <DeviceKeyNum>8</DeviceKeyNum>
+      <DevicePenType>0</DevicePenType>
+      <DeviceTrackPad>1</DeviceTrackPad>
+      <DeviceControl>1</DeviceControl>
+    </DeviceInfo>
+    <Common>
+      <ScreenMapping id="0">
+        <SX>0</SX>
+        <SY>0</SY>
+        <SW>0</SW>
+        <SH>0</SH>
+      </ScreenMapping>
+      <TabletPannel Orientation="0">
+        <TX>0</TX>
+        <TY>0</TY>
+        <TW>0</TW>
+        <TH>0</TH>
+      </TabletPannel>
+      <DisableInfo>0</DisableInfo>
+      <DisableQuickKey>0</DisableQuickKey>
+      <DisablePressure>0</DisablePressure>
+      <DisableSlope>0</DisableSlope>
+      <PictureFiles>
+        <T_0 X="272" W="192" Y="67" H="110"/>
+        <T_1 X="312" W="57" Y="87" H="102"/>
+        <T_2 X="216" W="192" Y="67" H="110"/>
+        <T_3 X="312" W="57" Y="57" H="102"/>
+      </PictureFiles>
+    </Common>
+    <CommonAPP>
+      <Pen>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen>
+      <K>
+        <K1 Actid="1" Show="1" id="0" Motid="1"/>
+        <K2 Actid="2" Show="1" id="0" Motid="2"/>
+        <K3 Actid="3" Show="1" id="0" Motid="3"/>
+        <K4 Actid="4" Show="1" id="0" Motid="4"/>
+        <K5 Actid="5" Show="1" id="0" Motid="5"/>
+        <K6 Actid="6" Show="1" id="0" Motid="6"/>
+        <K7 Actid="101" Show="1" id="0" Motid="7"/>
+        <K8 Actid="105" Show="1" id="0" Motid="8"/>
+      </K>
+      <R id="0">
+        <W1 id="0"/>
+        <W2 id="0"/>
+        <W3 id="0"/>
+        <W4 id="0"/>
+      </R>
+      <TR mode="1" id="0">
+        <W1 id="0"/>
+        <W2 id="0"/>
+        <W3 id="0"/>
+        <W4 id="0"/>
+      </TR>
+    </CommonAPP>
+    <Apps>
+      <app id="0" name="0">
+        <path/>
+        <Pen>
+          <PenBtn1 id="0"/>
+          <PenBtn2 id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen>
+        <K>
+          <K1 id="0"/>
+          <K2 id="0"/>
+          <K3 id="0"/>
+          <K4 id="0"/>
+          <K5 id="0"/>
+          <K6 id="0"/>
+          <K7 id="0"/>
+          <K8 id="0"/>
+        </K>
+        <R id="0">
+          <W1 id="0"/>
+          <W2 id="0"/>
+          <W3 id="0"/>
+          <W4 id="0"/>
+        </R>
+        <TR mode="0" id="0">
+          <W1 id="0"/>
+          <W2 id="0"/>
+          <W3 id="0"/>
+          <W4 id="0"/>
+        </TR>
+      </app>
+    </Apps>
+  </DecoProS>
+  <DecoProM>
+    <DeviceInfo>
+      <DeviceRingNum>1</DeviceRingNum>
+      <DeviceKeyNum>8</DeviceKeyNum>
+      <DevicePenType>0</DevicePenType>
+      <DeviceTrackPad>1</DeviceTrackPad>
+      <DeviceControl>1</DeviceControl>
+    </DeviceInfo>
+    <Common>
+      <ScreenMapping id="0">
+        <SX>0</SX>
+        <SY>0</SY>
+        <SW>0</SW>
+        <SH>0</SH>
+      </ScreenMapping>
+      <TabletPannel Orientation="0">
+        <TX>0</TX>
+        <TY>0</TY>
+        <TW>0</TW>
+        <TH>0</TH>
+      </TabletPannel>
+      <DisableInfo>0</DisableInfo>
+      <DisableQuickKey>0</DisableQuickKey>
+      <DisablePressure>0</DisablePressure>
+      <DisableSlope>0</DisableSlope>
+      <PictureFiles>
+        <T_0 X="272" W="192" Y="67" H="110"/>
+        <T_1 X="312" W="57" Y="87" H="102"/>
+        <T_2 X="216" W="192" Y="67" H="110"/>
+        <T_3 X="312" W="57" Y="57" H="102"/>
+      </PictureFiles>
+    </Common>
+    <CommonAPP>
+      <Pen>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen>
+      <K>
+        <K1 Actid="1" Show="1" id="0" Motid="1"/>
+        <K2 Actid="2" Show="1" id="0" Motid="2"/>
+        <K3 Actid="3" Show="1" id="0" Motid="3"/>
+        <K4 Actid="4" Show="1" id="0" Motid="4"/>
+        <K5 Actid="5" Show="1" id="0" Motid="5"/>
+        <K6 Actid="6" Show="1" id="0" Motid="6"/>
+        <K7 Actid="101" Show="1" id="0" Motid="7"/>
+        <K8 Actid="105" Show="1" id="0" Motid="8"/>
+      </K>
+      <R id="0">
+        <W1 id="0"/>
+        <W2 id="0"/>
+        <W3 id="0"/>
+        <W4 id="0"/>
+      </R>
+      <TR mode="1" id="0">
+        <W1 id="0"/>
+        <W2 id="0"/>
+        <W3 id="0"/>
+        <W4 id="0"/>
+      </TR>
+    </CommonAPP>
+    <Apps>
+      <app id="0" name="0">
+        <path/>
+        <Pen>
+          <PenBtn1 id="0"/>
+          <PenBtn2 id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen>
+        <K>
+          <K1 id="0"/>
+          <K2 id="0"/>
+          <K3 id="0"/>
+          <K4 id="0"/>
+          <K5 id="0"/>
+          <K6 id="0"/>
+          <K7 id="0"/>
+          <K8 id="0"/>
+        </K>
+        <R id="0">
+          <W1 id="0"/>
+          <W2 id="0"/>
+          <W3 id="0"/>
+          <W4 id="0"/>
+        </R>
+        <TR mode="0" id="0">
+          <W1 id="0"/>
+          <W2 id="0"/>
+          <W3 id="0"/>
+          <W4 id="0"/>
+        </TR>
+      </app>
+    </Apps>
+  </DecoProM>
+  <DecoProMW>
+    <DeviceInfo>
+      <DeviceRingNum>1</DeviceRingNum>
+      <DeviceKeyNum>8</DeviceKeyNum>
+      <DevicePenType>0</DevicePenType>
+      <DeviceTrackPad>1</DeviceTrackPad>
+      <DeviceControl>0</DeviceControl>
+    </DeviceInfo>
+    <Common>
+      <ScreenMapping id="0">
+        <SX>0</SX>
+        <SY>0</SY>
+        <SW>0</SW>
+        <SH>0</SH>
+      </ScreenMapping>
+      <TabletPannel Orientation="0">
+        <TX>0</TX>
+        <TY>0</TY>
+        <TW>0</TW>
+        <TH>0</TH>
+      </TabletPannel>
+      <DisableInfo>0</DisableInfo>
+      <DisableQuickKey>0</DisableQuickKey>
+      <DisablePressure>0</DisablePressure>
+      <DisableSlope>0</DisableSlope>
+      <PictureFiles>
+        <T_0 X="266" W="204" Y="66" H="113"/>
+        <T_1 X="311" W="58" Y="85" H="106"/>
+        <T_2 X="210" W="204" Y="66" H="113"/>
+        <T_3 X="311" W="58" Y="55" H="106"/>
+      </PictureFiles>
+    </Common>
+    <CommonAPP>
+      <Pen>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen>
+      <K>
+        <K1 Actid="1" Show="1" id="0" Motid="1"/>
+        <K2 Actid="2" Show="1" id="0" Motid="2"/>
+        <K3 Actid="3" Show="1" id="0" Motid="3"/>
+        <K4 Actid="4" Show="1" id="0" Motid="4"/>
+        <K5 Actid="5" Show="1" id="0" Motid="5"/>
+        <K6 Actid="6" Show="1" id="0" Motid="6"/>
+        <K7 Actid="101" Show="1" id="0" Motid="7"/>
+        <K8 Actid="105" Show="1" id="0" Motid="8"/>
+      </K>
+      <R id="0">
+        <W1 id="0"/>
+        <W2 id="0"/>
+        <W3 id="0"/>
+        <W4 id="0"/>
+      </R>
+      <TR mode="1" id="0">
+        <W1 id="0"/>
+        <W2 id="0"/>
+        <W3 id="0"/>
+        <W4 id="0"/>
+      </TR>
+    </CommonAPP>
+    <Apps>
+      <app id="0" name="0">
+        <path/>
+        <Pen>
+          <PenBtn1 id="0"/>
+          <PenBtn2 id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen>
+        <K>
+          <K1 id="0"/>
+          <K2 id="0"/>
+          <K3 id="0"/>
+          <K4 id="0"/>
+          <K5 id="0"/>
+          <K6 id="0"/>
+          <K7 id="0"/>
+          <K8 id="0"/>
+        </K>
+        <R id="0">
+          <W1 id="0"/>
+          <W2 id="0"/>
+          <W3 id="0"/>
+          <W4 id="0"/>
+        </R>
+        <TR mode="0" id="0">
+          <W1 id="0"/>
+          <W2 id="0"/>
+          <W3 id="0"/>
+          <W4 id="0"/>
+        </TR>
+      </app>
+    </Apps>
+  </DecoProMW>
+  <DecoMini4>
+    <DeviceInfo>
+      <DeviceRingNum>0</DeviceRingNum>
+      <DeviceKeyNum>6</DeviceKeyNum>
+      <DevicePenType>0</DevicePenType>
+      <DeviceTrackPad>0</DeviceTrackPad>
+      <DeviceControl>0</DeviceControl>
+    </DeviceInfo>
+    <Common>
+      <ScreenMapping id="0">
+        <SX>0</SX>
+        <SY>0</SY>
+        <SW>0</SW>
+        <SH>0</SH>
+      </ScreenMapping>
+      <TabletPannel Orientation="0">
+        <TX>0</TX>
+        <TY>0</TY>
+        <TW>0</TW>
+        <TH>0</TH>
+      </TabletPannel>
+      <DisableInfo>0</DisableInfo>
+      <DisableQuickKey>0</DisableQuickKey>
+      <DisablePressure>0</DisablePressure>
+      <DisableSlope>0</DisableSlope>
+      <PictureFiles>
+        <T_0 X="291" W="135" Y="70" H="102"/>
+        <T_1 X="313" W="53" Y="95" H="72"/>
+        <T_2 X="252" W="135" Y="70" H="102"/>
+        <T_3 X="313" W="53" Y="75" H="72"/>
+      </PictureFiles>
+    </Common>
+    <CommonAPP>
+      <Pen>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen>
+      <K>
+        <K1 Actid="1" Show="1" id="0" Motid="1"/>
+        <K2 Actid="2" Show="1" id="0" Motid="2"/>
+        <K3 Actid="6" Show="1" id="0" Motid="3"/>
+        <K4 Actid="21" Show="1" id="0" Motid="4"/>
+        <K5 Actid="22" Show="1" id="0" Motid="5"/>
+        <K6 Actid="101" Show="1" id="0" Motid="6"/>
+      </K>
+    </CommonAPP>
+    <Apps>
+      <app id="0" name="0">
+        <path/>
+        <Pen>
+          <PenBtn1 id="0"/>
+          <PenBtn2 id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen>
+        <K>
+          <K1 id="0"/>
+          <K2 id="0"/>
+          <K3 id="0"/>
+          <K4 id="0"/>
+          <K5 id="0"/>
+          <K6 id="0"/>
+        </K>
+      </app>
+    </Apps>
+  </DecoMini4>
+  <DecoMini7>
+    <DeviceInfo>
+      <DeviceRingNum>0</DeviceRingNum>
+      <DeviceKeyNum>8</DeviceKeyNum>
+      <DevicePenType>0</DevicePenType>
+      <DeviceTrackPad>0</DeviceTrackPad>
+      <DeviceControl>0</DeviceControl>
+    </DeviceInfo>
+    <Common>
+      <ScreenMapping id="0">
+        <SX>0</SX>
+        <SY>0</SY>
+        <SW>1920</SW>
+        <SH>1080</SH>
+      </ScreenMapping>
+      <TabletPannel Orientation="0">
+        <TX>0</TX>
+        <TY>0</TY>
+        <TW>700</TW>
+        <TH>437</TH>
+      </TabletPannel>
+      <DisableInfo>0</DisableInfo>
+      <DisableQuickKey>0</DisableQuickKey>
+      <DisablePressure>0</DisablePressure>
+      <DisableSlope>0</DisableSlope>
+      <PictureFiles>
+        <T_0 X="268" W="182" Y="67" H="114"/>
+        <T_1 X="310" W="59" Y="84" H="96"/>
+        <T_2 X="228" W="182" Y="65" H="114"/>
+        <T_3 X="310" W="59" Y="62" H="96"/>
+      </PictureFiles>
+    </Common>
+    <CommonAPP>
+      <Pen>
+        <PenBtn1 Actid="207" id="1">0|Middle click|8</PenBtn1>
+        <PenBtn2 Actid="209" id="1">3||3</PenBtn2>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+        <PenBtn0 Actid="27" id="0"/>
+      </Pen>
+      <K>
+        <K1 Actid="1" Show="1" id="1" Motid="1">3||4</K1>
+        <K2 Actid="2" Show="1" id="1" Motid="2">3|Shortcut keys|3</K2>
+        <K3 Actid="3" Show="1" id="1" Motid="3">1|Super+Ctrl+Right|Super+Ctrl+Right|0:133+29:37+106:114</K3>
+        <K4 Actid="4" Show="1" id="1" Motid="4">1|Ctrl+Super+Left|Ctrl+Super+Left|29:37+0:133+105:113</K4>
+        <K5 Actid="6" Show="1" id="0" Motid="5"/>
+        <K6 Actid="21" Show="1" id="0" Motid="6"/>
+        <K7 Actid="22" Show="1" id="0" Motid="7"/>
+        <K8 Actid="101" Show="1" id="0" Motid="8"/>
+      </K>
+    </CommonAPP>
+    <Apps>
+      <app id="0" name="0">
+        <path/>
+        <Pen>
+          <PenBtn1 id="0"/>
+          <PenBtn2 id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+          <PenBtn0 id="0"/>
+        </Pen>
+        <K>
+          <K1 id="0"/>
+          <K2 id="0"/>
+          <K3 id="0"/>
+          <K4 id="0"/>
+          <K5 id="0"/>
+          <K6 id="0"/>
+          <K7 id="0"/>
+          <K8 id="0"/>
+        </K>
+      </app>
+    </Apps>
+  </DecoMini7>
+  <BPU0610W-A>
+    <DeviceInfo>
+      <DeviceRingNum>0</DeviceRingNum>
+      <DeviceKeyNum>10</DeviceKeyNum>
+      <DevicePenType>2</DevicePenType>
+      <DeviceTrackPad>0</DeviceTrackPad>
+      <DeviceControl>0</DeviceControl>
+      <DeviceKeyDirection>1</DeviceKeyDirection>
+    </DeviceInfo>
+    <Common>
+      <ScreenMapping id="0">
+        <SX>0</SX>
+        <SY>0</SY>
+        <SW>0</SW>
+        <SH>0</SH>
+      </ScreenMapping>
+      <TabletPannel Orientation="0">
+        <TX>0</TX>
+        <TY>0</TY>
+        <TW>0</TW>
+        <TH>0</TH>
+      </TabletPannel>
+      <DisableInfo>0</DisableInfo>
+      <DisableQuickKey>0</DisableQuickKey>
+      <DisablePressure>0</DisablePressure>
+      <DisableSlope>0</DisableSlope>
+      <PictureFiles>
+        <T_0 X="256" W="166" Y="81" H="104"/>
+        <T_1 X="306" W="56" Y="77" H="88"/>
+        <T_2 X="256" W="166" Y="57" H="104"/>
+        <T_3 X="319" W="56" Y="77" H="88"/>
+      </PictureFiles>
+    </Common>
+    <CommonAPP>
+      <Pen>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen>
+      <K>
+        <K1 Actid="1" Show="1" id="0" Motid="1"/>
+        <K2 Actid="2" Show="1" id="0" Motid="2"/>
+        <K3 Actid="3" Show="1" id="0" Motid="3"/>
+        <K4 Actid="4" Show="1" id="0" Motid="4"/>
+        <K5 Actid="9" Show="1" id="0" Motid="5"/>
+        <K6 Actid="5" Show="1" id="0" Motid="6"/>
+        <K7 Actid="6" Show="1" id="0" Motid="7"/>
+        <K8 Actid="21" Show="1" id="0" Motid="8"/>
+        <K9 Actid="22" Show="1" id="0" Motid="9"/>
+        <K10 Actid="101" Show="1" id="0" Motid="10"/>
+      </K>
+    </CommonAPP>
+    <Apps>
+      <app id="0" name="0">
+        <path/>
+        <Pen>
+          <PenBtn1 id="0"/>
+          <PenBtn2 id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen>
+        <K>
+          <K1 id="0"/>
+          <K2 id="0"/>
+          <K3 id="0"/>
+          <K4 id="0"/>
+          <K5 id="0"/>
+          <K6 id="0"/>
+          <K7 id="0"/>
+          <K8 id="0"/>
+          <K9 id="0"/>
+          <K10 id="0"/>
+        </K>
+      </app>
+    </Apps>
+  </BPU0610W-A>
+  <BPG0611W-A>
+    <DeviceInfo>
+      <DeviceRingNum>0</DeviceRingNum>
+      <DeviceKeyNum>10</DeviceKeyNum>
+      <DevicePenType>0</DevicePenType>
+      <DeviceTrackPad>0</DeviceTrackPad>
+      <DeviceControl>0</DeviceControl>
+      <DeviceKeyDirection>1</DeviceKeyDirection>
+    </DeviceInfo>
+    <Common>
+      <ScreenMapping id="0">
+        <SX>0</SX>
+        <SY>0</SY>
+        <SW>0</SW>
+        <SH>0</SH>
+      </ScreenMapping>
+      <TabletPannel Orientation="0">
+        <TX>0</TX>
+        <TY>0</TY>
+        <TW>0</TW>
+        <TH>0</TH>
+      </TabletPannel>
+      <DisableInfo>0</DisableInfo>
+      <DisableQuickKey>0</DisableQuickKey>
+      <DisablePressure>0</DisablePressure>
+      <DisableSlope>0</DisableSlope>
+      <PictureFiles>
+        <T_0 X="369" W="89" Y="252" H="54"/>
+        <T_1 X="396" W="30" Y="251" H="48"/>
+        <T_2 X="369" W="89" Y="251" H="56"/>
+        <T_3 X="401" W="30" Y="250" H="48"/>
+      </PictureFiles>
+    </Common>
+    <CommonAPP>
+      <Pen>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen>
+      <K>
+        <K1 Actid="1" Show="1" id="0" Motid="1"/>
+        <K2 Actid="2" Show="1" id="0" Motid="2"/>
+        <K3 Actid="3" Show="1" id="0" Motid="3"/>
+        <K4 Actid="4" Show="1" id="0" Motid="4"/>
+        <K5 Actid="9" Show="1" id="0" Motid="5"/>
+        <K6 Actid="5" Show="1" id="0" Motid="6"/>
+        <K7 Actid="6" Show="1" id="0" Motid="7"/>
+        <K8 Actid="21" Show="1" id="0" Motid="8"/>
+        <K9 Actid="22" Show="1" id="0" Motid="9"/>
+        <K10 Actid="101" Show="1" id="0" Motid="10"/>
+      </K>
+    </CommonAPP>
+    <Apps>
+      <app id="0" name="0">
+        <path/>
+        <Pen>
+          <PenBtn1 id="0"/>
+          <PenBtn2 id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen>
+        <K>
+          <K1 id="0"/>
+          <K2 id="0"/>
+          <K3 id="0"/>
+          <K4 id="0"/>
+          <K5 id="0"/>
+          <K6 id="0"/>
+          <K7 id="0"/>
+          <K8 id="0"/>
+          <K9 id="0"/>
+          <K10 id="0"/>
+        </K>
+      </app>
+    </Apps>
+  </BPG0611W-A>
+  <BPU0410L-B>
+    <DeviceInfo>
+      <DeviceRingNum>0</DeviceRingNum>
+      <DeviceKeyNum>8</DeviceKeyNum>
+      <DevicePenType>2</DevicePenType>
+      <DeviceTrackPad>0</DeviceTrackPad>
+      <DeviceControl>0</DeviceControl>
+      <DeviceKeyDirection>1</DeviceKeyDirection>
+    </DeviceInfo>
+    <Common>
+      <ScreenMapping id="0">
+        <SX>0</SX>
+        <SY>0</SY>
+        <SW>0</SW>
+        <SH>0</SH>
+      </ScreenMapping>
+      <TabletPannel Orientation="0">
+        <TX>0</TX>
+        <TY>0</TY>
+        <TW>0</TW>
+        <TH>0</TH>
+      </TabletPannel>
+      <DisableInfo>0</DisableInfo>
+      <DisableQuickKey>0</DisableQuickKey>
+      <DisablePressure>0</DisablePressure>
+      <DisableSlope>0</DisableSlope>
+      <PictureFiles>
+        <T_0 X="265" W="148" Y="88" H="92"/>
+        <T_1 X="308" W="48" Y="82" H="78"/>
+        <T_2 X="265" W="148" Y="61" H="92"/>
+        <T_3 X="322" W="48" Y="82" H="78"/>
+      </PictureFiles>
+    </Common>
+    <CommonAPP>
+      <Pen>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen>
+      <K>
+        <K1 Actid="1" Show="1" id="0" Motid="1"/>
+        <K2 Actid="2" Show="1" id="0" Motid="2"/>
+        <K3 Actid="3" Show="1" id="0" Motid="3"/>
+        <K4 Actid="4" Show="1" id="0" Motid="4"/>
+        <K5 Actid="6" Show="1" id="0" Motid="5"/>
+        <K6 Actid="21" Show="1" id="0" Motid="6"/>
+        <K7 Actid="22" Show="1" id="0" Motid="7"/>
+        <K8 Actid="101" Show="1" id="0" Motid="8"/>
+      </K>
+    </CommonAPP>
+    <Apps>
+      <app id="0" name="0">
+        <path/>
+        <Pen>
+          <PenBtn1 id="0"/>
+          <PenBtn2 id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen>
+        <K>
+          <K1 id="0"/>
+          <K2 id="0"/>
+          <K3 id="0"/>
+          <K4 id="0"/>
+          <K5 id="0"/>
+          <K6 id="0"/>
+          <K7 id="0"/>
+          <K8 id="0"/>
+        </K>
+      </app>
+    </Apps>
+  </BPU0410L-B>
+  <BPU1010W-B>
+    <DeviceInfo>
+      <DeviceRingNum>0</DeviceRingNum>
+      <DeviceKeyNum>12</DeviceKeyNum>
+      <DevicePenType>2</DevicePenType>
+      <DeviceTrackPad>0</DeviceTrackPad>
+      <DeviceControl>0</DeviceControl>
+      <DeviceKeyDirection>1</DeviceKeyDirection>
+    </DeviceInfo>
+    <Common>
+      <ScreenMapping id="0">
+        <SX>0</SX>
+        <SY>0</SY>
+        <SW>0</SW>
+        <SH>0</SH>
+      </ScreenMapping>
+      <TabletPannel Orientation="0">
+        <TX>0</TX>
+        <TY>0</TY>
+        <TW>0</TW>
+        <TH>0</TH>
+      </TabletPannel>
+      <DisableInfo>0</DisableInfo>
+      <DisableQuickKey>0</DisableQuickKey>
+      <DisablePressure>0</DisablePressure>
+      <DisableSlope>0</DisableSlope>
+      <PictureFiles>
+        <T_0 X="248" W="182" Y="73" H="114"/>
+        <T_1 X="305" W="59" Y="73" H="97"/>
+        <T_2 X="248" W="182" Y="56" H="114"/>
+        <T_3 X="314" W="59" Y="73" H="97"/>
+      </PictureFiles>
+    </Common>
+    <CommonAPP>
+      <Pen>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen>
+      <K>
+        <K1 Actid="1" Show="1" id="0" Motid="1"/>
+        <K2 Actid="2" Show="1" id="0" Motid="2"/>
+        <K3 Actid="3" Show="1" id="0" Motid="3"/>
+        <K4 Actid="4" Show="1" id="0" Motid="4"/>
+        <K5 Actid="5" Show="1" id="0" Motid="5"/>
+        <K6 Actid="6" Show="1" id="0" Motid="6"/>
+        <K7 Actid="21" Show="1" id="0" Motid="7"/>
+        <K8 Actid="22" Show="1" id="0" Motid="8"/>
+        <K9 Actid="101" Show="1" id="0" Motid="9"/>
+        <K10 Actid="102" Show="1" id="0" Motid="10"/>
+        <K11 Actid="9" Show="1" id="0" Motid="11"/>
+        <K12 Actid="11" Show="1" id="0" Motid="12"/>
+      </K>
+    </CommonAPP>
+    <Apps>
+      <app id="0" name="0">
+        <path/>
+        <Pen>
+          <PenBtn1 id="0"/>
+          <PenBtn2 id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen>
+        <K>
+          <K1 id="0"/>
+          <K2 id="0"/>
+          <K3 id="0"/>
+          <K4 id="0"/>
+          <K5 id="0"/>
+          <K6 id="0"/>
+          <K7 id="0"/>
+          <K8 id="0"/>
+          <K9 id="0"/>
+          <K10 id="0"/>
+          <K11 id="0"/>
+          <K12 id="0"/>
+        </K>
+      </app>
+    </Apps>
+  </BPU1010W-B>
+  <BPG0611W-B>
+    <DeviceInfo>
+      <DeviceRingNum>0</DeviceRingNum>
+      <DeviceKeyNum>12</DeviceKeyNum>
+      <DevicePenType>0</DevicePenType>
+      <DeviceTrackPad>0</DeviceTrackPad>
+      <DeviceControl>0</DeviceControl>
+      <DeviceKeyDirection>1</DeviceKeyDirection>
+    </DeviceInfo>
+    <Common>
+      <ScreenMapping id="0">
+        <SX>0</SX>
+        <SY>0</SY>
+        <SW>0</SW>
+        <SH>0</SH>
+      </ScreenMapping>
+      <TabletPannel Orientation="0">
+        <TX>0</TX>
+        <TY>0</TY>
+        <TW>0</TW>
+        <TH>0</TH>
+      </TabletPannel>
+      <DisableInfo>0</DisableInfo>
+      <DisableQuickKey>0</DisableQuickKey>
+      <DisablePressure>0</DisablePressure>
+      <DisableSlope>0</DisableSlope>
+      <PictureFiles>
+        <T_0 X="364" W="102" Y="247" H="64"/>
+        <T_1 X="394" W="35" Y="246" H="56"/>
+        <T_2 X="361" W="102" Y="248" H="64"/>
+        <T_3 X="398" W="35" Y="245" H="56"/>
+      </PictureFiles>
+    </Common>
+    <CommonAPP>
+      <Pen>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen>
+      <K>
+        <K1 Actid="1" Show="1" id="0" Motid="1"/>
+        <K2 Actid="2" Show="1" id="0" Motid="2"/>
+        <K3 Actid="3" Show="1" id="0" Motid="3"/>
+        <K4 Actid="4" Show="1" id="0" Motid="4"/>
+        <K5 Actid="5" Show="1" id="0" Motid="5"/>
+        <K6 Actid="6" Show="1" id="0" Motid="6"/>
+        <K7 Actid="21" Show="1" id="0" Motid="7"/>
+        <K8 Actid="22" Show="1" id="0" Motid="8"/>
+        <K9 Actid="101" Show="1" id="0" Motid="9"/>
+        <K10 Actid="102" Show="1" id="0" Motid="10"/>
+        <K11 Actid="9" Show="1" id="0" Motid="11"/>
+        <K12 Actid="11" Show="1" id="0" Motid="12"/>
+      </K>
+    </CommonAPP>
+    <Apps>
+      <app id="0" name="0">
+        <path/>
+        <Pen>
+          <PenBtn1 id="0"/>
+          <PenBtn2 id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen>
+        <K>
+          <K1 id="0"/>
+          <K2 id="0"/>
+          <K3 id="0"/>
+          <K4 id="0"/>
+          <K5 id="0"/>
+          <K6 id="0"/>
+          <K7 id="0"/>
+          <K8 id="0"/>
+          <K9 id="0"/>
+          <K10 id="0"/>
+          <K11 id="0"/>
+          <K12 id="0"/>
+        </K>
+      </app>
+    </Apps>
+  </BPG0611W-B>
+  <LPU1505F>
+    <DeviceInfo>
+      <DeviceRingNum>2</DeviceRingNum>
+      <DeviceKeyNum>8</DeviceKeyNum>
+      <DevicePenType>1</DevicePenType>
+      <DeviceTrackPad>0</DeviceTrackPad>
+      <DeviceControl>0</DeviceControl>
+    </DeviceInfo>
+    <Common>
+      <ScreenMapping id="0">
+        <SX>0</SX>
+        <SY>0</SY>
+        <SW>0</SW>
+        <SH>0</SH>
+      </ScreenMapping>
+      <TabletPannel Orientation="0">
+        <TX>0</TX>
+        <TY>0</TY>
+        <TW>0</TW>
+        <TH>0</TH>
+      </TabletPannel>
+      <DisableInfo>0</DisableInfo>
+      <DisableQuickKey>0</DisableQuickKey>
+      <DisablePressure>0</DisablePressure>
+      <DisableSlope>0</DisableSlope>
+      <PictureFiles>
+        <T_0 X="245" W="223" Y="62" H="127"/>
+        <T_1 X="304" W="71" Y="65" H="127"/>
+        <T_2 X="217" W="223" Y="59" H="127"/>
+        <T_3 X="304" W="71" Y="50" H="127"/>
+      </PictureFiles>
+      <SC fYLC="1" fKX="1" fKY="1" fXLC="1"/>
+    </Common>
+    <CommonAPP>
+      <Pen>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen>
+      <K>
+        <K1 Actid="1" Show="1" id="0" Motid="1"/>
+        <K2 Actid="2" Show="1" id="0" Motid="2"/>
+        <K3 Actid="3" Show="1" id="0" Motid="3"/>
+        <K4 Actid="4" Show="1" id="0" Motid="4"/>
+        <K5 Actid="5" Show="1" id="0" Motid="5"/>
+        <K6 Actid="6" Show="1" id="0" Motid="6"/>
+        <K7 Actid="101" Show="1" id="0" Motid="7"/>
+        <K8 Actid="105" Show="1" id="0" Motid="8"/>
+      </K>
+      <R id="0">
+        <W1 id="0"/>
+        <W2 id="0"/>
+        <W3 id="0"/>
+        <W4 id="0"/>
+      </R>
+      <TR mode="0" id="0">
+        <W1 id="0"/>
+        <W2 id="0"/>
+        <W3 id="0"/>
+        <W4 id="0"/>
+      </TR>
+    </CommonAPP>
+    <Apps>
+      <app id="0" name="0">
+        <path/>
+        <Pen>
+          <PenBtn1 id="0"/>
+          <PenBtn2 id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen>
+        <K>
+          <K1 id="0"/>
+          <K2 id="0"/>
+          <K3 id="0"/>
+          <K4 id="0"/>
+          <K5 id="0"/>
+          <K6 id="0"/>
+          <K7 id="0"/>
+          <K8 id="0"/>
+        </K>
+        <R id="0">
+          <W1 id="0"/>
+          <W2 id="0"/>
+          <W3 id="0"/>
+          <W4 id="0"/>
+        </R>
+        <TR mode="0" id="0">
+          <W1 id="0"/>
+          <W2 id="0"/>
+          <W3 id="0"/>
+          <W4 id="0"/>
+        </TR>
+      </app>
+    </Apps>
+  </LPU1505F>
+  <LPU1506U>
+    <DeviceInfo>
+      <DeviceRingNum>0</DeviceRingNum>
+      <DeviceKeyNum>0</DeviceKeyNum>
+      <DevicePenType>4</DevicePenType>
+      <DeviceTrackPad>0</DeviceTrackPad>
+      <DeviceControl>0</DeviceControl>
+    </DeviceInfo>
+    <Common>
+      <ScreenMapping id="0">
+        <SX>0</SX>
+        <SY>0</SY>
+        <SW>0</SW>
+        <SH>0</SH>
+      </ScreenMapping>
+      <TabletPannel Orientation="0">
+        <TX>0</TX>
+        <TY>0</TY>
+        <TW>0</TW>
+        <TH>0</TH>
+      </TabletPannel>
+      <DisableInfo>0</DisableInfo>
+      <DisableQuickKey>0</DisableQuickKey>
+      <DisablePressure>0</DisablePressure>
+      <DisableSlope>0</DisableSlope>
+      <PictureFiles>
+        <T_0 X="236" W="214" Y="65" H="120"/>
+        <T_1 X="310" W="69" Y="65" H="120"/>
+        <T_2 X="236" W="214" Y="65" H="120"/>
+        <T_3 X="306" W="69" Y="65" H="120"/>
+      </PictureFiles>
+      <SC fYLC="1" fKX="1" fKY="1" fXLC="1"/>
+    </Common>
+    <CommonAPP>
+      <Pen>
+        <PenBtn1 Actid="207" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen>
+    </CommonAPP>
+    <Apps>
+      <app id="0" name="0">
+        <path/>
+        <Pen>
+          <PenBtn1 id="0"/>
+          <PenBtn2 id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen>
+      </app>
+    </Apps>
+  </LPU1506U>
+  <P16Pro8K>
+    <DeviceInfo>
+      <DeviceRingNum>0</DeviceRingNum>
+      <DeviceKeyNum>8</DeviceKeyNum>
+      <DevicePenType>0</DevicePenType>
+    </DeviceInfo>
+    <Common>
+      <ScreenMapping id="0">
+        <SX>0</SX>
+        <SY>0</SY>
+        <SW>0</SW>
+        <SH>0</SH>
+      </ScreenMapping>
+      <TabletPannel Orientation="0">
+        <TX>0</TX>
+        <TY>0</TY>
+        <TW>0</TW>
+        <TH>0</TH>
+      </TabletPannel>
+      <DisableInfo>0</DisableInfo>
+      <DisableQuickKey>0</DisableQuickKey>
+      <DisablePressure>0</DisablePressure>
+      <DisableSlope>0</DisableSlope>
+      <PictureFiles>
+        <T_0 X="249" W="191" Y="71" H="108"/>
+        <T_1 X="310" W="57" Y="73" H="100"/>
+        <T_2 X="241" W="191" Y="66" H="108"/>
+        <T_3 X="312" W="57" Y="69" H="100"/>
+      </PictureFiles>
+      <SC fYLC="1" fKX="1" fKY="1" fXLC="1"/>
+    </Common>
+    <CommonAPP>
+      <Pen>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen>
+      <K>
+        <K1 Actid="1" Show="1" id="0" Motid="1"/>
+        <K2 Actid="2" Show="1" id="0" Motid="2"/>
+        <K3 Actid="3" Show="1" id="0" Motid="3"/>
+        <K4 Actid="4" Show="1" id="0" Motid="4"/>
+        <K5 Actid="6" Show="1" id="0" Motid="5"/>
+        <K6 Actid="21" Show="1" id="0" Motid="6"/>
+        <K7 Actid="22" Show="1" id="0" Motid="7"/>
+        <K8 Actid="101" Show="1" id="0" Motid="8"/>
+      </K>
+    </CommonAPP>
+    <Apps>
+      <app id="0" name="0">
+        <path/>
+        <Pen>
+          <PenBtn1 id="0"/>
+          <PenBtn2 id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen>
+        <K>
+          <K1 id="0"/>
+          <K2 id="0"/>
+          <K3 id="0"/>
+          <K4 id="0"/>
+          <K5 id="0"/>
+          <K6 id="0"/>
+          <K7 id="0"/>
+          <K8 id="0"/>
+        </K>
+      </app>
+    </Apps>
+  </P16Pro8K>
+  <LPU2210F-A>
+    <DeviceInfo>
+      <DeviceRingNum>0</DeviceRingNum>
+      <DeviceKeyNum>0</DeviceKeyNum>
+      <DevicePenType>1</DevicePenType>
+      <DeviceTrackPad>0</DeviceTrackPad>
+      <DeviceControl>0</DeviceControl>
+    </DeviceInfo>
+    <Common>
+      <ScreenMapping id="0">
+        <SX>0</SX>
+        <SY>0</SY>
+        <SW>0</SW>
+        <SH>0</SH>
+      </ScreenMapping>
+      <TabletPannel Orientation="0">
+        <TX>0</TX>
+        <TY>0</TY>
+        <TW>0</TW>
+        <TH>0</TH>
+      </TabletPannel>
+      <DisableInfo>0</DisableInfo>
+      <DisableQuickKey>0</DisableQuickKey>
+      <DisablePressure>0</DisablePressure>
+      <DisableSlope>0</DisableSlope>
+      <PictureFiles>
+        <T_0 X="240" W="197" Y="66" H="110"/>
+        <T_1 X="313" W="58" Y="74" H="103"/>
+        <T_2 X="240" W="197" Y="66" H="110"/>
+        <T_3 X="313" W="58" Y="72" H="103"/>
+      </PictureFiles>
+      <SC fYLC="1" fKX="1" fKY="1" fXLC="1"/>
+    </Common>
+    <CommonAPP>
+      <Pen>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen>
+    </CommonAPP>
+    <Apps>
+      <app id="0" name="0">
+        <path/>
+        <Pen>
+          <PenBtn1 id="0"/>
+          <PenBtn2 id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen>
+      </app>
+    </Apps>
+  </LPU2210F-A>
+  <P24RPro20K2W>
+    <DeviceInfo>
+      <DeviceRingNum>2</DeviceRingNum>
+      <DeviceKeyNum>20</DeviceKeyNum>
+      <DevicePenType>0</DevicePenType>
+      <DeviceTrackPad>0</DeviceTrackPad>
+      <DeviceControl>0</DeviceControl>
+    </DeviceInfo>
+    <Common>
+      <ScreenMapping id="0">
+        <SX>0</SX>
+        <SY>0</SY>
+        <SW>0</SW>
+        <SH>0</SH>
+      </ScreenMapping>
+      <TabletPannel Orientation="0">
+        <TX>0</TX>
+        <TY>0</TY>
+        <TW>0</TW>
+        <TH>0</TH>
+      </TabletPannel>
+      <DisableInfo>0</DisableInfo>
+      <DisableQuickKey>0</DisableQuickKey>
+      <DisablePressure>0</DisablePressure>
+      <DisableSlope>0</DisableSlope>
+      <PictureFiles>
+        <T_0 X="228" W="212" Y="58" H="120"/>
+        <T_1 X="311" W="64" Y="65" H="114"/>
+        <T_2 X="237" W="212" Y="64" H="120"/>
+        <T_3 X="307" W="64" Y="65" H="114"/>
+      </PictureFiles>
+      <SC fYLC="1" fKX="1" fKY="1" fXLC="1"/>
+    </Common>
+    <CommonAPP>
+      <Pen>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen>
+      <K>
+        <K1 Actid="1" Show="1" id="0" Motid="1"/>
+        <K2 Actid="2" Show="1" id="0" Motid="2"/>
+        <K3 Actid="3" Show="1" id="0" Motid="3"/>
+        <K4 Actid="4" Show="1" id="0" Motid="4"/>
+        <K5 Actid="5" Show="1" id="0" Motid="5"/>
+        <K6 Actid="6" Show="1" id="0" Motid="6"/>
+        <K7 Actid="7" Show="1" id="0" Motid="7"/>
+        <K8 Actid="8" Show="1" id="0" Motid="8"/>
+        <K9 Actid="101" Show="1" id="0" Motid="9"/>
+        <K10 Actid="105" Show="1" id="0" Motid="10"/>
+        <K11 Actid="102" Show="1" id="0" Motid="11"/>
+        <K12 Actid="9" Show="1" id="0" Motid="12"/>
+        <K13 Actid="10" Show="1" id="0" Motid="13"/>
+        <K14 Actid="11" Show="1" id="0" Motid="14"/>
+        <K15 Actid="12" Show="1" id="0" Motid="15"/>
+        <K16 Actid="13" Show="1" id="0" Motid="16"/>
+        <K17 Actid="14" Show="1" id="0" Motid="17"/>
+        <K18 Actid="15" Show="1" id="0" Motid="18"/>
+        <K19 Actid="19" Show="1" id="0" Motid="19"/>
+        <K20 Actid="20" Show="1" id="0" Motid="20"/>
+      </K>
+      <R id="0">
+        <W1 id="0"/>
+        <W2 id="0"/>
+        <W3 id="0"/>
+        <W4 id="0"/>
+      </R>
+      <R2 mode="0">
+        <W1 id="0"/>
+        <W2 id="0"/>
+        <W3 id="0"/>
+        <W4 id="0"/>
+      </R2>
+    </CommonAPP>
+    <Apps>
+      <app id="0" name="0">
+        <path/>
+        <Pen>
+          <PenBtn1 id="0"/>
+          <PenBtn2 id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen>
+        <K>
+          <K1 id="0"/>
+          <K2 id="0"/>
+          <K3 id="0"/>
+          <K4 id="0"/>
+          <K5 id="0"/>
+          <K6 id="0"/>
+          <K7 id="0"/>
+          <K8 id="0"/>
+          <K9 id="0"/>
+          <K10 id="0"/>
+          <K11 id="0"/>
+          <K12 id="0"/>
+          <K13 id="0"/>
+          <K14 id="0"/>
+          <K15 id="0"/>
+          <K16 id="0"/>
+          <K17 id="0"/>
+          <K18 id="0"/>
+          <K19 id="0"/>
+          <K20 id="0"/>
+        </K>
+        <R id="0">
+          <W1 id="0"/>
+          <W2 id="0"/>
+          <W3 id="0"/>
+          <W4 id="0"/>
+        </R>
+        <R2 mode="0">
+          <W1 id="0"/>
+          <W2 id="0"/>
+          <W3 id="0"/>
+          <W4 id="0"/>
+        </R2>
+      </app>
+    </Apps>
+  </P24RPro20K2W>
+  <P1315Pro8K1W>
+    <DeviceInfo>
+      <DeviceRingNum>1</DeviceRingNum>
+      <DeviceKeyNum>8</DeviceKeyNum>
+      <DevicePenType>0</DevicePenType>
+      <DeviceTrackPad>0</DeviceTrackPad>
+      <DeviceControl>0</DeviceControl>
+    </DeviceInfo>
+    <Common>
+      <ScreenMapping id="0">
+        <SX>0</SX>
+        <SY>0</SY>
+        <SW>0</SW>
+        <SH>0</SH>
+      </ScreenMapping>
+      <TabletPannel Orientation="0">
+        <TX>0</TX>
+        <TY>0</TY>
+        <TW>0</TW>
+        <TH>0</TH>
+      </TabletPannel>
+      <DisableInfo>0</DisableInfo>
+      <DisableQuickKey>0</DisableQuickKey>
+      <DisablePressure>0</DisablePressure>
+      <DisableSlope>0</DisableSlope>
+      <PictureFiles>
+        <T_0 X="257" W="175" Y="74" H="100"/>
+        <T_1 X="316" W="52" Y="78" H="94"/>
+        <T_2 X="252" W="175" Y="74" H="100"/>
+        <T_3 X="316" W="52" Y="76" H="94"/>
+      </PictureFiles>
+      <SC fYLC="1" fKX="1" fKY="1" fXLC="1"/>
+    </Common>
+    <CommonAPP>
+      <Pen>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen>
+      <K>
+        <K1 Actid="1" Show="1" id="0" Motid="1"/>
+        <K2 Actid="2" Show="1" id="0" Motid="2"/>
+        <K3 Actid="3" Show="1" id="0" Motid="3"/>
+        <K4 Actid="4" Show="1" id="0" Motid="4"/>
+        <K5 Actid="5" Show="1" id="0" Motid="5"/>
+        <K6 Actid="6" Show="1" id="0" Motid="6"/>
+        <K7 Actid="101" Show="1" id="0" Motid="7"/>
+        <K8 Actid="105" Show="1" id="0" Motid="8"/>
+      </K>
+      <R id="0">
+        <W1 id="0"/>
+        <W2 id="0"/>
+        <W3 id="0"/>
+        <W4 id="0"/>
+      </R>
+    </CommonAPP>
+    <Apps>
+      <app id="0" name="0">
+        <path/>
+        <Pen>
+          <PenBtn1 id="0"/>
+          <PenBtn2 id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen>
+        <K>
+          <K1 id="0"/>
+          <K2 id="0"/>
+          <K3 id="0"/>
+          <K4 id="0"/>
+          <K5 id="0"/>
+          <K6 id="0"/>
+          <K7 id="0"/>
+          <K8 id="0"/>
+        </K>
+        <R id="0">
+          <W1 id="0"/>
+          <W2 id="0"/>
+          <W3 id="0"/>
+          <W4 id="0"/>
+        </R>
+      </app>
+    </Apps>
+  </P1315Pro8K1W>
+  <P22Pro>
+    <DeviceInfo>
+      <DeviceRingNum>0</DeviceRingNum>
+      <DeviceKeyNum>0</DeviceKeyNum>
+      <DevicePenType>0</DevicePenType>
+      <DeviceTrackPad>0</DeviceTrackPad>
+      <DeviceControl>0</DeviceControl>
+    </DeviceInfo>
+    <Common>
+      <ScreenMapping id="0">
+        <SX>0</SX>
+        <SY>0</SY>
+        <SW>0</SW>
+        <SH>0</SH>
+      </ScreenMapping>
+      <TabletPannel Orientation="0">
+        <TX>0</TX>
+        <TY>0</TY>
+        <TW>0</TW>
+        <TH>0</TH>
+      </TabletPannel>
+      <DisableInfo>0</DisableInfo>
+      <DisableQuickKey>0</DisableQuickKey>
+      <DisablePressure>0</DisablePressure>
+      <DisableSlope>0</DisableSlope>
+      <PictureFiles>
+        <T_0 X="220" W="235" Y="54" H="118"/>
+        <T_1 X="310" W="65" Y="59" H="125"/>
+        <T_2 X="220" W="235" Y="70" H="118"/>
+        <T_3 X="305" W="65" Y="59" H="125"/>
+      </PictureFiles>
+      <SC fYLC="1" fKX="1" fKY="1" fXLC="1"/>
+    </Common>
+    <CommonAPP>
+      <Pen>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen>
+    </CommonAPP>
+    <Apps>
+      <app id="0" name="0">
+        <path/>
+        <Pen>
+          <PenBtn1 id="0"/>
+          <PenBtn2 id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen>
+      </app>
+    </Apps>
+  </P22Pro>
+  <P126K1W>
+    <DeviceInfo>
+      <DeviceRingNum>1</DeviceRingNum>
+      <DeviceKeyNum>6</DeviceKeyNum>
+      <DevicePenType>4</DevicePenType>
+      <DeviceTrackPad>0</DeviceTrackPad>
+      <DeviceControl>0</DeviceControl>
+    </DeviceInfo>
+    <Common>
+      <ScreenMapping id="0">
+        <SX>0</SX>
+        <SY>0</SY>
+        <SW>0</SW>
+        <SH>0</SH>
+      </ScreenMapping>
+      <TabletPannel Orientation="0">
+        <TX>0</TX>
+        <TY>0</TY>
+        <TW>0</TW>
+        <TH>0</TH>
+      </TabletPannel>
+      <DisableInfo>0</DisableInfo>
+      <DisableQuickKey>0</DisableQuickKey>
+      <DisablePressure>0</DisablePressure>
+      <DisableSlope>0</DisableSlope>
+      <PictureFiles>
+        <T_0 X="265" W="174" Y="71" H="100"/>
+        <T_1 X="313" W="55" Y="83" H="96"/>
+        <T_2 X="232" W="174" Y="71" H="100"/>
+        <T_3 X="313" W="55" Y="64" H="96"/>
+      </PictureFiles>
+      <SC fYLC="1" fKX="1" fKY="1" fXLC="1"/>
+    </Common>
+    <CommonAPP>
+      <Pen>
+        <PenBtn1 Actid="207" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen>
+      <K>
+        <K1 Actid="1" Show="1" id="0" Motid="1"/>
+        <K2 Actid="2" Show="1" id="0" Motid="2"/>
+        <K3 Actid="3" Show="1" id="0" Motid="3"/>
+        <K4 Actid="6" Show="1" id="0" Motid="4"/>
+        <K5 Actid="101" Show="1" id="0" Motid="5"/>
+        <K6 Actid="105" Show="1" id="0" Motid="6"/>
+      </K>
+      <R id="0">
+        <W1 id="0"/>
+        <W2 id="0"/>
+        <W3 id="0"/>
+        <W4 id="0"/>
+      </R>
+    </CommonAPP>
+    <Apps>
+      <app id="0" name="0">
+        <path/>
+        <Pen>
+          <PenBtn1 id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen>
+        <K>
+          <K1 id="0"/>
+          <K2 id="0"/>
+          <K3 id="0"/>
+          <K4 id="0"/>
+          <K5 id="0"/>
+          <K6 id="0"/>
+        </K>
+        <R id="0">
+          <W1 id="0"/>
+          <W2 id="0"/>
+          <W3 id="0"/>
+          <W4 id="0"/>
+        </R>
+      </app>
+    </Apps>
+  </P126K1W>
+  <P22EPro16K>
+    <DeviceInfo>
+      <DeviceRingNum>0</DeviceRingNum>
+      <DeviceKeyNum>16</DeviceKeyNum>
+      <DevicePenType>0</DevicePenType>
+      <DeviceTrackPad>0</DeviceTrackPad>
+      <DeviceControl>0</DeviceControl>
+    </DeviceInfo>
+    <Common>
+      <ScreenMapping id="0">
+        <SX>0</SX>
+        <SY>0</SY>
+        <SW>0</SW>
+        <SH>0</SH>
+      </ScreenMapping>
+      <TabletPannel Orientation="0">
+        <TX>0</TX>
+        <TY>0</TY>
+        <TW>0</TW>
+        <TH>0</TH>
+      </TabletPannel>
+      <DisableInfo>0</DisableInfo>
+      <DisableQuickKey>0</DisableQuickKey>
+      <DisablePressure>0</DisablePressure>
+      <DisableSlope>0</DisableSlope>
+      <PictureFiles>
+        <T_0 X="225" W="222" Y="51" H="127"/>
+        <T_1 X="308" W="66" Y="62" H="120"/>
+        <T_2 X="228" W="222" Y="62" H="127"/>
+        <T_3 X="303" W="66" Y="62" H="120"/>
+      </PictureFiles>
+      <SC fYLC="1" fKX="1" fKY="1" fXLC="1"/>
+    </Common>
+    <CommonAPP>
+      <Pen>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen>
+      <K>
+        <K1 Actid="1" Show="1" id="0" Motid="1"/>
+        <K2 Actid="2" Show="1" id="0" Motid="2"/>
+        <K3 Actid="3" Show="1" id="0" Motid="3"/>
+        <K4 Actid="4" Show="1" id="0" Motid="4"/>
+        <K5 Actid="5" Show="1" id="0" Motid="5"/>
+        <K6 Actid="6" Show="1" id="0" Motid="6"/>
+        <K7 Actid="21" Show="1" id="0" Motid="7"/>
+        <K8 Actid="22" Show="1" id="0" Motid="8"/>
+        <K9 Actid="101" Show="1" id="0" Motid="9"/>
+        <K10 Actid="102" Show="1" id="0" Motid="10"/>
+        <K11 Actid="9" Show="1" id="0" Motid="11"/>
+        <K12 Actid="11" Show="1" id="0" Motid="12"/>
+        <K13 Actid="12" Show="1" id="0" Motid="13"/>
+        <K14 Actid="13" Show="1" id="0" Motid="14"/>
+        <K15 Actid="25" Show="1" id="0" Motid="15"/>
+        <K16 Actid="26" Show="1" id="0" Motid="16"/>
+      </K>
+      <PR id="0">
+        <W1 id="0"/>
+        <W2 id="0"/>
+        <W3 id="0"/>
+        <W4 id="0"/>
+      </PR>
+    </CommonAPP>
+    <Apps>
+      <app id="0" name="0">
+        <path/>
+        <Pen>
+          <PenBtn1 id="0"/>
+          <PenBtn2 id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen>
+        <K>
+          <K1 id="0"/>
+          <K2 id="0"/>
+          <K3 id="0"/>
+          <K4 id="0"/>
+          <K5 id="0"/>
+          <K6 id="0"/>
+          <K7 id="0"/>
+          <K8 id="0"/>
+          <K9 id="0"/>
+          <K10 id="0"/>
+          <K11 id="0"/>
+          <K12 id="0"/>
+          <K13 id="0"/>
+          <K14 id="0"/>
+          <K15 id="0"/>
+          <K16 id="0"/>
+        </K>
+        <PR id="0">
+          <W1 id="0"/>
+          <W2 id="0"/>
+          <W3 id="0"/>
+          <W4 id="0"/>
+        </PR>
+      </app>
+    </Apps>
+  </P22EPro16K>
+  <P156_6K>
+    <DeviceInfo>
+      <DeviceRingNum>0</DeviceRingNum>
+      <DeviceKeyNum>6</DeviceKeyNum>
+      <DevicePenType>0</DevicePenType>
+      <DeviceTrackPad>0</DeviceTrackPad>
+      <DeviceControl>0</DeviceControl>
+    </DeviceInfo>
+    <Common>
+      <ScreenMapping id="0">
+        <SX>0</SX>
+        <SY>0</SY>
+        <SW>0</SW>
+        <SH>0</SH>
+      </ScreenMapping>
+      <TabletPannel Orientation="0">
+        <TX>0</TX>
+        <TY>0</TY>
+        <TW>0</TW>
+        <TH>0</TH>
+      </TabletPannel>
+      <DisableInfo>0</DisableInfo>
+      <DisableQuickKey>0</DisableQuickKey>
+      <DisablePressure>0</DisablePressure>
+      <DisableSlope>0</DisableSlope>
+      <PictureFiles>
+        <T_0 X="262" W="164" Y="70" H="100"/>
+        <T_1 X="314" W="50" Y="80" H="87"/>
+        <T_2 X="252" W="164" Y="75" H="100"/>
+        <T_3 X="315" W="50" Y="76" H="87"/>
+      </PictureFiles>
+      <SC fYLC="1" fKX="1" fKY="1" fXLC="1"/>
+    </Common>
+    <CommonAPP>
+      <Pen>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen>
+      <K>
+        <K1 Actid="1" Show="1" id="0" Motid="1"/>
+        <K2 Actid="2" Show="1" id="0" Motid="2"/>
+        <K3 Actid="6" Show="1" id="0" Motid="3"/>
+        <K4 Actid="21" Show="1" id="0" Motid="4"/>
+        <K5 Actid="22" Show="1" id="0" Motid="5"/>
+        <K6 Actid="101" Show="1" id="0" Motid="6"/>
+      </K>
+    </CommonAPP>
+    <Apps>
+      <app id="0" name="0">
+        <path/>
+        <Pen>
+          <PenBtn1 id="0"/>
+          <PenBtn2 id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen>
+        <K>
+          <K1 id="0"/>
+          <K2 id="0"/>
+          <K3 id="0"/>
+          <K4 id="0"/>
+          <K5 id="0"/>
+          <K6 id="0"/>
+        </K>
+      </app>
+    </Apps>
+  </P156_6K>
+  <Star03>
+    <DeviceInfo>
+      <DeviceRingNum>0</DeviceRingNum>
+      <DeviceKeyNum>8</DeviceKeyNum>
+      <DevicePenType>0</DevicePenType>
+      <DeviceTrackPad>0</DeviceTrackPad>
+      <DeviceControl>0</DeviceControl>
+    </DeviceInfo>
+    <Common>
+      <ScreenMapping id="0">
+        <SX>0</SX>
+        <SY>0</SY>
+        <SW>0</SW>
+        <SH>0</SH>
+      </ScreenMapping>
+      <TabletPannel Orientation="0">
+        <TX>0</TX>
+        <TY>0</TY>
+        <TW>0</TW>
+        <TH>0</TH>
+      </TabletPannel>
+      <DisableInfo>0</DisableInfo>
+      <DisableQuickKey>0</DisableQuickKey>
+      <DisablePressure>0</DisablePressure>
+      <DisableSlope>0</DisableSlope>
+      <PictureFiles>
+        <T_0 X="275" W="169" Y="78" H="95"/>
+        <T_1 X="315" W="54" Y="92" H="88"/>
+        <T_2 X="232" W="169" Y="78" H="95"/>
+        <T_3 X="315" W="54" Y="67" H="88"/>
+      </PictureFiles>
+    </Common>
+    <CommonAPP>
+      <Pen>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen>
+      <K>
+        <K1 Actid="1" Show="1" id="0" Motid="1"/>
+        <K2 Actid="2" Show="1" id="0" Motid="2"/>
+        <K3 Actid="3" Show="1" id="0" Motid="3"/>
+        <K4 Actid="4" Show="1" id="0" Motid="4"/>
+        <K5 Actid="6" Show="1" id="0" Motid="5"/>
+        <K6 Actid="21" Show="1" id="0" Motid="6"/>
+        <K7 Actid="22" Show="1" id="0" Motid="7"/>
+        <K8 Actid="101" Show="1" id="0" Motid="8"/>
+      </K>
+    </CommonAPP>
+    <Apps>
+      <app id="0" name="0">
+        <path/>
+        <Pen>
+          <PenBtn1 id="0"/>
+          <PenBtn2 id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen>
+        <K>
+          <K1 id="0"/>
+          <K2 id="0"/>
+          <K3 id="0"/>
+          <K4 id="0"/>
+          <K5 id="0"/>
+          <K6 id="0"/>
+          <K7 id="0"/>
+          <K8 id="0"/>
+        </K>
+      </app>
+    </Apps>
+  </Star03>
+  <Deco03>
+    <DeviceInfo>
+      <DeviceRingNum>1</DeviceRingNum>
+      <DeviceKeyNum>6</DeviceKeyNum>
+      <DevicePenType>0</DevicePenType>
+      <DeviceTrackPad>0</DeviceTrackPad>
+      <DeviceControl>0</DeviceControl>
+    </DeviceInfo>
+    <Common>
+      <ScreenMapping id="0">
+        <SX>0</SX>
+        <SY>0</SY>
+        <SW>0</SW>
+        <SH>0</SH>
+      </ScreenMapping>
+      <TabletPannel Orientation="0">
+        <TX>0</TX>
+        <TY>0</TY>
+        <TW>0</TW>
+        <TH>0</TH>
+      </TabletPannel>
+      <DisableInfo>0</DisableInfo>
+      <DisableQuickKey>0</DisableQuickKey>
+      <DisablePressure>0</DisablePressure>
+      <DisableSlope>0</DisableSlope>
+      <PictureFiles>
+        <T_0 X="276" W="166" Y="76" H="94"/>
+        <T_1 X="314" W="48" Y="88" H="87"/>
+        <T_2 X="236" W="166" Y="73" H="94"/>
+        <T_3 X="315" W="48" Y="68" H="87"/>
+      </PictureFiles>
+    </Common>
+    <CommonAPP>
+      <Pen>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen>
+      <K>
+        <K1 Actid="1" Show="1" id="0" Motid="1"/>
+        <K2 Actid="2" Show="1" id="0" Motid="2"/>
+        <K3 Actid="3" Show="1" id="0" Motid="3"/>
+        <K4 Actid="6" Show="1" id="0" Motid="4"/>
+        <K5 Actid="101" Show="1" id="0" Motid="5"/>
+        <K6 Actid="105" Show="1" id="0" Motid="6"/>
+      </K>
+      <R id="0">
+        <W1 id="0"/>
+        <W2 id="0"/>
+        <W3 id="0"/>
+        <W4 id="0"/>
+      </R>
+    </CommonAPP>
+    <Apps>
+      <app id="0" name="0">
+        <path/>
+        <Pen>
+          <PenBtn1 id="0"/>
+          <PenBtn2 id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen>
+        <K>
+          <K1 id="0"/>
+          <K2 id="0"/>
+          <K3 id="0"/>
+          <K4 id="0"/>
+          <K5 id="0"/>
+          <K6 id="0"/>
+        </K>
+        <R id="0">
+          <W1 id="0"/>
+          <W2 id="0"/>
+          <W3 id="0"/>
+          <W4 id="0"/>
+        </R>
+      </app>
+    </Apps>
+  </Deco03>
+  <ShortcutRemote>
+    <DeviceInfo>
+      <DeviceRingNum>1</DeviceRingNum>
+      <DeviceKeyNum>10</DeviceKeyNum>
+      <DevicePenType>0</DevicePenType>
+      <DeviceTrackPad>0</DeviceTrackPad>
+      <DeviceControl>0</DeviceControl>
+    </DeviceInfo>
+    <Common>
+      <ScreenMapping id="0">
+        <SX>0</SX>
+        <SY>0</SY>
+        <SW>0</SW>
+        <SH>0</SH>
+      </ScreenMapping>
+      <TabletPannel Orientation="0">
+        <TX>0</TX>
+        <TY>0</TY>
+        <TW>0</TW>
+        <TH>0</TH>
+      </TabletPannel>
+      <DisableInfo>0</DisableInfo>
+      <DisableQuickKey>0</DisableQuickKey>
+      <DisablePressure>0</DisablePressure>
+      <DisableSlope>0</DisableSlope>
+      <PictureFiles>
+        <T_0 X="369" W="114" Y="251" H="67"/>
+        <T_1 X="393" W="40" Y="258" H="60"/>
+        <T_2 X="346" W="114" Y="250" H="67"/>
+        <T_3 X="395" W="38" Y="248" H="60"/>
+      </PictureFiles>
+    </Common>
+    <CommonAPP>
+      <Pen>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen>
+      <K>
+        <K1 Actid="1" Show="1" id="0" Motid="6"/>
+        <K2 Actid="2" Show="1" id="0" Motid="7"/>
+        <K3 Actid="3" Show="1" id="0" Motid="8"/>
+        <K4 Actid="4" Show="1" id="0" Motid="4"/>
+        <K5 Actid="9" Show="1" id="0" Motid="12"/>
+        <K6 Actid="5" Show="1" id="0" Motid="5"/>
+        <K7 Actid="6" Show="1" id="0" Motid="1"/>
+        <K8 Actid="13" Show="1" id="0" Motid="2"/>
+        <K9 Actid="101" Show="1" id="0" Motid="3"/>
+        <K10 Actid="105" Show="1" id="0" Motid="9"/>
+      </K>
+      <R id="0">
+        <W1 id="0"/>
+        <W2 id="0"/>
+        <W3 id="0"/>
+        <W4 id="0"/>
+      </R>
+    </CommonAPP>
+    <Apps>
+      <app id="0" name="0">
+        <path/>
+        <Pen>
+          <PenBtn1 id="0"/>
+          <PenBtn2 id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen>
+        <K>
+          <K1 id="0"/>
+          <K2 id="0"/>
+          <K3 id="0"/>
+          <K4 id="0"/>
+          <K5 id="0"/>
+          <K6 id="0"/>
+          <K7 id="0"/>
+          <K8 id="0"/>
+          <K9 id="0"/>
+          <K10 id="0"/>
+        </K>
+        <R id="0">
+          <W1 id="0"/>
+          <W2 id="0"/>
+          <W3 id="0"/>
+          <W4 id="0"/>
+        </R>
+      </app>
+    </Apps>
+  </ShortcutRemote>
+  <ACK05>
+    <DeviceInfo>
+      <DeviceRingNum>1</DeviceRingNum>
+      <DeviceKeyNum>10</DeviceKeyNum>
+      <DevicePenType>0</DevicePenType>
+      <DeviceTrackPad>0</DeviceTrackPad>
+      <SupportGroupKeys>1</SupportGroupKeys>
+      <DeviceControl>0</DeviceControl>
+    </DeviceInfo>
+    <Common>
+      <ScreenMapping id="0">
+        <SX>0</SX>
+        <SY>0</SY>
+        <SW>3360</SW>
+        <SH>1080</SH>
+      </ScreenMapping>
+      <TabletPannel Orientation="0">
+        <TX>0</TX>
+        <TY>0</TY>
+        <TW>0</TW>
+        <TH>0</TH>
+      </TabletPannel>
+      <DisableInfo>0</DisableInfo>
+      <DisableQuickKey>0</DisableQuickKey>
+      <DisablePressure>0</DisablePressure>
+      <DisableSlope>0</DisableSlope>
+      <PictureFiles>
+        <T_0 X="369" W="114" Y="251" H="67"/>
+        <T_1 X="393" W="40" Y="258" H="60"/>
+        <T_2 X="346" W="114" Y="250" H="67"/>
+        <T_3 X="395" W="38" Y="248" H="60"/>
+      </PictureFiles>
+    </Common>
+    <CommonAPP>
+      <SelectID>0</SelectID>
+      <K id="1">
+        <K1 Actid="110" Show="1" id="0" Motid="1"/>
+        <K2 Actid="111" Show="1" id="0" Motid="2"/>
+        <K3 Actid="24" Show="1" id="0" Motid="3"/>
+        <K4 Actid="201" Show="1" id="0" Motid="4"/>
+        <K5 Actid="204" Show="1" id="0" Motid="5"/>
+        <K6 Actid="3" Show="1" id="0" Motid="6"/>
+        <K7 Actid="5" Show="1" id="0" Motid="7"/>
+        <K8 Actid="6" Show="1" id="0" Motid="8"/>
+        <K9 Actid="4" Show="1" id="0" Motid="9"/>
+        <K10 Actid="8" Show="1" id="0" Motid="10"/>
+        <K11 Actid="105" Show="1" id="0" Motid="11"/>
+      </K>
+      <K_1 id="0">
+        <K1 Actid="110" Show="1" id="0" Motid="1"/>
+        <K2 Actid="111" Show="1" id="0" Motid="2"/>
+        <K3 Actid="24" Show="1" id="0" Motid="3"/>
+        <K4 Actid="201" Show="1" id="0" Motid="4"/>
+        <K5 Actid="204" Show="1" id="0" Motid="5"/>
+        <K6 Actid="3" Show="1" id="0" Motid="6"/>
+        <K7 Actid="5" Show="1" id="0" Motid="7"/>
+        <K8 Actid="6" Show="1" id="0" Motid="8"/>
+        <K9 Actid="4" Show="1" id="0" Motid="9"/>
+        <K10 Actid="8" Show="1" id="0" Motid="10"/>
+        <K11 Actid="105" Show="1" id="0" Motid="11"/>
+      </K_1>
+      <K_2 id="0">
+        <K1 Actid="110" Show="1" id="0" Motid="1"/>
+        <K2 Actid="111" Show="1" id="0" Motid="2"/>
+        <K3 Actid="24" Show="1" id="0" Motid="3"/>
+        <K4 Actid="201" Show="1" id="0" Motid="4"/>
+        <K5 Actid="204" Show="1" id="0" Motid="5"/>
+        <K6 Actid="3" Show="1" id="0" Motid="6"/>
+        <K7 Actid="5" Show="1" id="0" Motid="7"/>
+        <K8 Actid="6" Show="1" id="0" Motid="8"/>
+        <K9 Actid="4" Show="1" id="0" Motid="9"/>
+        <K10 Actid="8" Show="1" id="0" Motid="10"/>
+        <K11 Actid="105" Show="1" id="0" Motid="11"/>
+      </K_2>
+      <K_3 id="0">
+        <K1 Actid="110" Show="1" id="0" Motid="1"/>
+        <K2 Actid="111" Show="1" id="0" Motid="2"/>
+        <K3 Actid="24" Show="1" id="0" Motid="3"/>
+        <K4 Actid="201" Show="1" id="0" Motid="4"/>
+        <K5 Actid="204" Show="1" id="0" Motid="5"/>
+        <K6 Actid="3" Show="1" id="0" Motid="6"/>
+        <K7 Actid="5" Show="1" id="0" Motid="7"/>
+        <K8 Actid="6" Show="1" id="0" Motid="8"/>
+        <K9 Actid="4" Show="1" id="0" Motid="9"/>
+        <K10 Actid="8" Show="1" id="0" Motid="10"/>
+        <K11 Actid="105" Show="1" id="0" Motid="11"/>
+      </K_3>
+      <R id="0">
+        <W1 id="0"/>
+        <W2 id="0"/>
+        <W3 id="0"/>
+        <W4 id="0"/>
+      </R>
+    </CommonAPP>
+    <Apps>
+      <app id="0" name="0">
+        <path/>
+        <SelectID>0</SelectID>
+        <K id="1">
+          <K1 Actid="110" Show="1" id="0" Motid="1"/>
+          <K2 Actid="111" Show="1" id="0" Motid="2"/>
+          <K3 Actid="24" Show="1" id="0" Motid="3"/>
+          <K4 Actid="201" Show="1" id="0" Motid="4"/>
+          <K5 Actid="204" Show="1" id="0" Motid="5"/>
+          <K6 Actid="3" Show="1" id="0" Motid="6"/>
+          <K7 Actid="5" Show="1" id="0" Motid="7"/>
+          <K8 Actid="6" Show="1" id="0" Motid="8"/>
+          <K9 Actid="4" Show="1" id="0" Motid="9"/>
+          <K10 Actid="8" Show="1" id="0" Motid="10"/>
+          <K11 Actid="105" Show="1" id="0" Motid="11"/>
+        </K>
+        <K_1 id="0">
+          <K1 Actid="110" Show="1" id="0" Motid="1"/>
+          <K2 Actid="111" Show="1" id="0" Motid="2"/>
+          <K3 Actid="24" Show="1" id="0" Motid="3"/>
+          <K4 Actid="201" Show="1" id="0" Motid="4"/>
+          <K5 Actid="204" Show="1" id="0" Motid="5"/>
+          <K6 Actid="3" Show="1" id="0" Motid="6"/>
+          <K7 Actid="5" Show="1" id="0" Motid="7"/>
+          <K8 Actid="6" Show="1" id="0" Motid="8"/>
+          <K9 Actid="4" Show="1" id="0" Motid="9"/>
+          <K10 Actid="8" Show="1" id="0" Motid="10"/>
+          <K11 Actid="105" Show="1" id="0" Motid="11"/>
+        </K_1>
+        <K_2 id="0">
+          <K1 Actid="110" Show="1" id="0" Motid="1"/>
+          <K2 Actid="111" Show="1" id="0" Motid="2"/>
+          <K3 Actid="24" Show="1" id="0" Motid="3"/>
+          <K4 Actid="201" Show="1" id="0" Motid="4"/>
+          <K5 Actid="204" Show="1" id="0" Motid="5"/>
+          <K6 Actid="3" Show="1" id="0" Motid="6"/>
+          <K7 Actid="5" Show="1" id="0" Motid="7"/>
+          <K8 Actid="6" Show="1" id="0" Motid="8"/>
+          <K9 Actid="4" Show="1" id="0" Motid="9"/>
+          <K10 Actid="8" Show="1" id="0" Motid="10"/>
+          <K11 Actid="105" Show="1" id="0" Motid="11"/>
+        </K_2>
+        <K_3 id="0">
+          <K1 Actid="110" Show="1" id="0" Motid="1"/>
+          <K2 Actid="111" Show="1" id="0" Motid="2"/>
+          <K3 Actid="24" Show="1" id="0" Motid="3"/>
+          <K4 Actid="201" Show="1" id="0" Motid="4"/>
+          <K5 Actid="204" Show="1" id="0" Motid="5"/>
+          <K6 Actid="3" Show="1" id="0" Motid="6"/>
+          <K7 Actid="5" Show="1" id="0" Motid="7"/>
+          <K8 Actid="6" Show="1" id="0" Motid="8"/>
+          <K9 Actid="4" Show="1" id="0" Motid="9"/>
+          <K10 Actid="8" Show="1" id="0" Motid="10"/>
+          <K11 Actid="105" Show="1" id="0" Motid="11"/>
+        </K_3>
+        <R id="0">
+          <W1 id="0"/>
+          <W2 id="0"/>
+          <W3 id="0"/>
+          <W4 id="0"/>
+        </R>
+      </app>
+    </Apps>
+  </ACK05>
+  <LPU2410F-A>
+    <DeviceInfo>
+      <DeviceRingNum>0</DeviceRingNum>
+      <DeviceKeyNum>0</DeviceKeyNum>
+      <DevicePenType>0</DevicePenType>
+      <DeviceTrackPad>0</DeviceTrackPad>
+      <DeviceControl>0</DeviceControl>
+    </DeviceInfo>
+    <Common>
+      <ScreenMapping id="0">
+        <SX>0</SX>
+        <SY>0</SY>
+        <SW>0</SW>
+        <SH>0</SH>
+      </ScreenMapping>
+      <TabletPannel Orientation="0">
+        <TX>0</TX>
+        <TY>0</TY>
+        <TW>0</TW>
+        <TH>0</TH>
+      </TabletPannel>
+      <DisableInfo>0</DisableInfo>
+      <DisableQuickKey>0</DisableQuickKey>
+      <DisablePressure>0</DisablePressure>
+      <DisableSlope>0</DisableSlope>
+      <PictureFiles>
+        <T_0 X="240" W="196" Y="67" H="110"/>
+        <T_1 X="311" W="58" Y="70" H="105"/>
+        <T_2 X="240" W="196" Y="65" H="110"/>
+        <T_3 X="311" W="58" Y="70" H="105"/>
+      </PictureFiles>
+      <SC fYLC="1" fKX="1" fKY="1" fXLC="1"/>
+    </Common>
+    <CommonAPP>
+      <Pen>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen>
+    </CommonAPP>
+    <Apps>
+      <app id="0" name="0">
+        <path/>
+        <Pen>
+          <PenBtn1 id="0"/>
+          <PenBtn2 id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen>
+      </app>
+    </Apps>
+  </LPU2410F-A>
+  <VB960>
+    <DeviceInfo>
+      <DeviceRingNum>0</DeviceRingNum>
+      <DeviceKeyNum>8</DeviceKeyNum>
+      <DevicePenType>4</DevicePenType>
+      <DeviceTrackPad>0</DeviceTrackPad>
+      <DeviceControl>0</DeviceControl>
+    </DeviceInfo>
+    <Common>
+      <ScreenMapping id="0">
+        <SX>0</SX>
+        <SY>0</SY>
+        <SW>0</SW>
+        <SH>0</SH>
+      </ScreenMapping>
+      <TabletPannel Orientation="0">
+        <TX>0</TX>
+        <TY>0</TY>
+        <TW>0</TW>
+        <TH>0</TH>
+      </TabletPannel>
+      <DisableInfo>0</DisableInfo>
+      <DisableQuickKey>0</DisableQuickKey>
+      <DisablePressure>0</DisablePressure>
+      <DisableSlope>0</DisableSlope>
+      <PictureFiles>
+        <T_0 X="265" W="171" Y="70" H="105"/>
+        <T_1 X="311" W="55" Y="82" H="91"/>
+        <T_2 X="242" W="171" Y="69" H="105"/>
+        <T_3 X="313" W="55" Y="70" H="91"/>
+      </PictureFiles>
+    </Common>
+    <CommonAPP>
+      <Pen>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen>
+      <K>
+        <K1 Actid="1" Show="1" id="0" Motid="1"/>
+        <K2 Actid="2" Show="1" id="0" Motid="2"/>
+        <K3 Actid="3" Show="1" id="0" Motid="3"/>
+        <K4 Actid="4" Show="1" id="0" Motid="4"/>
+        <K5 Actid="6" Show="1" id="0" Motid="5"/>
+        <K6 Actid="21" Show="1" id="0" Motid="6"/>
+        <K7 Actid="22" Show="1" id="0" Motid="7"/>
+        <K8 Actid="101" Show="1" id="0" Motid="8"/>
+      </K>
+    </CommonAPP>
+    <Apps>
+      <app id="0" name="0">
+        <path/>
+        <Pen>
+          <PenBtn1 id="0"/>
+          <PenBtn2 id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen>
+        <K>
+          <K1 id="0"/>
+          <K2 id="0"/>
+          <K3 id="0"/>
+          <K4 id="0"/>
+          <K5 id="0"/>
+          <K6 id="0"/>
+          <K7 id="0"/>
+          <K8 id="0"/>
+        </K>
+      </app>
+    </Apps>
+  </VB960>
+  <BPG0410L-C>
+    <DeviceInfo>
+      <DeviceRingNum>0</DeviceRingNum>
+      <DeviceKeyNum>0</DeviceKeyNum>
+      <DevicePenType>0</DevicePenType>
+      <DeviceTrackPad>0</DeviceTrackPad>
+      <DeviceControl>0</DeviceControl>
+    </DeviceInfo>
+    <Common>
+      <ScreenMapping id="0">
+        <SX>0</SX>
+        <SY>0</SY>
+        <SW>0</SW>
+        <SH>0</SH>
+      </ScreenMapping>
+      <TabletPannel Orientation="0">
+        <TX>0</TX>
+        <TY>0</TY>
+        <TW>0</TW>
+        <TH>0</TH>
+      </TabletPannel>
+      <DisableInfo>0</DisableInfo>
+      <DisableQuickKey>0</DisableQuickKey>
+      <DisablePressure>0</DisablePressure>
+      <DisableSlope>0</DisableSlope>
+      <PictureFiles>
+        <T_0 X="281" W="117" Y="95" H="75"/>
+        <T_1 X="315" W="38" Y="90" H="63"/>
+        <T_2 X="281" W="117" Y="73" H="75"/>
+        <T_3 X="326" W="38" Y="90" H="63"/>
+      </PictureFiles>
+    </Common>
+    <CommonAPP>
+      <Pen>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen>
+    </CommonAPP>
+    <Apps>
+      <app id="0" name="0">
+        <path/>
+        <Pen>
+          <PenBtn1 id="0"/>
+          <PenBtn2 id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen>
+      </app>
+    </Apps>
+  </BPG0410L-C>
+  <BPG0610L-C>
+    <DeviceInfo>
+      <DeviceRingNum>0</DeviceRingNum>
+      <DeviceKeyNum>0</DeviceKeyNum>
+      <DevicePenType>0</DevicePenType>
+      <DeviceTrackPad>0</DeviceTrackPad>
+      <DeviceControl>0</DeviceControl>
+    </DeviceInfo>
+    <Common>
+      <ScreenMapping id="0">
+        <SX>0</SX>
+        <SY>0</SY>
+        <SW>0</SW>
+        <SH>0</SH>
+      </ScreenMapping>
+      <TabletPannel Orientation="0">
+        <TX>0</TX>
+        <TY>0</TY>
+        <TW>0</TW>
+        <TH>0</TH>
+      </TabletPannel>
+      <DisableInfo>0</DisableInfo>
+      <DisableQuickKey>0</DisableQuickKey>
+      <DisablePressure>0</DisablePressure>
+      <DisableSlope>0</DisableSlope>
+      <PictureFiles>
+        <T_0 X="272" W="134" Y="89" H="84"/>
+        <T_1 X="313" W="44" Y="86" H="71"/>
+        <T_2 X="272" W="134" Y="70" H="84"/>
+        <T_3 X="322" W="44" Y="86" H="71"/>
+      </PictureFiles>
+    </Common>
+    <CommonAPP>
+      <Pen>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen>
+    </CommonAPP>
+    <Apps>
+      <app id="0" name="0">
+        <path/>
+        <Pen>
+          <PenBtn1 id="0"/>
+          <PenBtn2 id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen>
+      </app>
+    </Apps>
+  </BPG0610L-C>
+  <BPG1010L-C>
+    <DeviceInfo>
+      <DeviceRingNum>0</DeviceRingNum>
+      <DeviceKeyNum>0</DeviceKeyNum>
+      <DevicePenType>0</DevicePenType>
+      <DeviceTrackPad>0</DeviceTrackPad>
+      <DeviceControl>0</DeviceControl>
+    </DeviceInfo>
+    <Common>
+      <ScreenMapping id="0">
+        <SX>0</SX>
+        <SY>0</SY>
+        <SW>0</SW>
+        <SH>0</SH>
+      </ScreenMapping>
+      <TabletPannel Orientation="0">
+        <TX>0</TX>
+        <TY>0</TY>
+        <TW>0</TW>
+        <TH>0</TH>
+      </TabletPannel>
+      <DisableInfo>0</DisableInfo>
+      <DisableQuickKey>0</DisableQuickKey>
+      <DisablePressure>0</DisablePressure>
+      <DisableSlope>0</DisableSlope>
+      <PictureFiles>
+        <T_0 X="256" W="165" Y="76" H="104"/>
+        <T_1 X="308" W="56" Y="77" H="88"/>
+        <T_2 X="256" W="165" Y="62" H="104"/>
+        <T_3 X="317" W="56" Y="77" H="88"/>
+      </PictureFiles>
+    </Common>
+    <CommonAPP>
+      <Pen>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen>
+    </CommonAPP>
+    <Apps>
+      <app id="0" name="0">
+        <path/>
+        <Pen>
+          <PenBtn1 id="0"/>
+          <PenBtn2 id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen>
+      </app>
+    </Apps>
+  </BPG1010L-C>
+  <LPU1505G>
+    <DeviceInfo>
+      <DevicePenNum>8</DevicePenNum>
+      <PenMoveInTablet>0</PenMoveInTablet>
+      <DeviceCurPenID>0</DeviceCurPenID>
+      <DeviceRingNum>2</DeviceRingNum>
+      <DeviceKeyNum>8</DeviceKeyNum>
+      <DevicePenType>5</DevicePenType>
+      <DeviceTrackPad>0</DeviceTrackPad>
+      <DeviceControl>0</DeviceControl>
+    </DeviceInfo>
+    <Common>
+      <ScreenMapping id="0">
+        <SX>0</SX>
+        <SY>0</SY>
+        <SW>0</SW>
+        <SH>0</SH>
+      </ScreenMapping>
+      <TabletPannel Orientation="0">
+        <TX>0</TX>
+        <TY>0</TY>
+        <TW>0</TW>
+        <TH>0</TH>
+      </TabletPannel>
+      <DisableInfo>0</DisableInfo>
+      <DisableQuickKey>0</DisableQuickKey>
+      <DisablePressure>0</DisablePressure>
+      <DisableSlope>0</DisableSlope>
+      <PictureFiles>
+        <T_0 X="245" W="222" Y="60" H="127"/>
+        <T_1 X="303" W="72" Y="65" H="130"/>
+        <T_2 X="222" W="222" Y="60" H="127"/>
+        <T_3 X="304" W="72" Y="52" H="130"/>
+      </PictureFiles>
+      <SC fYLC="1" fKX="1" fKY="1" fXLC="1"/>
+    </Common>
+    <CommonAPP>
+      <Pen>
+        <MoveInTablet>0</MoveInTablet>
+        <DevicePenType>5</DevicePenType>
+        <PenBtn0 Actid="27" id="0"/>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen>
+      <Pen2>
+        <MoveInTablet>0</MoveInTablet>
+        <DevicePenType>5</DevicePenType>
+        <PenBtn0 Actid="27" id="0"/>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen2>
+      <Pen3>
+        <MoveInTablet>0</MoveInTablet>
+        <DevicePenType>5</DevicePenType>
+        <PenBtn0 Actid="27" id="0"/>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen3>
+      <Pen4>
+        <MoveInTablet>0</MoveInTablet>
+        <DevicePenType>5</DevicePenType>
+        <PenBtn0 Actid="27" id="0"/>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen4>
+      <Pen5>
+        <MoveInTablet>0</MoveInTablet>
+        <DevicePenType>5</DevicePenType>
+        <PenBtn0 Actid="27" id="0"/>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen5>
+      <Pen6>
+        <MoveInTablet>0</MoveInTablet>
+        <DevicePenType>5</DevicePenType>
+        <PenBtn0 Actid="27" id="0"/>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen6>
+      <Pen7>
+        <MoveInTablet>0</MoveInTablet>
+        <DevicePenType>5</DevicePenType>
+        <PenBtn0 Actid="27" id="0"/>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen7>
+      <Pen8>
+        <MoveInTablet>0</MoveInTablet>
+        <DevicePenType>5</DevicePenType>
+        <PenBtn0 Actid="27" id="0"/>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen8>
+      <K>
+        <K1 Actid="1" Show="1" id="0" Motid="1"/>
+        <K2 Actid="2" Show="1" id="0" Motid="2"/>
+        <K3 Actid="3" Show="1" id="0" Motid="3"/>
+        <K4 Actid="4" Show="1" id="0" Motid="4"/>
+        <K5 Actid="5" Show="1" id="0" Motid="5"/>
+        <K6 Actid="6" Show="1" id="0" Motid="6"/>
+        <K7 Actid="101" Show="1" id="0" Motid="7"/>
+        <K8 Actid="105" Show="1" id="0" Motid="8"/>
+      </K>
+      <R id="0">
+        <W1 id="0"/>
+        <W2 id="0"/>
+        <W3 id="0"/>
+        <W4 id="0"/>
+      </R>
+      <TR mode="0" id="0">
+        <W1 id="0"/>
+        <W2 id="0"/>
+        <W3 id="0"/>
+        <W4 id="0"/>
+      </TR>
+    </CommonAPP>
+    <Apps>
+      <app id="0" name="0">
+        <path/>
+        <Pen>
+          <PenBtn1 id="0"/>
+          <PenBtn2 id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen>
+        <Pen2>
+          <PenBtn1 Actid="207" id="0"/>
+          <PenBtn2 Actid="209" id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen2>
+        <Pen3>
+          <PenBtn1 Actid="207" id="0"/>
+          <PenBtn2 Actid="209" id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen3>
+        <Pen4>
+          <PenBtn1 Actid="207" id="0"/>
+          <PenBtn2 Actid="209" id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen4>
+        <Pen5>
+          <PenBtn1 Actid="207" id="0"/>
+          <PenBtn2 Actid="209" id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen5>
+        <Pen6>
+          <PenBtn1 Actid="207" id="0"/>
+          <PenBtn2 Actid="209" id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen6>
+        <Pen7>
+          <PenBtn1 Actid="207" id="0"/>
+          <PenBtn2 Actid="209" id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen7>
+        <Pen8>
+          <PenBtn1 Actid="207" id="0"/>
+          <PenBtn2 Actid="209" id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen8>
+        <K>
+          <K1 id="0"/>
+          <K2 id="0"/>
+          <K3 id="0"/>
+          <K4 id="0"/>
+          <K5 id="0"/>
+          <K6 id="0"/>
+          <K7 id="0"/>
+          <K8 id="0"/>
+        </K>
+        <R id="0">
+          <W1 id="0"/>
+          <W2 id="0"/>
+          <W3 id="0"/>
+          <W4 id="0"/>
+        </R>
+        <TR mode="0" id="0">
+          <W1 id="0"/>
+          <W2 id="0"/>
+          <W3 id="0"/>
+          <W4 id="0"/>
+        </TR>
+      </app>
+    </Apps>
+  </LPU1505G>
+  <LPU1215>
+    <DeviceInfo>
+      <DevicePenNum>8</DevicePenNum>
+      <PenMoveInTablet>0</PenMoveInTablet>
+      <DeviceCurPenID>0</DeviceCurPenID>
+      <DeviceRingNum>0</DeviceRingNum>
+      <DeviceKeyNum>8</DeviceKeyNum>
+      <DeviceTrackPad>0</DeviceTrackPad>
+      <DeviceControl>0</DeviceControl>
+      <DevicePenType>5</DevicePenType>
+    </DeviceInfo>
+    <Common>
+      <ScreenMapping id="0">
+        <SX>0</SX>
+        <SY>0</SY>
+        <SW>0</SW>
+        <SH>0</SH>
+      </ScreenMapping>
+      <TabletPannel Orientation="0">
+        <TX>0</TX>
+        <TY>0</TY>
+        <TW>0</TW>
+        <TH>0</TH>
+      </TabletPannel>
+      <DisableInfo>0</DisableInfo>
+      <DisableQuickKey>0</DisableQuickKey>
+      <DisablePressure>0</DisablePressure>
+      <DisableSlope>0</DisableSlope>
+      <PictureFiles>
+        <T_0 X="264" W="166" Y="75" H="90"/>
+        <T_1 X="313" W="55" Y="82" H="90"/>
+        <T_2 X="248" W="166" Y="75" H="90"/>
+        <T_3 X="313" W="55" Y="75" H="90"/>
+      </PictureFiles>
+      <SC fYLC="1" fKX="1" fKY="1" fXLC="1"/>
+    </Common>
+    <CommonAPP>
+      <Pen>
+        <MoveInTablet>0</MoveInTablet>
+        <DevicePenType>5</DevicePenType>
+        <PenBtn0 Actid="27" id="0"/>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen>
+      <Pen2>
+        <MoveInTablet>0</MoveInTablet>
+        <DevicePenType>5</DevicePenType>
+        <PenBtn0 Actid="27" id="0"/>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen2>
+      <Pen3>
+        <MoveInTablet>0</MoveInTablet>
+        <DevicePenType>5</DevicePenType>
+        <PenBtn0 Actid="27" id="0"/>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen3>
+      <Pen4>
+        <MoveInTablet>0</MoveInTablet>
+        <DevicePenType>5</DevicePenType>
+        <PenBtn0 Actid="27" id="0"/>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen4>
+      <Pen5>
+        <MoveInTablet>0</MoveInTablet>
+        <DevicePenType>5</DevicePenType>
+        <PenBtn0 Actid="27" id="0"/>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen5>
+      <Pen6>
+        <MoveInTablet>0</MoveInTablet>
+        <DevicePenType>5</DevicePenType>
+        <PenBtn0 Actid="27" id="0"/>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen6>
+      <Pen7>
+        <MoveInTablet>0</MoveInTablet>
+        <DevicePenType>5</DevicePenType>
+        <PenBtn0 Actid="27" id="0"/>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen7>
+      <Pen8>
+        <MoveInTablet>0</MoveInTablet>
+        <DevicePenType>5</DevicePenType>
+        <PenBtn0 Actid="27" id="0"/>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen8>
+      <K>
+        <K1 Actid="1" Show="1" id="0" Motid="1"/>
+        <K2 Actid="2" Show="1" id="0" Motid="2"/>
+        <K3 Actid="3" Show="1" id="0" Motid="3"/>
+        <K4 Actid="4" Show="1" id="0" Motid="4"/>
+        <K5 Actid="5" Show="1" id="0" Motid="5"/>
+        <K6 Actid="6" Show="1" id="0" Motid="6"/>
+        <K7 Actid="21" Show="1" id="0" Motid="7"/>
+        <K8 Actid="22" Show="1" id="0" Motid="8"/>
+      </K>
+    </CommonAPP>
+    <Apps>
+      <app id="0" name="0">
+        <path/>
+        <Pen>
+          <PenBtn1 id="0"/>
+          <PenBtn2 id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen>
+        <Pen2>
+          <PenBtn1 Actid="207" id="0"/>
+          <PenBtn2 Actid="209" id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen2>
+        <Pen3>
+          <PenBtn1 Actid="207" id="0"/>
+          <PenBtn2 Actid="209" id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen3>
+        <Pen4>
+          <PenBtn1 Actid="207" id="0"/>
+          <PenBtn2 Actid="209" id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen4>
+        <Pen5>
+          <PenBtn1 Actid="207" id="0"/>
+          <PenBtn2 Actid="209" id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen5>
+        <Pen6>
+          <PenBtn1 Actid="207" id="0"/>
+          <PenBtn2 Actid="209" id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen6>
+        <Pen7>
+          <PenBtn1 Actid="207" id="0"/>
+          <PenBtn2 Actid="209" id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen7>
+        <Pen8>
+          <PenBtn1 Actid="207" id="0"/>
+          <PenBtn2 Actid="209" id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen8>
+        <K>
+          <K1 id="0"/>
+          <K2 id="0"/>
+          <K3 id="0"/>
+          <K4 id="0"/>
+          <K5 id="0"/>
+          <K6 id="0"/>
+          <K7 id="0"/>
+          <K8 id="0"/>
+        </K>
+      </app>
+    </Apps>
+  </LPU1215>
+  <LPU1211>
+    <DeviceInfo>
+      <DeviceRingNum>0</DeviceRingNum>
+      <DeviceKeyNum>0</DeviceKeyNum>
+      <DevicePenType>1</DevicePenType>
+      <DeviceTrackPad>0</DeviceTrackPad>
+      <DeviceControl>0</DeviceControl>
+    </DeviceInfo>
+    <Common>
+      <ScreenMapping id="0">
+        <SX>0</SX>
+        <SY>0</SY>
+        <SW>0</SW>
+        <SH>0</SH>
+      </ScreenMapping>
+      <TabletPannel Orientation="0">
+        <TX>0</TX>
+        <TY>0</TY>
+        <TW>0</TW>
+        <TH>0</TH>
+      </TabletPannel>
+      <DisableInfo>0</DisableInfo>
+      <DisableQuickKey>0</DisableQuickKey>
+      <DisablePressure>0</DisablePressure>
+      <DisableSlope>0</DisableSlope>
+      <PictureFiles>
+        <T_0 X="0" W="112" Y="0" H="62"/>
+        <T_1 X="0" W="38" Y="0" H="61"/>
+        <T_2 X="0" W="112" Y="0" H="62"/>
+        <T_3 X="0" W="38" Y="0" H="61"/>
+      </PictureFiles>
+      <SC fYLC="1" fKX="1" fKY="1" fXLC="1"/>
+    </Common>
+    <CommonAPP>
+      <Pen>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen>
+    </CommonAPP>
+    <Apps>
+      <app id="0" name="0">
+        <path/>
+        <Pen>
+          <PenBtn1 id="0"/>
+          <PenBtn2 id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen>
+      </app>
+    </Apps>
+  </LPU1211>
+  <LPU1611>
+    <DeviceInfo>
+      <DeviceRingNum>0</DeviceRingNum>
+      <DeviceKeyNum>0</DeviceKeyNum>
+      <DevicePenType>1</DevicePenType>
+      <DeviceTrackPad>0</DeviceTrackPad>
+      <DeviceControl>0</DeviceControl>
+    </DeviceInfo>
+    <Common>
+      <ScreenMapping id="0">
+        <SX>0</SX>
+        <SY>0</SY>
+        <SW>0</SW>
+        <SH>0</SH>
+      </ScreenMapping>
+      <TabletPannel Orientation="0">
+        <TX>0</TX>
+        <TY>0</TY>
+        <TW>0</TW>
+        <TH>0</TH>
+      </TabletPannel>
+      <DisableInfo>0</DisableInfo>
+      <DisableQuickKey>0</DisableQuickKey>
+      <DisablePressure>0</DisablePressure>
+      <DisableSlope>0</DisableSlope>
+      <PictureFiles>
+        <T_0 X="360" W="112" Y="252" H="62"/>
+        <T_1 X="395" W="38" Y="255" H="61"/>
+        <T_2 X="355" W="112" Y="252" H="62"/>
+        <T_3 X="395" W="38" Y="252" H="61"/>
+      </PictureFiles>
+      <SC fYLC="1" fKX="1" fKY="1" fXLC="1"/>
+    </Common>
+    <CommonAPP>
+      <Pen>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen>
+    </CommonAPP>
+    <Apps>
+      <app id="0" name="0">
+        <path/>
+        <Pen>
+          <PenBtn1 id="0"/>
+          <PenBtn2 id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen>
+      </app>
+    </Apps>
+  </LPU1611>
+  <Dec1013>
+    <DeviceInfo>
+      <DevicePenNum>8</DevicePenNum>
+      <PenMoveInTablet>0</PenMoveInTablet>
+      <DeviceCurPenID>0</DeviceCurPenID>
+      <DeviceRingNum>0</DeviceRingNum>
+      <DeviceKeyNum>8</DeviceKeyNum>
+      <DeviceTrackPad>0</DeviceTrackPad>
+      <DeviceControl>0</DeviceControl>
+      <DevicePenType>5</DevicePenType>
+    </DeviceInfo>
+    <Common>
+      <ScreenMapping id="0">
+        <SX>0</SX>
+        <SY>0</SY>
+        <SW>0</SW>
+        <SH>0</SH>
+      </ScreenMapping>
+      <TabletPannel Orientation="0">
+        <TX>0</TX>
+        <TY>0</TY>
+        <TW>0</TW>
+        <TH>0</TH>
+      </TabletPannel>
+      <DisableInfo>0</DisableInfo>
+      <DisableQuickKey>0</DisableQuickKey>
+      <DisablePressure>0</DisablePressure>
+      <DisableSlope>0</DisableSlope>
+      <PictureFiles>
+        <T_0 X="261" W="177" Y="68" H="106"/>
+        <T_1 X="312" W="55" Y="80" H="92"/>
+        <T_2 X="239" W="177" Y="69" H="106"/>
+        <T_3 X="312" W="55" Y="70" H="92"/>
+      </PictureFiles>
+      <SC fYLC="1" fKX="1" fKY="1" fXLC="1"/>
+    </Common>
+    <CommonAPP>
+      <Pen>
+        <MoveInTablet>0</MoveInTablet>
+        <DevicePenType>5</DevicePenType>
+        <PenBtn0 Actid="27" id="0"/>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen>
+      <Pen2>
+        <MoveInTablet>0</MoveInTablet>
+        <DevicePenType>5</DevicePenType>
+        <PenBtn0 Actid="27" id="0"/>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen2>
+      <Pen3>
+        <MoveInTablet>0</MoveInTablet>
+        <DevicePenType>5</DevicePenType>
+        <PenBtn0 Actid="27" id="0"/>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen3>
+      <Pen4>
+        <MoveInTablet>0</MoveInTablet>
+        <DevicePenType>5</DevicePenType>
+        <PenBtn0 Actid="27" id="0"/>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen4>
+      <Pen5>
+        <MoveInTablet>0</MoveInTablet>
+        <DevicePenType>5</DevicePenType>
+        <PenBtn0 Actid="27" id="0"/>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen5>
+      <Pen6>
+        <MoveInTablet>0</MoveInTablet>
+        <DevicePenType>5</DevicePenType>
+        <PenBtn0 Actid="27" id="0"/>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen6>
+      <Pen7>
+        <MoveInTablet>0</MoveInTablet>
+        <DevicePenType>5</DevicePenType>
+        <PenBtn0 Actid="27" id="0"/>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen7>
+      <Pen8>
+        <MoveInTablet>0</MoveInTablet>
+        <DevicePenType>5</DevicePenType>
+        <PenBtn0 Actid="27" id="0"/>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen8>
+      <K>
+        <K1 Actid="1" Show="1" id="0" Motid="1"/>
+        <K2 Actid="2" Show="1" id="0" Motid="2"/>
+        <K3 Actid="3" Show="1" id="0" Motid="3"/>
+        <K4 Actid="4" Show="1" id="0" Motid="4"/>
+        <K5 Actid="6" Show="1" id="0" Motid="5"/>
+        <K6 Actid="21" Show="1" id="0" Motid="6"/>
+        <K7 Actid="22" Show="1" id="0" Motid="7"/>
+        <K8 Actid="101" Show="1" id="0" Motid="8"/>
+      </K>
+    </CommonAPP>
+    <Apps>
+      <app id="0" name="0">
+        <path/>
+        <Pen>
+          <PenBtn1 id="0"/>
+          <PenBtn2 id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen>
+        <Pen2>
+          <PenBtn1 Actid="207" id="0"/>
+          <PenBtn2 Actid="209" id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen2>
+        <Pen3>
+          <PenBtn1 Actid="207" id="0"/>
+          <PenBtn2 Actid="209" id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen3>
+        <Pen4>
+          <PenBtn1 Actid="207" id="0"/>
+          <PenBtn2 Actid="209" id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen4>
+        <Pen5>
+          <PenBtn1 Actid="207" id="0"/>
+          <PenBtn2 Actid="209" id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen5>
+        <Pen6>
+          <PenBtn1 Actid="207" id="0"/>
+          <PenBtn2 Actid="209" id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen6>
+        <Pen7>
+          <PenBtn1 Actid="207" id="0"/>
+          <PenBtn2 Actid="209" id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen7>
+        <Pen8>
+          <PenBtn1 Actid="207" id="0"/>
+          <PenBtn2 Actid="209" id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen8>
+        <K>
+          <K1 id="0"/>
+          <K2 id="0"/>
+          <K3 id="0"/>
+          <K4 id="0"/>
+          <K5 id="0"/>
+          <K6 id="0"/>
+          <K7 id="0"/>
+          <K8 id="0"/>
+        </K>
+      </app>
+    </Apps>
+  </Dec1013>
+  <LPH1315F>
+    <DeviceInfo>
+      <DevicePenNum>8</DevicePenNum>
+      <PenMoveInTablet>0</PenMoveInTablet>
+      <DeviceCurPenID>0</DeviceCurPenID>
+      <DeviceRingNum>0</DeviceRingNum>
+      <DeviceKeyNum>9</DeviceKeyNum>
+      <DevicePenType>5</DevicePenType>
+      <DeviceTrackPad>0</DeviceTrackPad>
+      <DeviceControl>0</DeviceControl>
+    </DeviceInfo>
+    <Common>
+      <ScreenMapping id="0">
+        <SX>0</SX>
+        <SY>0</SY>
+        <SW>0</SW>
+        <SH>0</SH>
+      </ScreenMapping>
+      <TabletPannel Orientation="0">
+        <TX>0</TX>
+        <TY>0</TY>
+        <TW>0</TW>
+        <TH>0</TH>
+      </TabletPannel>
+      <DisableInfo>0</DisableInfo>
+      <DisableQuickKey>0</DisableQuickKey>
+      <DisablePressure>0</DisablePressure>
+      <DisableSlope>0</DisableSlope>
+      <PictureFiles>
+        <T_0 X="262" W="172" Y="73" H="95"/>
+        <T_1 X="315" W="50" Y="83" H="90"/>
+        <T_2 X="244" W="172" Y="73" H="95"/>
+        <T_3 X="315" W="50" Y="71" H="90"/>
+      </PictureFiles>
+      <SC fYLC="1" fKX="1" fKY="1" fXLC="1"/>
+    </Common>
+    <CommonAPP>
+      <Pen>
+        <MoveInTablet>0</MoveInTablet>
+        <DevicePenType>5</DevicePenType>
+        <PenBtn0 Actid="27" id="0"/>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen>
+      <Pen2>
+        <MoveInTablet>0</MoveInTablet>
+        <DevicePenType>5</DevicePenType>
+        <PenBtn0 Actid="27" id="0"/>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen2>
+      <Pen3>
+        <MoveInTablet>0</MoveInTablet>
+        <DevicePenType>5</DevicePenType>
+        <PenBtn0 Actid="27" id="0"/>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen3>
+      <Pen4>
+        <MoveInTablet>0</MoveInTablet>
+        <DevicePenType>5</DevicePenType>
+        <PenBtn0 Actid="27" id="0"/>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen4>
+      <Pen5>
+        <MoveInTablet>0</MoveInTablet>
+        <DevicePenType>5</DevicePenType>
+        <PenBtn0 Actid="27" id="0"/>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen5>
+      <Pen6>
+        <MoveInTablet>0</MoveInTablet>
+        <DevicePenType>5</DevicePenType>
+        <PenBtn0 Actid="27" id="0"/>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen6>
+      <Pen7>
+        <MoveInTablet>0</MoveInTablet>
+        <DevicePenType>5</DevicePenType>
+        <PenBtn0 Actid="27" id="0"/>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen7>
+      <Pen8>
+        <MoveInTablet>0</MoveInTablet>
+        <DevicePenType>5</DevicePenType>
+        <PenBtn0 Actid="27" id="0"/>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen8>
+      <K>
+        <K1 Actid="1" Show="1" id="0" Motid="1"/>
+        <K2 Actid="2" Show="1" id="0" Motid="2"/>
+        <K3 Actid="3" Show="1" id="0" Motid="3"/>
+        <K4 Actid="4" Show="1" id="0" Motid="4"/>
+        <K5 Actid="5" Show="1" id="0" Motid="5"/>
+        <K6 Actid="6" Show="1" id="0" Motid="6"/>
+        <K7 Actid="21" Show="1" id="0" Motid="7"/>
+        <K8 Actid="22" Show="1" id="0" Motid="8"/>
+        <K9 Actid="101" Show="1" id="0" Motid="9"/>
+      </K>
+    </CommonAPP>
+    <Apps>
+      <app id="0" name="0">
+        <path/>
+        <Pen>
+          <PenBtn1 id="0"/>
+          <PenBtn2 id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen>
+        <Pen2>
+          <PenBtn1 Actid="207" id="0"/>
+          <PenBtn2 Actid="209" id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen2>
+        <Pen3>
+          <PenBtn1 Actid="207" id="0"/>
+          <PenBtn2 Actid="209" id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen3>
+        <Pen4>
+          <PenBtn1 Actid="207" id="0"/>
+          <PenBtn2 Actid="209" id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen4>
+        <Pen5>
+          <PenBtn1 Actid="207" id="0"/>
+          <PenBtn2 Actid="209" id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen5>
+        <Pen6>
+          <PenBtn1 Actid="207" id="0"/>
+          <PenBtn2 Actid="209" id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen6>
+        <Pen7>
+          <PenBtn1 Actid="207" id="0"/>
+          <PenBtn2 Actid="209" id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen7>
+        <Pen8>
+          <PenBtn1 Actid="207" id="0"/>
+          <PenBtn2 Actid="209" id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen8>
+        <K>
+          <K1 id="0"/>
+          <K2 id="0"/>
+          <K3 id="0"/>
+          <K4 id="0"/>
+          <K5 id="0"/>
+          <K6 id="0"/>
+          <K7 id="0"/>
+          <K8 id="0"/>
+          <K9 id="0"/>
+        </K>
+      </app>
+    </Apps>
+  </LPH1315F>
+  <LPH1015F>
+    <DeviceInfo>
+      <DevicePenNum>8</DevicePenNum>
+      <PenMoveInTablet>0</PenMoveInTablet>
+      <DeviceCurPenID>0</DeviceCurPenID>
+      <DeviceRingNum>0</DeviceRingNum>
+      <DeviceKeyNum>6</DeviceKeyNum>
+      <DevicePenType>5</DevicePenType>
+      <DeviceTrackPad>0</DeviceTrackPad>
+      <DeviceControl>0</DeviceControl>
+    </DeviceInfo>
+    <Common>
+      <ScreenMapping id="0">
+        <SX>0</SX>
+        <SY>0</SY>
+        <SW>0</SW>
+        <SH>0</SH>
+      </ScreenMapping>
+      <TabletPannel Orientation="0">
+        <TX>0</TX>
+        <TY>0</TY>
+        <TW>0</TW>
+        <TH>0</TH>
+      </TabletPannel>
+      <DisableInfo>0</DisableInfo>
+      <DisableQuickKey>0</DisableQuickKey>
+      <DisablePressure>0</DisablePressure>
+      <DisableSlope>0</DisableSlope>
+      <PictureFiles>
+        <T_0 X="264" W="166" Y="75" H="94"/>
+        <T_1 X="314" W="52" Y="85" H="87"/>
+        <T_2 X="247" W="166" Y="75" H="94"/>
+        <T_3 X="314" W="52" Y="73" H="87"/>
+      </PictureFiles>
+      <SC fYLC="1" fKX="1" fKY="1" fXLC="1"/>
+    </Common>
+    <CommonAPP>
+      <Pen>
+        <MoveInTablet>0</MoveInTablet>
+        <DevicePenType>5</DevicePenType>
+        <PenBtn0 Actid="27" id="0"/>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen>
+      <Pen2>
+        <MoveInTablet>0</MoveInTablet>
+        <DevicePenType>5</DevicePenType>
+        <PenBtn0 Actid="27" id="0"/>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen2>
+      <Pen3>
+        <MoveInTablet>0</MoveInTablet>
+        <DevicePenType>5</DevicePenType>
+        <PenBtn0 Actid="27" id="0"/>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen3>
+      <Pen4>
+        <MoveInTablet>0</MoveInTablet>
+        <DevicePenType>5</DevicePenType>
+        <PenBtn0 Actid="27" id="0"/>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen4>
+      <Pen5>
+        <MoveInTablet>0</MoveInTablet>
+        <DevicePenType>5</DevicePenType>
+        <PenBtn0 Actid="27" id="0"/>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen5>
+      <Pen6>
+        <MoveInTablet>0</MoveInTablet>
+        <DevicePenType>5</DevicePenType>
+        <PenBtn0 Actid="27" id="0"/>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen6>
+      <Pen7>
+        <MoveInTablet>0</MoveInTablet>
+        <DevicePenType>5</DevicePenType>
+        <PenBtn0 Actid="27" id="0"/>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen7>
+      <Pen8>
+        <MoveInTablet>0</MoveInTablet>
+        <DevicePenType>5</DevicePenType>
+        <PenBtn0 Actid="27" id="0"/>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen8>
+      <K>
+        <K1 Actid="1" Show="1" id="0" Motid="1"/>
+        <K2 Actid="2" Show="1" id="0" Motid="2"/>
+        <K3 Actid="3" Show="1" id="0" Motid="3"/>
+        <K4 Actid="4" Show="1" id="0" Motid="4"/>
+        <K5 Actid="21" Show="1" id="0" Motid="5"/>
+        <K6 Actid="22" Show="1" id="0" Motid="6"/>
+      </K>
+    </CommonAPP>
+    <Apps>
+      <app id="0" name="0">
+        <path/>
+        <Pen>
+          <PenBtn1 id="0"/>
+          <PenBtn2 id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen>
+        <Pen2>
+          <PenBtn1 Actid="207" id="0"/>
+          <PenBtn2 Actid="209" id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen2>
+        <Pen3>
+          <PenBtn1 Actid="207" id="0"/>
+          <PenBtn2 Actid="209" id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen3>
+        <Pen4>
+          <PenBtn1 Actid="207" id="0"/>
+          <PenBtn2 Actid="209" id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen4>
+        <Pen5>
+          <PenBtn1 Actid="207" id="0"/>
+          <PenBtn2 Actid="209" id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen5>
+        <Pen6>
+          <PenBtn1 Actid="207" id="0"/>
+          <PenBtn2 Actid="209" id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen6>
+        <Pen7>
+          <PenBtn1 Actid="207" id="0"/>
+          <PenBtn2 Actid="209" id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen7>
+        <Pen8>
+          <PenBtn1 Actid="207" id="0"/>
+          <PenBtn2 Actid="209" id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen8>
+        <K>
+          <K1 id="0"/>
+          <K2 id="0"/>
+          <K3 id="0"/>
+          <K4 id="0"/>
+          <K5 id="0"/>
+          <K6 id="0"/>
+          <K7 id="0"/>
+          <K8 id="0"/>
+          <K9 id="0"/>
+        </K>
+      </app>
+    </Apps>
+  </LPH1015F>
+  <LPH1515F>
+    <DeviceInfo>
+      <DevicePenNum>8</DevicePenNum>
+      <PenMoveInTablet>0</PenMoveInTablet>
+      <DeviceCurPenID>0</DeviceCurPenID>
+      <DeviceRingNum>0</DeviceRingNum>
+      <DeviceKeyNum>10</DeviceKeyNum>
+      <DevicePenType>5</DevicePenType>
+      <DeviceTrackPad>0</DeviceTrackPad>
+      <DeviceControl>0</DeviceControl>
+    </DeviceInfo>
+    <Common>
+      <ScreenMapping id="0">
+        <SX>0</SX>
+        <SY>0</SY>
+        <SW>0</SW>
+        <SH>0</SH>
+      </ScreenMapping>
+      <TabletPannel Orientation="0">
+        <TX>0</TX>
+        <TY>0</TY>
+        <TW>0</TW>
+        <TH>0</TH>
+      </TabletPannel>
+      <DisableInfo>0</DisableInfo>
+      <DisableQuickKey>0</DisableQuickKey>
+      <DisablePressure>0</DisablePressure>
+      <DisableSlope>0</DisableSlope>
+      <PictureFiles>
+        <T_0 X="262" W="172" Y="72" H="96"/>
+        <T_1 X="314" W="50" Y="80" H="90"/>
+        <T_2 X="247" W="172" Y="72" H="96"/>
+        <T_3 X="314" W="50" Y="70" H="90"/>
+      </PictureFiles>
+      <SC fYLC="1" fKX="1" fKY="1" fXLC="1"/>
+    </Common>
+    <CommonAPP>
+      <Pen>
+        <MoveInTablet>0</MoveInTablet>
+        <DevicePenType>5</DevicePenType>
+        <PenBtn0 Actid="27" id="0"/>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen>
+      <Pen2>
+        <MoveInTablet>0</MoveInTablet>
+        <DevicePenType>5</DevicePenType>
+        <PenBtn0 Actid="27" id="0"/>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen2>
+      <Pen3>
+        <MoveInTablet>0</MoveInTablet>
+        <DevicePenType>5</DevicePenType>
+        <PenBtn0 Actid="27" id="0"/>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen3>
+      <Pen4>
+        <MoveInTablet>0</MoveInTablet>
+        <DevicePenType>5</DevicePenType>
+        <PenBtn0 Actid="27" id="0"/>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen4>
+      <Pen5>
+        <MoveInTablet>0</MoveInTablet>
+        <DevicePenType>5</DevicePenType>
+        <PenBtn0 Actid="27" id="0"/>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen5>
+      <Pen6>
+        <MoveInTablet>0</MoveInTablet>
+        <DevicePenType>5</DevicePenType>
+        <PenBtn0 Actid="27" id="0"/>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen6>
+      <Pen7>
+        <MoveInTablet>0</MoveInTablet>
+        <DevicePenType>5</DevicePenType>
+        <PenBtn0 Actid="27" id="0"/>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen7>
+      <Pen8>
+        <MoveInTablet>0</MoveInTablet>
+        <DevicePenType>5</DevicePenType>
+        <PenBtn0 Actid="27" id="0"/>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen8>
+      <K>
+        <K1 Actid="1" Show="1" id="0" Motid="1"/>
+        <K2 Actid="2" Show="1" id="0" Motid="2"/>
+        <K3 Actid="3" Show="1" id="0" Motid="3"/>
+        <K4 Actid="4" Show="1" id="0" Motid="4"/>
+        <K5 Actid="5" Show="1" id="0" Motid="5"/>
+        <K6 Actid="6" Show="1" id="0" Motid="6"/>
+        <K7 Actid="21" Show="1" id="0" Motid="7"/>
+        <K8 Actid="22" Show="1" id="0" Motid="8"/>
+        <K9 Actid="101" Show="1" id="0" Motid="9"/>
+        <K10 Actid="102" Show="1" id="0" Motid="10"/>
+      </K>
+    </CommonAPP>
+    <Apps>
+      <app id="0" name="0">
+        <path/>
+        <Pen>
+          <PenBtn1 id="0"/>
+          <PenBtn2 id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen>
+        <Pen2>
+          <PenBtn1 Actid="207" id="0"/>
+          <PenBtn2 Actid="209" id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen2>
+        <Pen3>
+          <PenBtn1 Actid="207" id="0"/>
+          <PenBtn2 Actid="209" id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen3>
+        <Pen4>
+          <PenBtn1 Actid="207" id="0"/>
+          <PenBtn2 Actid="209" id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen4>
+        <Pen5>
+          <PenBtn1 Actid="207" id="0"/>
+          <PenBtn2 Actid="209" id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen5>
+        <Pen6>
+          <PenBtn1 Actid="207" id="0"/>
+          <PenBtn2 Actid="209" id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen6>
+        <Pen7>
+          <PenBtn1 Actid="207" id="0"/>
+          <PenBtn2 Actid="209" id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen7>
+        <Pen8>
+          <PenBtn1 Actid="207" id="0"/>
+          <PenBtn2 Actid="209" id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen8>
+        <K>
+          <K1 id="0"/>
+          <K2 id="0"/>
+          <K3 id="0"/>
+          <K4 id="0"/>
+          <K5 id="0"/>
+          <K6 id="0"/>
+          <K7 id="0"/>
+          <K8 id="0"/>
+          <K9 id="0"/>
+          <K10 id="0"/>
+        </K>
+      </app>
+    </Apps>
+  </LPH1515F>
+  <BPU1014L-A>
+    <DeviceInfo>
+      <DeviceRingNum>0</DeviceRingNum>
+      <DeviceKeyNum>16</DeviceKeyNum>
+      <DevicePenType>0</DevicePenType>
+    </DeviceInfo>
+    <Common>
+      <ScreenMapping id="0">
+        <SX>0</SX>
+        <SY>0</SY>
+        <SW>0</SW>
+        <SH>0</SH>
+      </ScreenMapping>
+      <TabletPannel Orientation="0">
+        <TX>0</TX>
+        <TY>0</TY>
+        <TW>0</TW>
+        <TH>0</TH>
+      </TabletPannel>
+      <DisableInfo>0</DisableInfo>
+      <DisableQuickKey>0</DisableQuickKey>
+      <DisablePressure>0</DisablePressure>
+      <DisableSlope>0</DisableSlope>
+      <PictureFiles>
+        <T_0 X="365" W="112" Y="252" H="66"/>
+        <T_1 X="395" W="37" Y="259" H="60"/>
+        <T_2 X="351" W="112" Y="251" H="66"/>
+        <T_3 X="395" W="37" Y="250" H="60"/>
+      </PictureFiles>
+      <SC fYLC="1" fKX="1" fKY="1" fXLC="1"/>
+    </Common>
+    <CommonAPP>
+      <Pen>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen>
+      <K>
+        <K1 Actid="1" Show="1" id="0" Motid="1"/>
+        <K2 Actid="2" Show="1" id="0" Motid="2"/>
+        <K3 Actid="3" Show="1" id="0" Motid="3"/>
+        <K4 Actid="4" Show="1" id="0" Motid="4"/>
+        <K5 Actid="5" Show="1" id="0" Motid="5"/>
+        <K6 Actid="6" Show="1" id="0" Motid="6"/>
+        <K7 Actid="21" Show="1" id="0" Motid="7"/>
+        <K8 Actid="22" Show="1" id="0" Motid="8"/>
+        <K9 Actid="101" Show="1" id="0" Motid="9"/>
+        <K10 Actid="102" Show="1" id="0" Motid="10"/>
+        <K11 Actid="9" Show="1" id="0" Motid="11"/>
+        <K12 Actid="11" Show="1" id="0" Motid="12"/>
+        <K13 Actid="12" Show="1" id="0" Motid="13"/>
+        <K14 Actid="13" Show="1" id="0" Motid="14"/>
+        <K15 Actid="25" Show="1" id="0" Motid="15"/>
+        <K16 Actid="26" Show="1" id="0" Motid="16"/>
+      </K>
+    </CommonAPP>
+    <Apps>
+      <app id="0" name="0">
+        <path/>
+        <Pen>
+          <PenBtn1 id="0"/>
+          <PenBtn2 id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen>
+        <K>
+          <K1 id="0"/>
+          <K2 id="0"/>
+          <K3 id="0"/>
+          <K4 id="0"/>
+          <K5 id="0"/>
+          <K6 id="0"/>
+          <K7 id="0"/>
+          <K8 id="0"/>
+          <K9 id="0"/>
+          <K10 id="0"/>
+          <K11 id="0"/>
+          <K12 id="0"/>
+          <K13 id="0"/>
+          <K14 id="0"/>
+          <K15 id="0"/>
+          <K16 id="0"/>
+        </K>
+      </app>
+    </Apps>
+  </BPU1014L-A>
+  <DecoMW>
+    <DeviceInfo>
+      <DevicePenNum>8</DevicePenNum>
+      <PenMoveInTablet>0</PenMoveInTablet>
+      <DeviceCurPenID>0</DeviceCurPenID>
+      <DeviceRingNum>0</DeviceRingNum>
+      <DeviceKeyNum>8</DeviceKeyNum>
+      <DeviceTrackPad>0</DeviceTrackPad>
+      <DeviceControl>0</DeviceControl>
+      <DevicePenType>5</DevicePenType>
+    </DeviceInfo>
+    <Common>
+      <ScreenMapping id="0">
+        <SX>0</SX>
+        <SY>0</SY>
+        <SW>0</SW>
+        <SH>0</SH>
+      </ScreenMapping>
+      <TabletPannel Orientation="0">
+        <TX>0</TX>
+        <TY>0</TY>
+        <TW>0</TW>
+        <TH>0</TH>
+      </TabletPannel>
+      <DisableInfo>0</DisableInfo>
+      <DisableQuickKey>0</DisableQuickKey>
+      <DisablePressure>0</DisablePressure>
+      <DisableSlope>0</DisableSlope>
+      <PictureFiles>
+        <T_0 X="252" W="203" Y="58" H="128"/>
+        <T_1 X="306" W="67" Y="76" H="108"/>
+        <T_2 X="221" W="203" Y="56" H="128"/>
+        <T_3 X="306" W="67" Y="59" H="108"/>
+      </PictureFiles>
+      <SC fYLC="1" fKX="1" fKY="1" fXLC="1"/>
+    </Common>
+    <CommonAPP>
+      <Pen>
+        <MoveInTablet>0</MoveInTablet>
+        <DevicePenType>5</DevicePenType>
+        <PenBtn0 Actid="27" id="0"/>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen>
+      <Pen2>
+        <MoveInTablet>0</MoveInTablet>
+        <DevicePenType>5</DevicePenType>
+        <PenBtn0 Actid="27" id="0"/>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen2>
+      <Pen3>
+        <MoveInTablet>0</MoveInTablet>
+        <DevicePenType>5</DevicePenType>
+        <PenBtn0 Actid="27" id="0"/>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen3>
+      <Pen4>
+        <MoveInTablet>0</MoveInTablet>
+        <DevicePenType>5</DevicePenType>
+        <PenBtn0 Actid="27" id="0"/>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen4>
+      <Pen5>
+        <MoveInTablet>0</MoveInTablet>
+        <DevicePenType>5</DevicePenType>
+        <PenBtn0 Actid="27" id="0"/>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen5>
+      <Pen6>
+        <MoveInTablet>0</MoveInTablet>
+        <DevicePenType>5</DevicePenType>
+        <PenBtn0 Actid="27" id="0"/>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen6>
+      <Pen7>
+        <MoveInTablet>0</MoveInTablet>
+        <DevicePenType>5</DevicePenType>
+        <PenBtn0 Actid="27" id="0"/>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen7>
+      <Pen8>
+        <MoveInTablet>0</MoveInTablet>
+        <DevicePenType>5</DevicePenType>
+        <PenBtn0 Actid="27" id="0"/>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen8>
+      <K>
+        <K1 Actid="1" Show="1" id="0" Motid="1"/>
+        <K2 Actid="2" Show="1" id="0" Motid="2"/>
+        <K3 Actid="3" Show="1" id="0" Motid="3"/>
+        <K4 Actid="4" Show="1" id="0" Motid="4"/>
+        <K5 Actid="6" Show="1" id="0" Motid="5"/>
+        <K6 Actid="21" Show="1" id="0" Motid="6"/>
+        <K7 Actid="22" Show="1" id="0" Motid="7"/>
+        <K8 Actid="101" Show="1" id="0" Motid="8"/>
+      </K>
+    </CommonAPP>
+    <Apps>
+      <app id="0" name="0">
+        <path/>
+        <Pen>
+          <PenBtn1 id="0"/>
+          <PenBtn2 id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen>
+        <Pen2>
+          <PenBtn1 Actid="207" id="0"/>
+          <PenBtn2 Actid="209" id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen2>
+        <Pen3>
+          <PenBtn1 Actid="207" id="0"/>
+          <PenBtn2 Actid="209" id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen3>
+        <Pen4>
+          <PenBtn1 Actid="207" id="0"/>
+          <PenBtn2 Actid="209" id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen4>
+        <Pen5>
+          <PenBtn1 Actid="207" id="0"/>
+          <PenBtn2 Actid="209" id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen5>
+        <Pen6>
+          <PenBtn1 Actid="207" id="0"/>
+          <PenBtn2 Actid="209" id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen6>
+        <Pen7>
+          <PenBtn1 Actid="207" id="0"/>
+          <PenBtn2 Actid="209" id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen7>
+        <Pen8>
+          <PenBtn1 Actid="207" id="0"/>
+          <PenBtn2 Actid="209" id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen8>
+        <K>
+          <K1 id="0"/>
+          <K2 id="0"/>
+          <K3 id="0"/>
+          <K4 id="0"/>
+          <K5 id="0"/>
+          <K6 id="0"/>
+          <K7 id="0"/>
+          <K8 id="0"/>
+        </K>
+      </app>
+    </Apps>
+  </DecoMW>
+  <LPH1416F-A>
+    <DeviceInfo>
+      <DevicePenNum>8</DevicePenNum>
+      <PenMoveInTablet>0</PenMoveInTablet>
+      <DeviceCurPenID>0</DeviceCurPenID>
+      <DeviceRingNum>0</DeviceRingNum>
+      <DeviceKeyNum>0</DeviceKeyNum>
+      <DeviceTrackPad>0</DeviceTrackPad>
+      <DeviceControl>0</DeviceControl>
+      <DevicePenType>6</DevicePenType>
+    </DeviceInfo>
+    <Common>
+      <ScreenMapping id="0">
+        <SX>0</SX>
+        <SY>0</SY>
+        <SW>0</SW>
+        <SH>0</SH>
+      </ScreenMapping>
+      <TabletPannel Orientation="0">
+        <TX>0</TX>
+        <TY>0</TY>
+        <TW>0</TW>
+        <TH>0</TH>
+      </TabletPannel>
+      <DisableInfo>0</DisableInfo>
+      <DisableQuickKey>0</DisableQuickKey>
+      <DisablePressure>0</DisablePressure>
+      <DisableSlope>0</DisableSlope>
+      <PictureFiles>
+        <T_0 X="259" W="164" Y="68" H="102"/>
+        <T_1 X="316" W="53" Y="78" H="87"/>
+        <T_2 X="258" W="164" Y="75" H="102"/>
+        <T_3 X="312" W="53" Y="78" H="87"/>
+      </PictureFiles>
+      <SC fYLC="1" fKX="1" fKY="1" fXLC="1"/>
+    </Common>
+    <CommonAPP>
+      <Pen>
+        <MoveInTablet>0</MoveInTablet>
+        <DevicePenType>5</DevicePenType>
+        <PenBtn0 Actid="27" id="0"/>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen>
+      <Pen2>
+        <MoveInTablet>0</MoveInTablet>
+        <DevicePenType>5</DevicePenType>
+        <PenBtn0 Actid="27" id="0"/>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen2>
+      <Pen3>
+        <MoveInTablet>0</MoveInTablet>
+        <DevicePenType>5</DevicePenType>
+        <PenBtn0 Actid="27" id="0"/>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen3>
+      <Pen4>
+        <MoveInTablet>0</MoveInTablet>
+        <DevicePenType>5</DevicePenType>
+        <PenBtn0 Actid="27" id="0"/>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen4>
+      <Pen5>
+        <MoveInTablet>0</MoveInTablet>
+        <DevicePenType>5</DevicePenType>
+        <PenBtn0 Actid="27" id="0"/>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen5>
+      <Pen6>
+        <MoveInTablet>0</MoveInTablet>
+        <DevicePenType>5</DevicePenType>
+        <PenBtn0 Actid="27" id="0"/>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen6>
+      <Pen7>
+        <MoveInTablet>0</MoveInTablet>
+        <DevicePenType>5</DevicePenType>
+        <PenBtn0 Actid="27" id="0"/>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen7>
+      <Pen8>
+        <MoveInTablet>0</MoveInTablet>
+        <DevicePenType>5</DevicePenType>
+        <PenBtn0 Actid="27" id="0"/>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen8>
+      <PR id="0">
+        <W1 id="0"/>
+        <W2 id="0"/>
+        <W3 id="0"/>
+        <W4 id="0"/>
+      </PR>
+    </CommonAPP>
+    <Apps>
+      <app id="0" name="0">
+        <path/>
+        <Pen>
+          <PenBtn0 Actid="27" id="0"/>
+          <PenBtn1 Actid="207" id="0"/>
+          <PenBtn2 Actid="209" id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen>
+        <Pen2>
+          <PenBtn0 Actid="27" id="0"/>
+          <PenBtn1 Actid="207" id="0"/>
+          <PenBtn2 Actid="209" id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen2>
+        <Pen3>
+          <PenBtn0 Actid="27" id="0"/>
+          <PenBtn1 Actid="207" id="0"/>
+          <PenBtn2 Actid="209" id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen3>
+        <Pen4>
+          <PenBtn0 Actid="27" id="0"/>
+          <PenBtn1 Actid="207" id="0"/>
+          <PenBtn2 Actid="209" id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen4>
+        <Pen5>
+          <PenBtn0 Actid="27" id="0"/>
+          <PenBtn1 Actid="207" id="0"/>
+          <PenBtn2 Actid="209" id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen5>
+        <Pen6>
+          <PenBtn0 Actid="27" id="0"/>
+          <PenBtn1 Actid="207" id="0"/>
+          <PenBtn2 Actid="209" id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen6>
+        <Pen7>
+          <PenBtn0 Actid="27" id="0"/>
+          <PenBtn1 Actid="207" id="0"/>
+          <PenBtn2 Actid="209" id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen7>
+        <Pen8>
+          <PenBtn0 Actid="27" id="0"/>
+          <PenBtn1 Actid="207" id="0"/>
+          <PenBtn2 Actid="209" id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen8>
+        <PR id="0">
+          <W1 id="0"/>
+          <W2 id="0"/>
+          <W3 id="0"/>
+          <W4 id="0"/>
+        </PR>
+      </app>
+    </Apps>
+  </LPH1416F-A>
+  <BPH1502B>
+    <DeviceInfo>
+      <DevicePenNum>8</DevicePenNum>
+      <PenMoveInTablet>0</PenMoveInTablet>
+      <DeviceCurPenID>0</DeviceCurPenID>
+      <DeviceRingNum>0</DeviceRingNum>
+      <DeviceKeyNum>0</DeviceKeyNum>
+      <DeviceTrackPad>0</DeviceTrackPad>
+      <DeviceControl>1</DeviceControl>
+      <DevicePenType>5</DevicePenType>
+    </DeviceInfo>
+    <Common>
+      <ScreenMapping id="0">
+        <SX>0</SX>
+        <SY>0</SY>
+        <SW>0</SW>
+        <SH>0</SH>
+      </ScreenMapping>
+      <TabletPannel Orientation="0">
+        <TX>0</TX>
+        <TY>0</TY>
+        <TW>0</TW>
+        <TH>0</TH>
+      </TabletPannel>
+      <DisableInfo>0</DisableInfo>
+      <DisableQuickKey>0</DisableQuickKey>
+      <DisablePressure>0</DisablePressure>
+      <DisableSlope>0</DisableSlope>
+      <PictureFiles>
+        <T_0 X="238" W="203" Y="57" H="125"/>
+        <T_1 X="318" W="50" Y="83" H="83"/>
+        <T_2 X="238" W="203" Y="66" H="125"/>
+        <T_3 X="313" W="50" Y="83" H="83"/>
+      </PictureFiles>
+      <SC fYLC="1" fKX="1" fKY="1" fXLC="1"/>
+    </Common>
+    <CommonAPP>
+      <Pen>
+        <PenBtn0 Actid="27" id="0"/>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen>
+      <Pen2>
+        <PenBtn0 Actid="27" id="0"/>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen2>
+      <Pen3>
+        <PenBtn0 Actid="27" id="0"/>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen3>
+      <Pen4>
+        <PenBtn0 Actid="27" id="0"/>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen4>
+      <Pen5>
+        <PenBtn0 Actid="27" id="0"/>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen5>
+      <Pen6>
+        <PenBtn0 Actid="27" id="0"/>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen6>
+      <Pen7>
+        <PenBtn0 Actid="27" id="0"/>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen7>
+      <Pen8>
+        <PenBtn0 Actid="27" id="0"/>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen8>
+      <PR id="0">
+        <W1 id="0"/>
+        <W2 id="0"/>
+        <W3 id="0"/>
+        <W4 id="0"/>
+      </PR>
+    </CommonAPP>
+    <Apps>
+      <app id="0" name="0">
+        <path/>
+        <Pen>
+          <PenBtn0 Actid="27" id="0"/>
+          <PenBtn1 Actid="207" id="0"/>
+          <PenBtn2 Actid="209" id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen>
+        <Pen2>
+          <PenBtn0 Actid="27" id="0"/>
+          <PenBtn1 Actid="207" id="0"/>
+          <PenBtn2 Actid="209" id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen2>
+        <Pen3>
+          <PenBtn0 Actid="27" id="0"/>
+          <PenBtn1 Actid="207" id="0"/>
+          <PenBtn2 Actid="209" id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen3>
+        <Pen4>
+          <PenBtn0 Actid="27" id="0"/>
+          <PenBtn1 Actid="207" id="0"/>
+          <PenBtn2 Actid="209" id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen4>
+        <Pen5>
+          <PenBtn0 Actid="27" id="0"/>
+          <PenBtn1 Actid="207" id="0"/>
+          <PenBtn2 Actid="209" id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen5>
+        <Pen6>
+          <PenBtn0 Actid="27" id="0"/>
+          <PenBtn1 Actid="207" id="0"/>
+          <PenBtn2 Actid="209" id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen6>
+        <Pen7>
+          <PenBtn0 Actid="27" id="0"/>
+          <PenBtn1 Actid="207" id="0"/>
+          <PenBtn2 Actid="209" id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen7>
+        <Pen8>
+          <PenBtn0 Actid="27" id="0"/>
+          <PenBtn1 Actid="207" id="0"/>
+          <PenBtn2 Actid="209" id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen8>
+        <PR id="0">
+          <W1 id="0"/>
+          <W2 id="0"/>
+          <W3 id="0"/>
+          <W4 id="0"/>
+        </PR>
+      </app>
+    </Apps>
+  </BPH1502B>
+  <LDN2215F-A>
+    <DeviceInfo>
+      <DevicePenNum>8</DevicePenNum>
+      <PenMoveInTablet>0</PenMoveInTablet>
+      <DeviceCurPenID>0</DeviceCurPenID>
+      <DeviceRingNum>0</DeviceRingNum>
+      <DeviceKeyNum>0</DeviceKeyNum>
+      <DeviceTrackPad>0</DeviceTrackPad>
+      <DeviceControl>0</DeviceControl>
+      <DevicePenType>5</DevicePenType>
+    </DeviceInfo>
+    <Common>
+      <ScreenMapping id="0">
+        <SX>0</SX>
+        <SY>0</SY>
+        <SW>0</SW>
+        <SH>0</SH>
+      </ScreenMapping>
+      <TabletPannel Orientation="0">
+        <TX>0</TX>
+        <TY>0</TY>
+        <TW>0</TW>
+        <TH>0</TH>
+      </TabletPannel>
+      <DisableInfo>0</DisableInfo>
+      <DisableQuickKey>0</DisableQuickKey>
+      <DisablePressure>0</DisablePressure>
+      <DisableSlope>0</DisableSlope>
+      <PictureFiles>
+        <T_0 X="234" W="214" Y="56" H="122"/>
+        <T_1 X="312" W="64" Y="66" H="112"/>
+        <T_2 X="234" W="214" Y="66" H="122"/>
+        <T_3 X="306" W="64" Y="66" H="112"/>
+      </PictureFiles>
+      <SC fYLC="1" fKX="1" fKY="1" fXLC="1"/>
+    </Common>
+    <CommonAPP>
+      <Pen>
+        <PenBtn0 Actid="27" id="0"/>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen>
+      <Pen2>
+        <PenBtn0 Actid="27" id="0"/>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen2>
+      <Pen3>
+        <PenBtn0 Actid="27" id="0"/>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen3>
+      <Pen4>
+        <PenBtn0 Actid="27" id="0"/>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen4>
+      <Pen5>
+        <PenBtn0 Actid="27" id="0"/>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen5>
+      <Pen6>
+        <PenBtn0 Actid="27" id="0"/>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen6>
+      <Pen7>
+        <PenBtn0 Actid="27" id="0"/>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen7>
+      <Pen8>
+        <PenBtn0 Actid="27" id="0"/>
+        <PenBtn1 Actid="207" id="0"/>
+        <PenBtn2 Actid="209" id="0"/>
+        <P0>0</P0>
+        <P1X>0.5</P1X>
+        <P1Y>0.5</P1Y>
+        <P2>1</P2>
+        <TablePC>1</TablePC>
+        <RelativeCoords Speed="5">0</RelativeCoords>
+      </Pen8>
+      <PR id="0">
+        <W1 id="0"/>
+        <W2 id="0"/>
+        <W3 id="0"/>
+        <W4 id="0"/>
+      </PR>
+    </CommonAPP>
+    <Apps>
+      <app id="0" name="0">
+        <path/>
+        <Pen>
+          <PenBtn0 Actid="27" id="0"/>
+          <PenBtn1 Actid="207" id="0"/>
+          <PenBtn2 Actid="209" id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen>
+        <Pen2>
+          <PenBtn0 Actid="27" id="0"/>
+          <PenBtn1 Actid="207" id="0"/>
+          <PenBtn2 Actid="209" id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen2>
+        <Pen3>
+          <PenBtn0 Actid="27" id="0"/>
+          <PenBtn1 Actid="207" id="0"/>
+          <PenBtn2 Actid="209" id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen3>
+        <Pen4>
+          <PenBtn0 Actid="27" id="0"/>
+          <PenBtn1 Actid="207" id="0"/>
+          <PenBtn2 Actid="209" id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen4>
+        <Pen5>
+          <PenBtn0 Actid="27" id="0"/>
+          <PenBtn1 Actid="207" id="0"/>
+          <PenBtn2 Actid="209" id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen5>
+        <Pen6>
+          <PenBtn0 Actid="27" id="0"/>
+          <PenBtn1 Actid="207" id="0"/>
+          <PenBtn2 Actid="209" id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen6>
+        <Pen7>
+          <PenBtn0 Actid="27" id="0"/>
+          <PenBtn1 Actid="207" id="0"/>
+          <PenBtn2 Actid="209" id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen7>
+        <Pen8>
+          <PenBtn0 Actid="27" id="0"/>
+          <PenBtn1 Actid="207" id="0"/>
+          <PenBtn2 Actid="209" id="0"/>
+          <P0>0</P0>
+          <P1X>0.5</P1X>
+          <P1Y>0.5</P1Y>
+          <P2>1</P2>
+          <TablePC>1</TablePC>
+          <RelativeCoords Speed="5">0</RelativeCoords>
+        </Pen8>
+        <PR id="0">
+          <W1 id="0"/>
+          <W2 id="0"/>
+          <W3 id="0"/>
+          <W4 id="0"/>
+        </PR>
+      </app>
+    </Apps>
+  </LDN2215F-A>
+</PenTableLists>

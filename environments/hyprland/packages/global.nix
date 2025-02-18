@@ -27,4 +27,6 @@ in
   nixpkgs.overlays = [
     local-overlays.rofi-plugins
   ];
+
+  environment.variables.QT_QPA_PLATFORMTHEME = "qt6ct";
 }

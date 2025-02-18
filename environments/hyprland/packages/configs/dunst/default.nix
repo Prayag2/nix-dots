@@ -1,4 +1,4 @@
-{ pkgs, ... }:
+{ config, pkgs, ... }:
 let
   rofi = "${pkgs.rofi}/bin/rofi -theme $HOME/.config/rofi/theme.rasi";
 in
@@ -23,7 +23,7 @@ in
         gap_size = 0
         separator_color = frame
         sort = yes
-        font = "JetBrainsMono Nerd Font 10"
+        font = "${config.myFont.font.nerd_name} ${builtins.toString (10*config.myFont.font.size_multiplier)}"
         markup = full
         format = "<b>%s</b>\n%b"
         alignment = left

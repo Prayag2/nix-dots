@@ -160,11 +160,7 @@ void printer(const vector<string>& identifiers, const int i, T arg, Args&&... ar
 }
 
 #define print(...) \
-    cout << "~~~DEBUG~~~\n"; \
-    cout << "From Line: " << __LINE__ << endl; \
-    cout << "~~~~~~~~~~~\n"; \
-    printer(split(#__VA_ARGS__), 0, __VA_ARGS__); \
-    cout << "~~~~~~~~~~~\n";
+    printer(split(#__VA_ARGS__), 0, __VA_ARGS__);
 #endif
 
 /*
