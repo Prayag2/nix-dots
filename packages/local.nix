@@ -122,4 +122,8 @@
       userName = "Prayag2";
     };
   };
+
+  nixpkgs.overlays = [
+      (import ../overlays/gcc-overlay.nix)
+  ];
 }
