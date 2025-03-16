@@ -123,6 +123,12 @@
         "move 0 0, title:KDE Connect Daemon"
       ];
 
+      workspace = [
+        "w[t1], gapsout:0, gapsin:0"
+        "w[tg1], gapsout:0, gapsin:0"
+        "f[1], gapsout:0, gapsin:0"
+      ];
+
       windowrulev2 = [
         "opacity 0.95, initialTitle: ^(Visual Studio Code)$"
         "opacity 0.0 override 0.0 override,class:^(xwaylandvideobridge)$"
@@ -130,6 +136,12 @@
         "nofocus,class:^(xwaylandvideobridge)$"
         "noinitialfocus,class:^(xwaylandvideobridge)$"
         "noinitialfocus,class:^(PenTablet)$"
+        "bordersize 0, floating:0, onworkspace:w[t1]"
+        "rounding 0, floating:0, onworkspace:w[t1]"
+        "bordersize 0, floating:0, onworkspace:w[tg1]"
+        "rounding 0, floating:0, onworkspace:w[tg1]"
+        "bordersize 0, floating:0, onworkspace:f[1]"
+        "rounding 0, floating:0, onworkspace:f[1]"
       ];
 
       bezier = "custom-bzr, 0,.41,.23,.94";

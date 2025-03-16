@@ -14,6 +14,23 @@
     ./drv/cp
   ];
 
+  services.flatpak.uninstallUnmanaged = true;
+  services.flatpak.packages = [
+    "app.zen_browser.zen"
+    "com.github.flxzt.rnote"
+    "org.gtk.Gtk3theme.Adwaita-dark"
+  ];
+
+  services.flatpak.overrides = {
+    global = {
+      Context.sockets = ["wayland" "!x11" "!fallback-x11"];
+      Environment = {
+        XCURSOR_PATH = "/run/host/user-share/icons:/run/host/share/icons";
+        GTK_THEME = "Adwaita:dark";
+      };
+    };
+  };
+
   home.packages = with pkgs; [
     cava
     tree
@@ -26,7 +43,6 @@
     gnome-disk-utility
     obs-studio
     baobab
-    telegram-desktop
     simple-scan
     gimp
     corefonts
@@ -40,6 +56,7 @@
     lorien
     open-dyslexic
     tauon
+    docker
 
     # for dev
     # yes i don't want to enter a nix shell again and again when I'm just brainstorming

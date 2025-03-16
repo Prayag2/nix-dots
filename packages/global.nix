@@ -3,6 +3,7 @@
     ./configs/flatpak
   ];
 
+  services.flatpak.uninstallUnmanaged = true;
   environment.systemPackages = with pkgs; [
     distrobox
   ];

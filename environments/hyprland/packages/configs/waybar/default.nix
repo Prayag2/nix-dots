@@ -378,7 +378,7 @@ in
         format-icons = ["󰂎" "󰁻" "󰁾" "󰂁" "󰁹"];
         max-length = 25;
         tooltip = true;
-        tooltip-format = "󱧥 {timeTo}";
+        tooltip-format = "󱧥 {timeTo}\n󱈑 Battery Health: {health}\n󱩗 Power Draw: {power}W";
       };
 
       "custom/dunst" = {
