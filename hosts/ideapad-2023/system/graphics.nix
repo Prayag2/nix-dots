@@ -10,10 +10,10 @@ in
     package = config.boot.kernelPackages.nvidiaPackages.stable;
     prime = {
       offload = {
-        enable = true;
-        enableOffloadCmd = true;
+        enable = false;
+        enableOffloadCmd = false;
       };
-      # sync.enable = true;
+      sync.enable = true;
       amdgpuBusId = "PCI:6:0:0";
       nvidiaBusId = "PCI:1:0:0";
     };

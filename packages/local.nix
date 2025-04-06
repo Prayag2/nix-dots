@@ -32,6 +32,7 @@
   };
 
   home.packages = with pkgs; [
+    brave
     cava
     tree
     btop

@@ -1,6 +1,7 @@
 { pkgs, ... }: {
   imports = [
     ../../environments/hyprland/packages/global.nix
+    ../../environments/awesome/packages/global.nix
     ../../packages/global.nix
     ../../devices/printers/tsc-te244
     ../../devices/printers
