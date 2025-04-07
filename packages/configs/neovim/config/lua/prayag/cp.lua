@@ -42,4 +42,4 @@ end
 vim.api.nvim_set_keymap('n', '<Leader>pp', [[:lua _G.ToggleCodePanes()<CR>]], { noremap = true, silent = true })
 
 -- my CP template starts form line 37 so I have mapped gg to 37gg instead because i don't really need to go to lines above 37
-vim.api.nvim_set_keymap('n', '<Leader>cp', [[:lua _G.ToggleCodePanes()<CR>:set nowrap<CR>:nnoremap gg 37gg<CR>]], { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<Leader>cp', [[:lua _G.ToggleCodePanes()<CR>:set nowrap<CR>]], { noremap = true, silent = true })

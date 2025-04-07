@@ -19,7 +19,7 @@ tl=$(head -n 1 "$1" | grep -oP '(?<=TL:)\s*\K\d+(?=s)')
 # Ensure input file exists
 touch "$input_file"
 
-cpp_compile_flags="-O2 -Wall -Wextra -pedantic-errors -fsanitize=address,undefined"
+cpp_compile_flags="-O2 -fsanitize=address,undefined -include $HOME/.config/scripts/bits/stdc++.h -I$HOME/.config/scripts -std=c++20"
 c_compile_flags=""
 if [[ "$2" = "debug" ]]; then
     echo ":: Compiling with DEBUG flag ::"
@@ -30,7 +30,7 @@ fi
 # Compile based on file type
 echo ":: Compiling source file ::"
 if [ "$extension" = "cpp" ]; then
-    sh -c "g++ -std=c++20 '$1' $cpp_compile_flags -o '$executable' 2> '$error_file'"
+    sh -c "g++ '$1' $cpp_compile_flags -o '$executable' 2> '$error_file'"
 elif [ "$extension" = "c" ]; then
     sh -c "gcc '$1' $c_compile_flags -o '$executable' 2> '$error_file'"
 else
@@ -63,5 +63,5 @@ if [ $exit_code -eq 124 ]; then
 elif [ $exit_code -eq 0 ]; then
     echo ":: Program ran successfully ::"
 else
-    echo "There was an error running the program"
+    echo ":: There was an error running the program ::"
 fi

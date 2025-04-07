@@ -1,14 +1,9 @@
-// TL: 1s
+#ifndef CPHEADER_H
+#define CPHEADER_H
 #include <bits/stdc++.h>
 using namespace std;
 
-#ifndef ONLINE_JUDGE
 #define VARNAME(x) #x
-#define ll long long
-#define vi vector<int>
-#define all(x) x.begin(), x.end()
-#define PI 3.1415926535897932384626
-
 template <typename T>
 ostream& operator<<(ostream& out, const vector<T>& arr);
 template <typename T>
@@ -25,6 +20,16 @@ template <typename T>
 ostream& operator<<(ostream& out, const stack<T>& st);
 template <typename T, int N>
 ostream& operator<<(ostream& out, const array<T, N>& arr);
+template <typename T, typename U>
+ostream& operator<<(ostream& out, const pair<T, U>& p);
+template <typename T>
+ostream& operator<<(ostream& out, const priority_queue<T>& pq);
+template <typename T>
+ostream& operator<<(ostream& out, const unordered_multiset<T>& ms);
+template <typename T>
+ostream& operator<<(ostream& out, const multiset<T>& ms);
+template <typename T>
+ostream& operator<<(ostream& out, const deque<T>& dq);
 vector<string> split(const char* str);
 
 void printer(const vector<string>& identifiers, const int i);
@@ -137,6 +142,53 @@ ostream& operator<<(ostream& out, const unordered_map<T, U>& arr) {
     return out;
 }
 
+template <typename T, typename U>
+ostream& operator<<(ostream& out, const pair<T, U>& p) {
+    out << "(" << p.first << ", " << p.second << ")";
+    return out;
+}
+
+template <typename T>
+ostream& operator<<(ostream& out, const priority_queue<T>& pq) {
+    priority_queue<T> copy {pq};
+    size_t i {0}, N {pq.size()};
+    out << "[";
+    while (!copy.empty()) {
+        if (i == 0) out << "F: ";
+        out << copy.front();
+        if (i == N-1) out << " :B";
+        if (i < N-1) out << ", ";
+        copy.pop();
+        i++;
+    }
+    out << "]";
+    return out;
+}
+
+template <typename T>
+ostream& operator<<(ostream& out, const unordered_multiset<T>& ms) {
+    out << "{";
+    for (auto it = ms.begin(); it != ms.end(); ++it)
+        out << (it != ms.begin() ? ", " : "") << *it;
+    return out << "}";
+}
+
+template <typename T>
+ostream& operator<<(ostream& out, const multiset<T>& ms) {
+    out << "{";
+    for (auto it = ms.begin(); it != ms.end(); ++it)
+        out << (it != ms.begin() ? ", " : "") << *it;
+    return out << "}";
+}
+
+template <typename T>
+ostream& operator<<(ostream& out, const deque<T>& dq) {
+    out << "[F: ";
+    for (auto it = dq.begin(); it != dq.end(); ++it)
+        out << (it != dq.begin() ? ", " : "") << *it;
+    return out << ": B]";
+}
+
 vector<string> split(const char* str) {
     stringstream ss(str);
     vector<string> tokens;
@@ -161,31 +213,4 @@ void printer(const vector<string>& identifiers, const int i, T arg, Args&&... ar
 
 #define print(...) \
     printer(split(#__VA_ARGS__), 0, __VA_ARGS__);
-#endif
-
-/*
- *
- *   mmmm mmmmmmm   mm   mmmmm mmmmmmm
- *  #"   "   #      ##   #   "#   #   
- *  "#mmm    #     #  #  #mmmm"   #   
- *      "#   #     #mm#  #   "m   #   
- *  "mmm#"   #    #    # #    "   #   
- *
- */
-
-void soln() {
-
-}
-
-int main() {
-    ios::sync_with_stdio(0);
-    cin.tie(0);
-    int t {};
-    cin >> t;
-
-    for (int tn = 0; tn < t; tn++) {
-        soln();
-    }
-
-    return 0;
-}
+#endif // CPHEADER_H
