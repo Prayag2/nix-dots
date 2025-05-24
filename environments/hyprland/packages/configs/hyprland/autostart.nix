@@ -12,7 +12,6 @@ in
       "wal -R"
       "cliphist wipe &"
       "swww init &"
-      "hyprctl setcursor Bibata-Original-Classic 20"
       "xsetroot -cursor_name left_ptr &"
       "sleep 2 && xrdb -merge ~/.Xresources"
       "sleep 2 && ${custom-scr-video_wall} &"

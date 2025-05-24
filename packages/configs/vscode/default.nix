@@ -11,7 +11,6 @@
     };
     extensions = with pkgs.vscode-extensions; [
       vscodevim.vim
-      equinusocio.vsc-material-theme-icons
       ms-vsliveshare.vsliveshare
       github.copilot
       github.copilot-chat

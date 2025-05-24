@@ -6,14 +6,14 @@
   home.pointerCursor = {
     gtk.enable = true;
     #x11.enable = true;
-    package = pkgs.bibata-cursors;
-    name = "Bibata-Original-Classic";
-    size = 20;
+    package = pkgs.apple-cursor;
+    name = "macOS";
+    size = 32;
   };
   gtk = {
     enable = true;
-    cursorTheme.name = "Bibata-Original-Classic";
-    cursorTheme.size = 20;
+    cursorTheme.name = "macOS";
+    cursorTheme.size = 32;
     font.name = config.myFont.font.nerd_name;
     theme.name = "linea-nord-color";
     iconTheme.name = "Papirus-Dark";

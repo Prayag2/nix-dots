@@ -1,4 +1,4 @@
-{ ... }: {
+{ pkgs, ... }: {
 
   imports = [
     ./env.nix
@@ -16,7 +16,30 @@
     enable = true;
     systemd.enable = true;
     systemd.enableXdgAutostart = true;
+    plugins = [
+        pkgs.hyprlandPlugins.hypr-dynamic-cursors
+        # pkgs.hyprlandPlugins.hyprspace
+        pkgs.hyprlandPlugins.hyprexpo
+    ];
     settings = {
+      "plugin:dynamic-cursors" = {
+        enabled = true;
+        mode = "stretch";
+        shake = {
+            nearest = false;
+            limit = 4.0;
+        };
+      };
+      plugin = {
+        hyprexpo = {
+            enable_gesture = true;
+            gesture_fingers = 4;
+            gesture_distance = 300;
+            gesture_positive = true;
+        };
+      };
+      # "plugin:overview:overrideGaps" = false;
+      # "plugin:overview:autoDrag" = false;
       input = {
         kb_layout = "us";
         follow_mouse = true;
@@ -144,11 +167,15 @@
         "rounding 0, floating:0, onworkspace:f[1]"
       ];
 
-      bezier = "custom-bzr, 0,.41,.23,.94";
+      bezier = [
+        "custom-bzr, 0.16, 1, 0.3, 1"
+      ];
       animation = [
-        "workspaces, 1, 3, custom-bzr, slidefade 20%"
-        "windows, 1, 2, custom-bzr, slide"
-        "layers, 1, 2, custom-bzr, popin 80%"
+        "workspaces, 1, 6, custom-bzr, slide"
+        "windows, 1, 5, custom-bzr, popin 80%"
+        "layers, 1, 5, custom-bzr, popin 80%"
+        "fade, 1, 7, custom-bzr"
+        "border, 1, 7, default"
       ];
     };
   };

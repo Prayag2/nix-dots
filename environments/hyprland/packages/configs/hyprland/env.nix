@@ -5,5 +5,7 @@
     "XDG_SESSION_DESKTOP,Hyprland"
     "XDG_SESSION_TYPE,wayland"
     "ELECTRON_OZONE_PLATFORM_HINT,wayland"
+    "HYPRCURSOR_THEME,macOS"
+    "HYPRCURSOR_SIZE,32"
   ];
 }

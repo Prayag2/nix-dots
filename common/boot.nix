@@ -1,11 +1,14 @@
-{ pkgs, ... }: {
+{ pkgs, inputs, ... }: 
+let
+    stableZenPkg = import inputs.nixpkgs-stable-zen-kernel { system = "x86_64-linux";  config.allowUnfree = true; };
+in {
   boot = {
     supportedFilesystems = [ "ntfs" ];
     loader.systemd-boot.enable = true;
     loader.systemd-boot.memtest86.enable = true;
     loader.efi.canTouchEfiVariables = true;
 
-    kernelPackages = pkgs.linuxKernel.packages.linux_6_6;
+    kernelPackages = stableZenPkg.linuxPackages_zen;
 
     consoleLogLevel = 0;
     initrd.verbose = false;

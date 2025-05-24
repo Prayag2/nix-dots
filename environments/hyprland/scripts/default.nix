@@ -15,6 +15,7 @@ in
     (import ./custom-scr-hyprsoc.nix {inherit pkgs;})
     (import ./custom-scr-video_wall.nix {inherit pkgs;})
     (import ./custom-scr-switch_sink.nix {inherit pkgs;})
+    (import ./custom-scr-timer.nix {inherit pkgs;})
   ];
   home.activation = {
     reloadAction = lib.hm.dag.entryAfter ["writeBoundary"] ''

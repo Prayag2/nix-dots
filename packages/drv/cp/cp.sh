@@ -19,7 +19,7 @@ tl=$(head -n 1 "$1" | grep -oP '(?<=TL:)\s*\K\d+(?=s)')
 # Ensure input file exists
 touch "$input_file"
 
-cpp_compile_flags="-O2 -fsanitize=address,undefined -include $HOME/.config/scripts/bits/stdc++.h -I$HOME/.config/scripts -std=c++20"
+cpp_compile_flags="-fsanitize=address,undefined -include $HOME/.config/scripts/bits/stdc++.h -I$HOME/.config/scripts -Winvalid-pch -std=c++20"
 c_compile_flags=""
 if [[ "$2" = "debug" ]]; then
     echo ":: Compiling with DEBUG flag ::"

@@ -7,6 +7,11 @@ let
             size_multiplier = 1;
         }
         {
+            name = "Google Sans Mono";
+            nerd_name = "GoogleSansM Nerd Font";
+            size_multiplier = 1;
+        }
+        {
             name = "Hurmit Nerd Font Mono";
             nerd_name = "Hurmit Nerd Font Mono";
             size_multiplier = 0.9;
@@ -37,5 +42,5 @@ in
         };
     };
 
-    config.myFont.font = (builtins.elemAt font_list 1);
+    config.myFont.font = (builtins.elemAt font_list 2);
 }

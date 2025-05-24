@@ -15,6 +15,8 @@ using namespace std;
 
 #ifndef ONLINE_JUDGE
 #include <cp-header.h>
+#else
+#define print(...) // debug
 #endif
 
 void solve() {

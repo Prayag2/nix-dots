@@ -6,10 +6,10 @@ using namespace std;
 #define VARNAME(x) #x
 template <typename T>
 ostream& operator<<(ostream& out, const vector<T>& arr);
-template <typename T>
-ostream& operator<<(ostream& out, const set<T>& arr);
-template <typename T>
-ostream& operator<<(ostream& out, const unordered_set<T>& arr);
+template <typename T, typename U>
+ostream& operator<<(ostream& out, const set<T, U>& arr);
+template <typename T, typename U>
+ostream& operator<<(ostream& out, const unordered_set<T, U>& arr);
 template <typename T, typename U>
 ostream& operator<<(ostream& out, const unordered_map<T, U>& arr);
 template <typename T, typename U>
@@ -48,25 +48,31 @@ ostream& operator<<(ostream& out, const vector<T>& arr) {
     return out;
 }
 
-template <typename T>
-ostream& operator<<(ostream& out, const set<T>& arr) {
+template <typename T, typename U>
+ostream& operator<<(ostream& out, const set<T, U>& arr) {
     size_t N {arr.size()};
     out << "{";
-    for (size_t i {0}; i < N; i++) {
-        out << arr[i];
+
+    int i = 0;
+    for (auto el : arr) {
+        out << el;
         if (i < N-1) out << ", ";
+        i++;
     }
     out << "}";
     return out;
 }
 
-template <typename T>
-ostream& operator<<(ostream& out, const unordered_set<T>& arr) {
+template <typename T, typename U>
+ostream& operator<<(ostream& out, const unordered_set<T, U>& arr) {
     size_t N {arr.size()};
     out << "{";
-    for (size_t i {0}; i < N; i++) {
-        out << arr[i];
+
+    int i = 0;
+    for (auto el : arr) {
+        out << el;
         if (i < N-1) out << ", ";
+        i++;
     }
     out << "}";
     return out;
@@ -189,14 +195,41 @@ ostream& operator<<(ostream& out, const deque<T>& dq) {
     return out << ": B]";
 }
 
-vector<string> split(const char* str) {
-    stringstream ss(str);
+vector<string> split(const char* s) {
+//     stringstream ss(str);
+//     vector<string> tokens;
+// 
+//     string token;
+//     while (getline(ss, token, ',')) {
+//         tokens.push_back(token);
+//     }
+//     return tokens;
+
+    string str = string(s);
     vector<string> tokens;
 
-    string token;
-    while (getline(ss, token, ',')) {
-        tokens.push_back(token);
+    string cur = "";
+    int n = str.length(), level = 0;
+    for (int i = 0; i < n; i++) {
+        char c = str[i];
+
+        if (c == ' ') continue;
+        if (c == ',' && level == 0) {
+            tokens.push_back(cur);
+            cur = "";
+            continue;
+        }
+
+        if (c == '[' || c == '{' || c == '(' || c == '<') {
+            level++;
+        } else if (c == ']' || c == ')' || c == ')' || c == '>') {
+            level--;
+        }
+
+        cur += c;
     }
+    if (!cur.empty()) tokens.push_back(cur);
+
     return tokens;
 }
 

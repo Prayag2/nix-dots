@@ -4,6 +4,8 @@
     inputs = {
         nixpkgs.url = "github:NixOS/nixpkgs/nixos-24.11";
         nixpkgs-unstable.url = "github:nixos/nixpkgs/nixos-unstable";
+        nixpkgs-stable-zen-kernel.url = "github:nixos/nixpkgs/5757bbb8bd7c0630a0cc4bb19c47e588db30b97c";
+
         nix-flatpak.url = "github:gmodena/nix-flatpak/?ref=v0.6.0";
 
         home-manager = {

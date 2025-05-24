@@ -10,6 +10,15 @@ dap.adapters.gdb = {
 
 dap.configurations.cpp = {
   {
+    name = "Launch with input.txt",
+    type = "gdb",
+    request = "launch",
+    program = "/bin/bash",
+    args = { "-c", "/tmp/program < input.txt" },
+    cwd = "${workspaceFolder}",
+    stopAtBeginningOfMainSubprogram = false,
+  },
+  {
     name = "Launch",
     type = "gdb",
     request = "launch",

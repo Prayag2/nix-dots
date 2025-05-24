@@ -34,6 +34,13 @@
   :custom
   (vertico-cycle t))
 
+(use-package orderless
+  :ensure t
+  :init
+  (setq completion-styles '(orderless)
+        completion-category-defaults nil
+        completion-category-overrides '((file (styles partial-completion)))))
+
 (use-package mood-line
     :config
     (mood-line-mode))
@@ -203,11 +210,12 @@
 (prayag/leader-keys
 ":" '(execute-extended-command :which-key "run commands"))
 
-(general-define-key
-:states '(normal insert)
-:keymaps 'org-mode-map
-"TAB" 'org-demote-subtree
-"S-TAB" 'org-promote-subtree)
+;; BAD KEYBINDINGS!!
+;; (general-define-key
+;; :states '(normal insert)
+;; :keymaps 'org-mode-map
+;; "TAB" 'org-demote-subtree
+;; "S-TAB" 'org-promote-subtree)
 
 (prayag/leader-keys
 :states 'normal
@@ -285,6 +293,7 @@
 
 (add-hook 'org-mode-hook 'prayag-org-mode-hook)
 
+(require 'org-tempo)
 (setq indent-tabs-mode nil)
 (setq js-indent-level 2)
 (setq web-mode-code-indent-offset 2)
@@ -306,4 +315,8 @@
 (setq org-html-htmlize-output-type 'css)
 (setq org-html-htmlize-font-prefix "org-")
 (setq org-src-fontify-natively t)
-
+(setq org-babel-default-header-args
+      '((:results . "output") (:wrap . "example")))
+(setq org-blank-before-new-entry
+      '((heading . nil)
+        (plain-list-item . nil)))

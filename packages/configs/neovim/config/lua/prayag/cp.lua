@@ -8,6 +8,11 @@ function _G.code_runner.run_current_file()
   vim.cmd(string.format('!~/.config/scripts/cp.sh "%s"', file_path))
 end
 
+function _G.code_runner.precompile()
+  vim.cmd('w')
+  vim.cmd('!~/.config/scripts/precompile.sh')
+end
+
 function _G.code_runner.run_current_file_dbg()
   vim.cmd('w')
   local file_path = vim.fn.expand('%:p')
@@ -18,7 +23,7 @@ end
 vim.api.nvim_set_keymap(
   'n',          -- Normal mode
   '<leader>rr', -- Key combination
-  ':wincmd h<CR>:lua _G.code_runner.run_current_file()<CR>',
+  ':wincmd h<CR>:lua _G.code_runner.run_current_file()<CR><CR>',
   { noremap = true, silent = true }
 )
 
@@ -26,7 +31,14 @@ vim.api.nvim_set_keymap(
 vim.api.nvim_set_keymap(
   'n',          -- Normal mode
   '<leader>rd', -- Key combination
-  ':wincmd h<CR>:lua _G.code_runner.run_current_file_dbg()<CR>',
+  ':wincmd h<CR>:lua _G.code_runner.run_current_file_dbg()<CR><CR>',
+  { noremap = true, silent = true }
+)
+
+vim.api.nvim_set_keymap(
+  'n',          -- Normal mode
+  '<leader>rp', -- Key combination
+  ':wincmd h<CR>:lua _G.code_runner.precompile()<CR><CR>',
   { noremap = true, silent = true }
 )
 

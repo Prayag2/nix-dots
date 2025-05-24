@@ -1,6 +1,7 @@
 { config, pkgs, ... }: 
 let
   custom-scr-power = "${(pkgs.callPackage ../../../scripts/custom-scr-power.nix {inherit pkgs;})}/bin/custom-scr-power";
+  custom-scr-timer = "${(pkgs.callPackage ../../../scripts/custom-scr-timer.nix {inherit pkgs;})}/bin/custom-scr-timer";
   custom-scr-media = "${(pkgs.callPackage ../../../scripts/custom-scr-media.nix {inherit pkgs;})}/bin/custom-scr-media";
   custom-scr-switch_sink = "${(pkgs.callPackage ../../../scripts/custom-scr-switch_sink.nix {inherit pkgs;})}/bin/custom-scr-switch_sink";
 in
@@ -82,6 +83,7 @@ in
         #battery,
         #custom-pkgs,
         #custom-dunst,
+        #custom-timer,
         #custom-mpris {
             /* margin: 6px 0px 6px 0; */
             /* background: alpha(@color8, 1); */
@@ -100,6 +102,11 @@ in
             /* border-radius: 24px; */
             padding: 8px;
             color: @color6;
+        }
+
+        #custom-timer {
+            padding: 8px;
+            color: @color2;
         }
 
         #backlight {
@@ -231,6 +238,7 @@ in
         "memory"
         "clock"
         "custom/mpris"
+        "custom/timer"
       ];
       modules-center = [
         "hyprland/workspaces"
@@ -391,6 +399,17 @@ in
 
       "tray" = {
           spacing = 10;
+      };
+
+      "custom/timer" = {
+          exec = "${custom-scr-timer}";
+          interval = 1;
+          on-click = "${custom-scr-timer} click";
+          on-click-middle = "${custom-scr-timer} set_time";
+          on-scroll-up = "${custom-scr-timer} scroll_up";
+          on-scroll-down = "${custom-scr-timer} scroll_down";
+          return-type = "json";
+          tooltip = true;
       };
     };
   };

@@ -26,7 +26,7 @@
     yad
     libnotify
     wpgtk
-    bibata-cursors
+    apple-cursor
     papirus-icon-theme
     pamixer
     xdg-desktop-portal-hyprland
