@@ -7,7 +7,34 @@
         "Settings": [],
         "Enable": true
       },
-      "Filters": [],
+      "Filters": [
+        {
+          "Path": "RadialFollow.RadialFollowSmoothingTabletSpace",
+          "Settings": [
+            {
+              "Property": "OuterRadius",
+              "Value": 1.0
+            },
+            {
+              "Property": "InnerRadius",
+              "Value": 0.0
+            },
+            {
+              "Property": "SmoothingCoefficient",
+              "Value": 0.95
+            },
+            {
+              "Property": "SoftKneeScale",
+              "Value": 1.0
+            },
+            {
+              "Property": "SmoothingLeakCoefficient",
+              "Value": 0.0
+            }
+          ],
+          "Enable": false
+        }
+      ],
       "AbsoluteModeSettings": {
         "Display": {
           "Width": 1536.0,
@@ -23,7 +50,7 @@
           "Y": 55.5475,
           "Rotation": 0.0
         },
-        "EnableClipping": true,
+        "EnableClipping": false,
         "EnableAreaLimiting": false,
         "LockAspectRatio": false
       },
@@ -148,7 +175,7 @@
       }
     }
   ],
-  "LockUsableAreaDisplay": true,
+  "LockUsableAreaDisplay": false,
   "LockUsableAreaTablet": true,
   "Tools": []
 }

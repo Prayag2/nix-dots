@@ -29,6 +29,7 @@
     apple-cursor
     papirus-icon-theme
     pamixer
+    xdg-desktop-portal-gtk
     xdg-desktop-portal-hyprland
     socat
     mpvpaper
@@ -42,7 +43,7 @@
   services = {
     cliphist = {
       enable = true;
-      systemdTarget = "hyprland-session.target";
+      systemdTargets = ["hyprland-session.target"];
     };
     swayosd.enable = true;
     network-manager-applet.enable = true;

@@ -47,8 +47,6 @@ in
     config.allowUnfree = true;
     overlays = [
       overlays.unstable-packages  
-      overlays.emacs-overlay
-      overlays.old-rnote
     ];
   };
 
@@ -59,10 +57,12 @@ in
       jetbrains-mono
       noto-fonts
       noto-fonts-emoji
-      nerdfonts
+      nerd-fonts.jetbrains-mono
+      nerd-fonts.symbols-only
     ];
   };
 
+  hardware.xpadneo.enable = true;
   documentation.enable = true;
   documentation.man.enable = true;
   documentation.dev.enable = true;

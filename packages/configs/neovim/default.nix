@@ -10,7 +10,9 @@ let
       sha256 = "sha256-kOYv2cG9I1nqSemfh6OTCqbRdOuTiu1ywTjoiSwBefg=";
     };
     meta.homepage = "https://github.com/uZer/pywal16.nvim";
+    doCheck = false;
   };
+
 in
 {
   home.packages = with pkgs; [
@@ -23,6 +25,9 @@ in
     nodePackages.typescript-language-server
     clang-tools
     nil
+
+    # for plantuml-previewer-vim
+    plantuml
   ];
 
   programs = {
@@ -48,6 +53,8 @@ in
         indent-blankline-nvim
         autoclose-nvim
         nvim-highlight-colors
+        open-browser-vim
+        plantuml-previewer-vim
       ];
     };
   };

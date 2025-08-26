@@ -16,7 +16,7 @@
     cursorTheme.size = 32;
     font.name = config.myFont.font.nerd_name;
     theme.name = "linea-nord-color";
-    iconTheme.name = "Papirus-Dark";
+    iconTheme.name = "Papirus-Light";
 
     gtk3.extraConfig = {
       gtk-button-images=true;

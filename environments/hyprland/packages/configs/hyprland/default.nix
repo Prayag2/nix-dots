@@ -67,8 +67,8 @@
       };
 
       general = {
-        gaps_in = 3;
-        gaps_out = 6;
+        gaps_in = -1;
+        gaps_out = "0 0 0 0";
         border_size = 2;
         layout = "dwindle";
         "col.active_border" = "$color8";
@@ -77,15 +77,17 @@
 
       decoration = {
         shadow = {
-            enabled = true;
+            enabled = false;
             range = 4;
             render_power = 1;
             color = "rgba(1a1a1a80)";
         };
 
         active_opacity = 1;
-        inactive_opacity = 0.85;
+        inactive_opacity = 1;
         fullscreen_opacity = 1;
+        dim_inactive = true;
+        dim_strength = 0.1;
 
         blur = {
           enabled = true;
@@ -118,21 +120,24 @@
       };
 
       layerrule = [
-        "ignorezero, notifications"
-        "ignorezero, rofi"
+        "ignorezero,notifications"
+        "ignorezero,rofi"
         "noanim,selection"
+        "blur,rofi"
+        "blur,waybar"
+        "blur,dunst"
       ];
 
       windowrule = [
-        "float, ^(yad)$"
-        "float, ^(MEGAsync)$"
-        "noborder, ^(MEGAsync)$"
-        "noblur, ^(MEGAsync)$"
-        "noshadow, ^(MEGAsync)$"
-        "float, ^(KDE Connect Daemon)$"
-        "noblur, ^(KDE Connect Daemon)$"
-        "opacity 0.85, ^(thunar)$"
-        "float, ^(Rofi)$"
+        "float, class:(^(yad)$)"
+        "float, class:(^(MEGAsync)$)"
+        "noborder, class:(^(MEGAsync)$)"
+        "noblur, class:(^(MEGAsync)$)"
+        "noshadow, class:(^(MEGAsync)$)"
+        "float, class:(^(KDE Connect Daemon)$)"
+        "noblur, class:(^(KDE Connect Daemon)$)"
+        "opacity 0.85, class:(^(thunar)$)"
+        "float, class:(^(Rofi)$)"
         "opacity 1, title:KDE Connect Daemon"
         "noblur, title:KDE Connect Daemon"
         "noborder, title:KDE Connect Daemon"

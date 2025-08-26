@@ -7,6 +7,7 @@ in
     open = false;
     nvidiaSettings = true;
     modesetting.enable = true;
+    powerManagement.enable = false;
     package = config.boot.kernelPackages.nvidiaPackages.latest;
     prime = {
       offload = {
@@ -23,6 +24,8 @@ in
     graphics = {
       enable = true;
     };
+
+    i2c.enable = true;
   };
 
   # nvidia

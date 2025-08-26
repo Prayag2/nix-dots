@@ -1,4 +1,4 @@
-{ pkgs, ... }: {
+{ config, pkgs, ... }: {
   imports = [
     ../../environments/hyprland/packages/global.nix
     ../../environments/awesome/packages/global.nix
@@ -23,4 +23,8 @@
     extraGroups = [ "wheel" "networkmanager" "storage" ];
     shell = pkgs.zsh;
   };
+  fonts.packages = [
+    config.myFont.font.pkg
+  ];
+  nix.settings.trusted-users = ["root" "prayag"];
 }

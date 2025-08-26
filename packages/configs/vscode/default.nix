@@ -1,15 +1,15 @@
 { config, pkgs, ... }: {
   programs.vscode = {
     enable = true;
-    userSettings = {
+    profiles.default.userSettings = {
       "editor.fontFamily" = "'${config.myFont.font.name}', 'monospace', monospace";
       "editor.fontSize" = 18*config.myFont.font.size_multiplier;
       "vim.useSystemClipboard" = true;
-      "workbench.colorTheme" = "vs-wal";
-      "workbench.preferredDarkColorTheme" = "vs-wal";
       "workbench.startupEditor" = "none";
+      # "workbench.colorTheme" = "vs-wal";
+      # "workbench.preferredDarkColorTheme" = "vs-wal";
     };
-    extensions = with pkgs.vscode-extensions; [
+    profiles.default.extensions = with pkgs.vscode-extensions; [
       vscodevim.vim
       ms-vsliveshare.vsliveshare
       github.copilot

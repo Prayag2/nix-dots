@@ -19,6 +19,10 @@ in
     };
   };
 
+  services = {
+    tumbler.enable = true;
+  };
+
   # aliases
   programs.zsh.shellAliases = {
     "ranger" = ''ranger --choosedir=$HOME/.rangerdir; LASTDIR=`cat $HOME/.rangerdir`; cd "$LASTDIR"'';

@@ -17,6 +17,7 @@ in
       ["$HOME/.cache/wal/gtk.css"]="$HOME/.config/gtk-4.0/gtk.css"
       ["$HOME/.cache/wal/alacritty.toml"]="$HOME/.config/alacritty/alacritty.toml"
       ["$HOME/.cache/wal/theme.rasi"]="$HOME/.config/rofi/theme.rasi"
+      ["$HOME/.cache/wal/theme-calc.rasi"]="$HOME/.config/rofi/theme-calc.rasi"
       ["$HOME/.cache/wal/dunstrc"]="$HOME/.config/dunst/dunstrc"
       ["$HOME/.cache/wal/vs-wal-color-theme.json"]="$HOME/.vscode/extensions/vscode-wal/themes/vs-wal-color-theme.json"
     )

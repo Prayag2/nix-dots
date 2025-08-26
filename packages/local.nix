@@ -1,4 +1,7 @@
-{ pkgs, ...}: 
+{ inputs, pkgs, lib, ...}:
+let
+  overlays = import ../overlays {inherit inputs;};
+in
 {
 
   imports = [
@@ -24,9 +27,19 @@
   services.flatpak.overrides = {
     global = {
       Context.sockets = ["wayland" "!x11" "!fallback-x11"];
+      Context.filesystems = [
+        "xdg-config/themes:ro"
+        "xdg-config/icons:ro"
+        "xdg-config/gtk-2.0:ro"
+        "xdg-config/gtk-3.0:ro"
+        "xdg-config/gtk-4.0:ro"
+        "xdg-config/gtkrc:ro"
+        "xdg-config/gtkrc-2.0:ro"
+        "xdg-config/fontconfig/conf.d"
+      ];
       Environment = {
         XCURSOR_PATH = "/run/host/user-share/icons:/run/host/share/icons";
-        GTK_THEME = "Adwaita:dark";
+        # GTK_THEME = "Adwaita:dark";
       };
     };
   };
@@ -58,6 +71,9 @@
     open-dyslexic
     tauon
     docker
+    discord
+    rpcs3
+    devenv
 
     # for dev
     # yes i don't want to enter a nix shell again and again when I'm just brainstorming
@@ -66,17 +82,18 @@
     (hiPrio gcc)
     gdb
     jdk
+    aseprite
 
     (pkgs.callPackage ./drv/lyrics-in-terminal.nix {})
     (pkgs.callPackage ./drv/fonts {})
     # (pkgs.libsForQt5.callPackage ./drv/xp-pen {})
     # ydotool
 
-      (retroarch.override {
-        cores = with libretro; [
-            dolphin
-        ];
-      })
+    # (retroarch.override {
+    #   cores = with libretro; [
+    #       dolphin
+    #   ];
+    # })
 
 
     # cracked minecraft :)
@@ -101,7 +118,8 @@
       enableCompletion = true;
       autosuggestion.enable = true;
       syntaxHighlighting.enable = true;
-      initExtraFirst = ''
+      initContent = lib.mkMerge [
+      (lib.mkOrder 500 ''
         if [[ -r "''${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-''${(%):-%n}.zsh" ]]; then
           source "''${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-''${(%):-%n}.zsh"
         fi
@@ -110,8 +128,8 @@
         [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
         source ${pkgs.zsh-powerlevel10k}/share/zsh-powerlevel10k/powerlevel10k.zsh-theme
-      '';
-      initExtra = ''
+      '')
+      (lib.mkOrder 1000 ''
         setopt EMACS
         if [ -t 0 ] && [[ -z $TMUX ]] && [[ $- = *i* ]]; then
           exec tmux
@@ -131,7 +149,7 @@
         }
 
         compdef _run_completion run
-      '';
+      '')];
     };
 
     git = {
@@ -141,7 +159,9 @@
     };
   };
 
+  nixpkgs.config.allowUnfree = true;
   nixpkgs.overlays = [
       (import ../overlays/gcc-overlay.nix)
+      overlays.emacs-overlay
   ];
 }

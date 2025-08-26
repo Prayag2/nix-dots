@@ -160,7 +160,7 @@ in
             padding: 0 16px;
         }
         #idle_inhibitor.activated {
-            background: alpha(@color8, 0.2);
+            background: @color8;
         }
 
         #custom-pkgs {
@@ -180,10 +180,10 @@ in
         }
 
         #pulseaudio.speaker.muted {
-            background: alpha(@color8, 0.3);
+            background: @color8;
         }
         #pulseaudio.mic.source-muted {
-            background: alpha(@color8, 0.3);
+            background: @color8;
         }
 
         #battery {
@@ -347,7 +347,7 @@ in
       };
 
       "memory" = {
-        format = "󰍛  {used:02} GB";
+        format = "󰍛  {used:05.2f}GB";
         interval = 2;
         tooltip-format = "Used = {percentage}%\nTotal = {total} GB";
       };

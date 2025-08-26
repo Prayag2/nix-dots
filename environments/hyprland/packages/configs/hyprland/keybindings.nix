@@ -7,6 +7,7 @@ in
   wayland.windowManager.hyprland.settings = {
     "$main_mod" = "SUPER";
     "$rofi_theme" = "$HOME/.config/rofi/theme.rasi";
+    "$rofi_calc_theme" = "$HOME/.config/rofi/theme-calc.rasi";
     # "$focus_rofi" = "& sleep 0.2; hyprctl dispatch focuswindow \"^(Rofi)\"";
     "$focus_rofi" = "";
 
@@ -34,7 +35,7 @@ in
 
       # Rofi
       "$main_mod, R, exec, rofi -show drun -theme $rofi_theme $focus_rofi"
-      "$main_mod, Equal, exec, rofi -modi calc -show calc -theme $rofi_theme $focus_rofi"
+      "$main_mod, Equal, exec, rofi -modi calc -show calc -theme $rofi_calc_theme $focus_rofi"
       "$main_mod, Period, exec, rofimoji --selector-args \"-theme '$HOME/.config/rofi/theme.rasi'\" $focus_rofi"
       "$main_mod, N, exec, dunstctl action $focus_rofi"
       "$main_mod, V, exec, cliphist list | rofi -dmenu -p C -theme $rofi_theme | cliphist decode | wl-copy $focus_rofi"
@@ -78,10 +79,9 @@ in
       "SHIFT, XF86AudioLowerVolume, exec, swayosd-client --input-volume lower"
       ", XF86MonBrightnessDown, exec, swayosd-client --brightness -10"
       ", XF86MonBrightnessUp, exec, swayosd-client --brightness +10"
-      ", Caps_Lock, exec, swayosd-client --caps-lock"
-      ", Num_Lock, exec, swayosd-client --num-lock"
-      ", Scroll_Lock, exec, swayosd-client --scroll-lock"
-    ];
+      ", Caps_Lock, exec, sleep 0.1 && swayosd-client --caps-lock"
+      ", Num_Lock, exec, sleep 0.1 && swayosd-client --num-lock"
+      ", Scroll_Lock, exec, sleep 0.1 && swayosd-client --scroll-lock" ];
     bindm = [
       "$main_mod, mouse:272, movewindow"    
       "$main_mod, mouse:273, resizewindow"
