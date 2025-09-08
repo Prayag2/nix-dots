@@ -468,12 +468,18 @@
     '';
     force = true;
   };
+
   home.file.".config/rofimoji.rc".text = ''
     action = copy
     files = [emojis, math, nerd_font]
     selector = rofi
     max-recent = 0
   '';
+
+  home.file.".config/qalculate/qalc.cfg".text = ''
+    digit_grouping=2
+  '';
+
   programs.rofi = {
     enable = true;
     package = pkgs.rofi-wayland;
@@ -481,6 +487,7 @@
       rofi-calc
     ];
   };
+
   # home.packages = with pkgs; [ 
   #   rofimoji
   # ];

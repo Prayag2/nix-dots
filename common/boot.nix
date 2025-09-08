@@ -8,7 +8,9 @@ in {
     loader.systemd-boot.memtest86.enable = true;
     loader.efi.canTouchEfiVariables = true;
 
-    kernelPackages = pkgs.linuxPackages_zen;
+    # kernelPackages = pkgs.linuxPackages_zen;
+    kernelPackages = pkgs.linuxPackages_6_12;
+    
 
     consoleLogLevel = 0;
     initrd.verbose = false;

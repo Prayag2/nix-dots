@@ -1,4 +1,4 @@
-{ inputs, pkgs, lib, ...}:
+{ config, inputs, pkgs, lib, ...}:
 let
   overlays = import ../overlays {inherit inputs;};
 in
@@ -36,6 +36,7 @@ in
         "xdg-config/gtkrc:ro"
         "xdg-config/gtkrc-2.0:ro"
         "xdg-config/fontconfig/conf.d"
+        "home/me:ro"
       ];
       Environment = {
         XCURSOR_PATH = "/run/host/user-share/icons:/run/host/share/icons";

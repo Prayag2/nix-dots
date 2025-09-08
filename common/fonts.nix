@@ -8,8 +8,8 @@ let
             pkg = pkgs.nerd-fonts.jetbrains-mono;
         }
         {
-            name = "Google Sans Mono";
-            nerd_name = "GoogleSansM Nerd Font";
+            name = "GoogleSansCode Nerd Font";
+            nerd_name = "GoogleSansCode Nerd Font";
             size_multiplier = 1;
             pkg = pkgs.nerd-fonts.symbols-only;
         }
@@ -48,5 +48,5 @@ in
         };
     };
 
-    config.myFont.font = (builtins.elemAt font_list 0);
+    config.myFont.font = (builtins.elemAt font_list 1);
 }

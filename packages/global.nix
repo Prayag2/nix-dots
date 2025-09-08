@@ -1,4 +1,16 @@
-{ pkgs, ... }: {
+{ pkgs, lib, ... }: 
+let
+  configFile = pkgs.writeText "create_ap.conf" ''
+    CHANNEL=6
+    DHCP_DNS=gateway
+    NO_VIRT=1
+    FREQ_BAND=2.4
+    WIFI_IFACE=wlo1
+    INTERNET_IFACE=enp2s0
+    SSID=ideapad
+    PASSPHRASE=password
+  '';
+in {
   imports = [
     ./configs/flatpak
   ];
@@ -36,18 +48,17 @@
     };
   };
 
-  services.create_ap = {
-    settings = {
-        CHANNEL=6;
-        DHCP_DNS="gateway";
-        NO_VIRT=1;
-        FREQ_BAND="2.4";
-        WIFI_IFACE="wlo1";
-        INTERNET_IFACE="enp2s0";
-        SSID="ideapad";
-        PASSPHRASE="password";
+  systemd = {
+    services.create_ap = {
+      wantedBy = lib.mkForce [];
+      description = "Create AP Service";
+      after = [ "network.target" ];
+      serviceConfig = {
+        ExecStart = "${pkgs.linux-wifi-hotspot}/bin/create_ap --config ${configFile}";
+        KillSignal = "SIGINT";
+        Restart = "on-failure";
+      };
     };
-    enable = false;
   };
 
   # MOVIESSS

@@ -13,7 +13,7 @@ in
         * {
             border: none;
             font-family: "Symbols Nerd Font Mono", "${config.myFont.font.name}";
-            font-weight: bold;
+            /* font-weight: bold; */
             font-size: ${(builtins.toString (12*config.myFont.font.size_multiplier))}px;
             min-height: 0;
         }
