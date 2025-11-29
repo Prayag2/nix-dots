@@ -48,6 +48,15 @@
 (use-package rainbow-delimiters
   :hook (prog-mode . rainbow-delimiters-mode))
 
+(use-package org-download
+  :ensure t
+  :after org
+  :config
+  (setq org-download-method 'directory
+        org-download-image-dir "images"
+        org-download-heading-lvl nil)
+  (global-set-key (kbd "C-c C-v") 'org-download-clipboard))
+
 (use-package rainbow-mode 
     :config
     (rainbow-mode))
@@ -82,7 +91,7 @@
 
 (use-package org-bullets :ensure t
   :config
-    (setq org-bullets-bullet-list '( "*" "#" "*" "#" )))
+    (setq org-bullets-bullet-list '( "♠" "❤" "♦" "♣" )))
 
 (use-package consult
   :ensure t
@@ -320,3 +329,17 @@
 (setq org-blank-before-new-entry
       '((heading . nil)
         (plain-list-item . nil)))
+
+; latex
+(with-eval-after-load 'ox-latex
+(add-to-list 'org-latex-classes
+             '("org-plain-latex"
+               "\\documentclass{article}
+           [NO-DEFAULT-PACKAGES]
+           [PACKAGES]
+           [EXTRA]"
+               ("\\section{%s}" . "\\section*{%s}")
+               ("\\subsection{%s}" . "\\subsection*{%s}")
+               ("\\subsubsection{%s}" . "\\subsubsection*{%s}")
+               ("\\paragraph{%s}" . "\\paragraph*{%s}")
+               ("\\subparagraph{%s}" . "\\subparagraph*{%s}"))))

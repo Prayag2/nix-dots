@@ -20,7 +20,7 @@
     home = "/home/prayag";
     description = "Prayag Jain";
     isNormalUser = true;
-    extraGroups = [ "wheel" "networkmanager" "storage" ];
+    extraGroups = [ "wheel" "networkmanager" "storage" "input" "docker" ];
     shell = pkgs.zsh;
   };
   fonts.packages = [
@@ -32,7 +32,7 @@
   networking.extraHosts = ''
     0.0.0.0 reddit.com
     0.0.0.0 www.reddit.com
-    0.0.0.0 old.reddit.com
+    # 0.0.0.0 old.reddit.com
     0.0.0.0 instagram.com
     0.0.0.0 www.instagram.com
   '';

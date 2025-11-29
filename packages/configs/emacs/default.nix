@@ -12,6 +12,8 @@
     force = true;
   };
   home.packages = [
+    pkgs.texliveFull
+
     (pkgs.emacsWithPackagesFromUsePackage {
       package = pkgs.emacs30-pgtk;
       config = ./config.el;
@@ -21,5 +23,6 @@
         epkgs.use-package
       ];
     })
+
   ];
 }

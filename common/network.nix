@@ -1,6 +1,8 @@
 { ... }: {
+  boot.initrd.systemd.network.wait-online.enable = false;
   networking = {
     networkmanager.enable = true;
+    networkmanager.wifi.powersave = false;
 
     firewall = { 
       enable = true;

@@ -19,7 +19,14 @@ in {
   environment.systemPackages = with pkgs; [
     distrobox
     jellyfin-media-player
+    openrgb-with-all-plugins
   ];
+programs.appimage = {
+  enable = true;
+  binfmt = true;
+};
+  services.hardware.openrgb.enable = true;
+
   programs.zsh.enable = true;
 
   nixpkgs = {
@@ -32,7 +39,10 @@ in {
 
   virtualisation.podman = {
     enable = true;
-    dockerCompat = true;
+  };
+
+  virtualisation.docker = {
+    enable = true;
   };
 
   environment.variables = {
@@ -61,6 +71,9 @@ in {
     };
   };
 
+  # temporary
+  services.gns3-server.enable = true;
+
   # MOVIESSS
   services = {
     radarr = {
@@ -83,4 +96,5 @@ in {
         openFirewall = true;
     };
   };
+  virtualisation.virtualbox.host.enable = true;
 }

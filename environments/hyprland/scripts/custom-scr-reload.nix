@@ -15,4 +15,7 @@ in
 
     echo ":: reloading wallpaper ::"
     ${custom-scr-video_wall} >/dev/null 2>&1 &
+
+    echo ":: restarting opentabletdriver ::"
+    systemctl restart --user opentabletdriver.service
 ''

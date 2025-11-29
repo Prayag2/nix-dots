@@ -54,4 +54,6 @@ in
       kernelParams = [ "amd_pstate=active" ];
     })
   ];
+
+  hardware.nvidia-container-toolkit.enable = true; # for docker
 }
