@@ -1,8 +1,8 @@
 { config, pkgs, ... }: 
 let
-  fontSize = 14*config.myFont.font.size_multiplier;
+  fontSize = 12*config.myFont.font.size_multiplier;
   fontFamily = config.myFont.font.nerd_name;
-  opacity = 0.9;
+  opacity = 1;
 in
 {
   home.packages = [ pkgs.alacritty ];

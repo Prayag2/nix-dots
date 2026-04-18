@@ -4,6 +4,7 @@ let
   custom-scr-timer = "${(pkgs.callPackage ../../../scripts/custom-scr-timer.nix {inherit pkgs;})}/bin/custom-scr-timer";
   custom-scr-media = "${(pkgs.callPackage ../../../scripts/custom-scr-media.nix {inherit pkgs;})}/bin/custom-scr-media";
   custom-scr-switch_sink = "${(pkgs.callPackage ../../../scripts/custom-scr-switch_sink.nix {inherit pkgs;})}/bin/custom-scr-switch_sink";
+  opacity = "1.0";
 in
 {
   home.file.".config/waybar/style.css" = {
@@ -14,15 +15,15 @@ in
             border: none;
             font-family: "Symbols Nerd Font Mono", "${config.myFont.font.name}";
             /* font-weight: bold; */
-            font-size: ${(builtins.toString (12*config.myFont.font.size_multiplier))}px;
+            font-size: ${(builtins.toString (11*config.myFont.font.size_multiplier))}px;
             min-height: 0;
         }
 
         window#waybar {
-            background: alpha(@background, 0.8);
+            background: alpha(@background, ${opacity});
             color: @foreground;
             border-bottom: 2.5px solid @color8;
-            box-shadow: 0px 10px 12px 0px rgba(0,0,0,0.5);
+            box-shadow: rgba(0,0,0,0.5) 0px 2px 6px 0px;
         }
 
         #workspaces {
@@ -226,7 +227,7 @@ in
     mainBar = {
       layer = "top";
       position = "top";
-      height = 36;
+      height = 32;
       spacing = 0;
       reload_style_on_change = true;
 
@@ -241,7 +242,7 @@ in
         "custom/timer"
       ];
       modules-center = [
-        "hyprland/workspaces"
+        "ext/workspaces"
       ];
       modules-right = [
         "gamemode"
@@ -261,10 +262,9 @@ in
         on-click = "${custom-scr-power}";
       };
 
-      "hyprland/workspaces" = {
+      "ext/workspaces" = {
         format = "{name}";
         on-click = "activate";
-        sort-by-number = true;
         active-only = false;
       };
 

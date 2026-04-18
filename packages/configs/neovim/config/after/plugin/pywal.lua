@@ -1,6 +1,8 @@
 local pywal = require('pywal16')
 pywal.setup()
 
+local colors = require('pywal16.core').get_colors()
+
 vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
 vim.api.nvim_set_hl(0, "NormalNC", { bg = "none" })
 vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })
@@ -12,10 +14,10 @@ vim.api.nvim_set_hl(0, "TelescopeBorder", { bg = "none" })
 vim.api.nvim_set_hl(0, "TelescopePrompt", { bg = "none" })
 vim.api.nvim_set_hl(0, "TelescopeResults", { bg = "none" })
 vim.api.nvim_set_hl(0, "TelescopePreview", { bg = "none" })
-vim.api.nvim_set_hl(0, "Visual", { fg = "#121212", bg = vim.fn.synIDattr(vim.fn.synIDtrans(vim.fn.hlID('Visual')), 'bg') })
-vim.api.nvim_set_hl(0, "VisualNOS", { fg = "#121212", bg = vim.fn.synIDattr(vim.fn.synIDtrans(vim.fn.hlID('VisualNOS')), 'bg') })
-vim.cmd([[highlight Comment cterm=italic gui=italic]])
-
+vim.api.nvim_set_hl(0, "CursorLine", { bg = colors.color8 })
+vim.api.nvim_set_hl(0, "Visual", { bg = colors.color8})
+vim.api.nvim_set_hl(0, "VisualNOS", { bg = colors.color8 })
+vim.api.nvim_set_hl(0, "Comment", { italic = true })
 
 vim.opt.pumblend = 0
 vim.opt.winblend = 0

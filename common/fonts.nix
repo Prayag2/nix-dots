@@ -8,6 +8,12 @@ let
             pkg = pkgs.nerd-fonts.jetbrains-mono;
         }
         {
+            name = "Iosevka Nerd Font Mono";
+            nerd_name = "Iosevka Nerd Font Mono";
+            size_multiplier = 1.1;
+            pkg = pkgs.nerd-fonts.iosevka;
+        }
+        {
             name = "GoogleSansCode Nerd Font";
             nerd_name = "GoogleSansCode Nerd Font";
             size_multiplier = 1;

@@ -30,10 +30,10 @@
 
   # BLOCK WEBSITES
   networking.extraHosts = ''
-    0.0.0.0 reddit.com
-    0.0.0.0 www.reddit.com
+    # 0.0.0.0 reddit.com
+    # 0.0.0.0 www.reddit.com
     # 0.0.0.0 old.reddit.com
-    0.0.0.0 instagram.com
-    0.0.0.0 www.instagram.com
+    # 0.0.0.0 instagram.com
+    # 0.0.0.0 www.instagram.com
   '';
 }

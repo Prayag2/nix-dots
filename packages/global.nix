@@ -18,13 +18,14 @@ in {
   services.flatpak.uninstallUnmanaged = true;
   environment.systemPackages = with pkgs; [
     distrobox
-    jellyfin-media-player
     openrgb-with-all-plugins
   ];
-programs.appimage = {
-  enable = true;
-  binfmt = true;
-};
+
+  programs.appimage = {
+    enable = true;
+    binfmt = true;
+  };
+
   services.hardware.openrgb.enable = true;
 
   programs.zsh.enable = true;
@@ -71,28 +72,25 @@ programs.appimage = {
     };
   };
 
-  # temporary
-  services.gns3-server.enable = true;
-
   # MOVIESSS
   services = {
     radarr = {
-        enable = true;
+        enable = false;
         openFirewall = true;
     };
     prowlarr = {
-        enable = true;
+        enable = false;
         openFirewall = true;
     };
     nzbget = {
-        enable = true;
+        enable = false;
     };
     jellyfin = {
-        enable = true;
+        enable = false;
         openFirewall = true;
     };
     ombi = {
-        enable = true;
+        enable = false;
         openFirewall = true;
     };
   };

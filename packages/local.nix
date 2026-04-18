@@ -17,12 +17,26 @@ in
     ./drv/cp
   ];
 
-  services.flatpak.uninstallUnmanaged = true;
+  services.flatpak.remotes = [
+    {
+      name = "flathub";
+      location = "https://flathub.org/repo/flathub.flatpakrepo";
+    }
+    {
+      name = "drawy-nightly";
+      location = "https://origin.cdn.kde.org/flatpak/drawy-nightly/drawy-nightly.flatpakrepo";
+    }
+  ];
+
+  services.flatpak.uninstallUnmanaged = false;
   services.flatpak.packages = [
     "app.zen_browser.zen"
     "com.github.flxzt.rnote"
     "org.gtk.Gtk3theme.Adwaita-dark"
-    "net.veloren.airshipper"
+    "org.kde.neochat"
+    "org.kde.iconexplorer"
+    "net.shadps4.shadPS4"
+    "org.kde.drawy"
   ];
 
   services.flatpak.overrides = {
@@ -52,7 +66,6 @@ in
     tree
     btop
     neofetch
-    vmware-horizon-client
     logseq
     inkscape
     ookla-speedtest
@@ -76,20 +89,22 @@ in
     rpcs3
     devenv
     thunderbird
+    telegram-desktop
+    unrar
 
     # for dev
     # yes i don't want to enter a nix shell again and again when I'm just brainstorming
     clang-tools
     clang
-    (hiPrio gcc)
+    (lib.hiPrio gcc)
     gdb
     jdk
     aseprite
+    zed-editor
+    wineWow64Packages.stable
 
-    gns3-gui
+    python3 # temp
     
-    python3 # TODO: temporary, remove this
-
     (pkgs.callPackage ./drv/lyrics-in-terminal.nix {})
     (pkgs.callPackage ./drv/fonts {})
 
@@ -109,8 +124,8 @@ in
     #     src = pkgs.fetchFromGitHub {
     #       owner = "Diegiwg";
     #       repo = "PrismLauncher-Cracked";
-    #       rev = "v8.4.1";
-    #       hash = "sha256-ffx3MgvKj9VsRIK9DT5Cxr+3WSrvMglzLE+kFU/cni4=";
+    #       rev = "9.4";
+    #       hash = "sha256-Ld6t+zKGfDcXjfELdbcBAh9RQlAp7LIumUjQ2s7fjKg=";
     #     };
     #     buildInputs = oldAttrs.buildInputs ++ [
     #       pkgs.kdePackages.qtnetworkauth
@@ -127,6 +142,8 @@ in
       syntaxHighlighting.enable = true;
       initContent = lib.mkMerge [
       (lib.mkOrder 500 ''
+        emulate zsh -c "$(direnv export zsh)"
+
         if [[ -r "''${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-''${(%):-%n}.zsh" ]]; then
           source "''${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-''${(%):-%n}.zsh"
         fi
@@ -156,14 +173,22 @@ in
         }
 
         compdef _run_completion run
+
+        [[ "$TERM_PROGRAM" == "vscode" ]] && . "$(code --locate-shell-integration-path zsh)"
       '')];
     };
 
     git = {
       enable = true;
-      userEmail = "prayagjain2@gmail.com";
-      userName = "Prayag2";
+      settings = {
+        user = {
+          email = "prayagjain2@gmail.com";
+          name = "Prayag Jain";
+        }; 
+      };
     };
+
+    direnv.enable = true;
   };
 
   nixpkgs.config.allowUnfree = true;

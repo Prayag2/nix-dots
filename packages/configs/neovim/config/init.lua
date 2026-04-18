@@ -12,6 +12,7 @@ vim.opt.breakindent = true
 vim.opt.tabstop = 4
 vim.opt.shiftwidth = 4
 vim.opt.expandtab = true
+vim.opt.cursorline = true
 vim.opt.clipboard:append('unnamedplus')
 vim.o.termguicolors = true
 vim.opt.fillchars = { eob = " " }

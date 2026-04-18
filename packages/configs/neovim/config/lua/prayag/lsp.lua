@@ -1,5 +1,3 @@
-local lspconf = require('lspconfig')
-
 local border = {
   {"┌", "FloatBorder"},
   {"─", "FloatBorder"},
@@ -19,9 +17,12 @@ function vim.lsp.util.open_floating_preview(contents, syntax, opts, ...)
 end
 
 local capabilities = require('cmp_nvim_lsp').default_capabilities()
-lspconf.pyright.setup {capabilities = capabilities}
-lspconf.pylsp.setup {capabilities = capabilities}
-lspconf.nil_ls.setup {capabilities = capabilities}
-lspconf.bashls.setup {capabilities = capabilities}
-lspconf.ts_ls.setup {capabilities = capabilities}
-lspconf.clangd.setup {capabilities = capabilities}
+
+local servers = { 'pyright', 'pylsp', 'nil_ls', 'bashls', 'ts_ls', 'clangd' }
+
+for _, server in ipairs(servers) do
+  vim.lsp.config(server, {
+    capabilities = capabilities,
+  })
+  vim.lsp.enable(server)
+end

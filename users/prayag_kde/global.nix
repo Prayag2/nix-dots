@@ -1,8 +1,7 @@
 { pkgs, ... }: {
   imports = [
-    ../../home/environments/kde/software/global.nix
-    ../../home/software/global.nix
-    ../../devices/printers/tsc-te244
+    ../../environments/kde/packages/global.nix
+    ../../packages/global.nix
     ../../devices/printers
 
     ../../common/audio
@@ -13,6 +12,7 @@
     ../../common/network.nix
     ../../common/gdm.nix
     ../../common/touchpad.nix
+    ../../common/fonts.nix
   ];
   users.users.prayag_kde = {
     home = "/home/prayag_kde";

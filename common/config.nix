@@ -56,7 +56,7 @@ in
     packages = with pkgs; [
       jetbrains-mono
       noto-fonts
-      noto-fonts-emoji
+      noto-fonts-color-emoji
       nerd-fonts.jetbrains-mono
       nerd-fonts.symbols-only
     ];
@@ -76,6 +76,9 @@ in
     dates = "weekly";
     options = "--delete-older-than 10d";
   };
+
+  # xdg
+  xdg.autostart.enable = true;
 
   # qmk permissions
   services.udev.extraRules = ''

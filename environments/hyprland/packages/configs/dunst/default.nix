@@ -1,6 +1,7 @@
 { config, pkgs, ... }:
 let
   rofi = "${pkgs.rofi}/bin/rofi -theme $HOME/.config/rofi/theme.rasi";
+  opacity = "100";
 in
 {
   home.packages = [ pkgs.dunst ];
@@ -13,7 +14,7 @@ in
         offset = 10x10
         notification_limit = 5
         indicate_hidden = yes
-        transparency = 90
+        transparency = ${opacity}
         separator_height = 2
         padding = 8
         horizontal_padding = 8
@@ -23,7 +24,7 @@ in
         gap_size = 0
         separator_color = frame
         sort = yes
-        font = "${config.myFont.font.nerd_name} ${builtins.toString (10*config.myFont.font.size_multiplier)}"
+        font = "${config.myFont.font.nerd_name} ${builtins.toString (8*config.myFont.font.size_multiplier)}"
         markup = full
         format = "<b>%s</b>\n%b"
         alignment = left

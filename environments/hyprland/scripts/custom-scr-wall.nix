@@ -51,7 +51,15 @@
     echo ":: setting wallpaper ::"
     rm -rf $HOME/.config/wpg/schemes # remove cached schemes
     rm -rf $HOME/.config/wpg/wallpapers # remove cached schemes
-    swww img $wall -t any --transition-fps 120 >/dev/null
+
+    # switching to hyprpaper
+    # swww img $wall -t any --transition-fps 120 >/dev/null
+    hyprctl hyprpaper unload all
+    hyprctl hyprpaper preload "$wall"
+
+    for monitor in $(hyprctl monitors | grep 'Monitor' | awk '{ print $2 }'); do
+        hyprctl hyprpaper wallpaper "$monitor, $wall"
+    done
 
     if [[ $use_light = "Light Theme" ]]; then
         wpg -a $wall -L >/dev/null

@@ -3,6 +3,7 @@ require("prayag.lsp")
 require("prayag.completions")
 require("prayag.dap")
 require("prayag.cp")
+require("prayag.codecompanion")
 require("ibl").setup()
 require("autoclose").setup()
 require("nvim-highlight-colors").setup({})
@@ -23,7 +24,7 @@ require("transparent").setup({
     "NormalFloat", -- plugins which have float panel such as Lazy, Mason, LspInfo
     "NvimTreeNormal" -- NvimTree
   },
-  exclude_groups = {"StatusLine", "StatusLineNC"},
+  exclude_groups = {"StatusLine", "StatusLineNC", "CursorLine", "CursorLineNr"},
   on_clear = function() end,
 })
 
@@ -31,6 +32,12 @@ vim.fn.sign_define('DiagnosticSignError', { text = '', texthl = 'DiagnosticSi
 vim.fn.sign_define('DiagnosticSignWarn', { text = '', texthl = 'DiagnosticSignWarn' })
 vim.fn.sign_define('DiagnosticSignInfo', { text = '', texthl = 'DiagnosticSignInfo' })
 vim.fn.sign_define('DiagnosticSignHint', { text = '', texthl = 'DiagnosticSignHint' })
+
+-- icons
+require'nvim-web-devicons'.setup {
+ color_icons = true;
+ default = true;
+}
 
 -- include packer only if you're using this config outside of a nix environment
 -- require("prayag.packer")

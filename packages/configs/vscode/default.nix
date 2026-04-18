@@ -3,9 +3,14 @@
     enable = true;
     profiles.default.userSettings = {
       "editor.fontFamily" = "'${config.myFont.font.name}', 'monospace', monospace";
-      "editor.fontSize" = 18*config.myFont.font.size_multiplier;
+      "editor.fontSize" = 14*config.myFont.font.size_multiplier;
       "vim.useSystemClipboard" = true;
       "workbench.startupEditor" = "none";
+      "chat.tools.terminal.autoApprove" = {
+        "ninja" = true;
+        "ctest" = true;
+      };
+      "chat.agent.maxRequests" = 100;
       # "workbench.colorTheme" = "vs-wal";
       # "workbench.preferredDarkColorTheme" = "vs-wal";
     };

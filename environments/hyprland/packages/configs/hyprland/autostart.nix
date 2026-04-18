@@ -11,7 +11,7 @@ in
       "waybar &"
       "wal -R"
       "cliphist wipe &"
-      "swww init &"
+      # "swww init &"
       "xsetroot -cursor_name left_ptr &"
       "sleep 2 && xrdb -merge ~/.Xresources"
       "sleep 2 && ${custom-scr-video_wall} &"

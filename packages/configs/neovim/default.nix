@@ -12,7 +12,6 @@ let
     meta.homepage = "https://github.com/uZer/pywal16.nvim";
     doCheck = false;
   };
-
 in
 {
   home.packages = with pkgs; [
@@ -55,9 +54,12 @@ in
         nvim-highlight-colors
         open-browser-vim
         plantuml-previewer-vim
+        codecompanion-nvim
+        nvim-web-devicons
       ];
     };
   };
+
   xdg.configFile.nvim.source = ./config;
   home.file.".vsnip/".source = ./snippets;
 }

@@ -1,13 +1,13 @@
-{ pkgs, ... }: {
+{ lib, pkgs, ... }: {
   qt = {
     enable = true;
-    platformTheme.name = "qtct";
-    style.name = "kvantum";
+    platformTheme.name = lib.mkForce "kde";
+    # style.name = lib.mkForce "";
   };
 
   home.packages = with pkgs; [
-    kdePackages.qt6ct
-    libsForQt5.qt5ct
-    libsForQt5.qtstyleplugin-kvantum
+    kdePackages.qt6gtk2
+    libsForQt5.qtstyleplugins
+    gtk_engines
   ];
 }

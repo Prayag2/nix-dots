@@ -24,7 +24,6 @@
     settings = {
       "plugin:dynamic-cursors" = {
         enabled = true;
-        mode = "stretch";
         shake = {
             nearest = false;
             limit = 4.0;
@@ -95,7 +94,7 @@
           passes = 4;
           new_optimizations = true;
           ignore_opacity = true;
-          noise = 0.1;
+          noise = 0.0;
           popups = true;
 
           blurls = [
@@ -108,11 +107,9 @@
 
       animations.enabled = true;
 
-      gestures = {
-        workspace_swipe = true;
-        workspace_swipe_fingers = 4;
-        workspace_swipe_cancel_ratio = 0.25;
-      };
+      gesture = [
+        "4,horizontal,workspace"
+      ];
 
       device = {
         name = "epic-mouse-v1";
@@ -136,7 +133,7 @@
         "noshadow, class:(^(MEGAsync)$)"
         "float, class:(^(KDE Connect Daemon)$)"
         "noblur, class:(^(KDE Connect Daemon)$)"
-        "opacity 0.85, class:(^(thunar)$)"
+        "opacity 1, class:(^(thunar)$)"
         "float, class:(^(Rofi)$)"
         "opacity 1, title:KDE Connect Daemon"
         "noblur, title:KDE Connect Daemon"
@@ -158,7 +155,7 @@
       ];
 
       windowrulev2 = [
-        "opacity 0.95, initialTitle: ^(Visual Studio Code)$"
+        "opacity 1, initialTitle: ^(Visual Studio Code)$"
         "opacity 0.0 override 0.0 override,class:^(xwaylandvideobridge)$"
         "noanim,class:^(xwaylandvideobridge)$"
         "nofocus,class:^(xwaylandvideobridge)$"

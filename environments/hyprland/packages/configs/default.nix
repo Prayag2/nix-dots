@@ -2,9 +2,9 @@
   imports = [
     ./hyprland
     ./hyprcursor
+    ./hyprpaper
     ./gtk
     ./xresources
-    # ./stylix
     ./thunar
   ];
 }
