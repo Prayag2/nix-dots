@@ -50,11 +50,11 @@ in
     ];
   };
 
-
   fonts = {
     fontDir.enable = true;
     packages = with pkgs; [
       jetbrains-mono
+      inter
       noto-fonts
       noto-fonts-color-emoji
       nerd-fonts.jetbrains-mono

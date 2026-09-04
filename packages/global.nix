@@ -19,6 +19,7 @@ in {
   environment.systemPackages = with pkgs; [
     distrobox
     openrgb-with-all-plugins
+    pinentry-gtk2
   ];
 
   programs.appimage = {
@@ -33,6 +34,7 @@ in {
   nixpkgs = {
     config = {
       permittedInsecurePackages = [
+        "electron-39.8.10"
         "electron-27.3.11"
       ];
     };
@@ -54,8 +56,8 @@ in {
 
   hardware = {
     opentabletdriver = {
-      enable = true;
-      daemon.enable = true;
+      enable = false;
+      daemon.enable = false;
     };
   };
 
@@ -94,5 +96,22 @@ in {
         openFirewall = true;
     };
   };
+
   virtualisation.virtualbox.host.enable = true;
+
+  xdg.portal = {
+    enable = true;
+    extraPortals = [ pkgs.kdePackages.xdg-desktop-portal-kde ];
+    config.common.default = "kde";
+  };
+
+  services.pcscd.enable = true;
+  programs.gnupg.agent = {
+    enable = true;
+  };
+
+  # aliases
+  programs.zsh.shellAliases = {
+    "ranger" = ''ranger --choosedir=$HOME/.rangerdir; LASTDIR=`cat $HOME/.rangerdir`; cd "$LASTDIR"'';
+  };
 }

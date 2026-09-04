@@ -9,15 +9,9 @@
     pavucontrol
     playerctl
     imagemagick
-    kdePackages.qtstyleplugin-kvantum
-    kdePackages.kcalc
   ];
 
   programs = {
     home-manager.enable = true;
-  };
-
-  services = {
-    kdeconnect.enable = true;
   };
 }

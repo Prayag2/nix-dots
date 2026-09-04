@@ -6,16 +6,15 @@
     ./configs/hypridle
     ./configs/hyprlock
     ./configs/qt
-    ./configs/ranger
     ./configs/rofi
     ./configs/waybar
   ];
   home.packages = with pkgs; [
-    imagemagick
     xfce.ristretto
-    pavucontrol
     hyprpicker
     wl-clipboard
+    pavucontrol
+    imagemagick
     wtype
     playerctl
     pywal
@@ -29,8 +28,6 @@
     apple-cursor
     papirus-icon-theme
     pamixer
-    xdg-desktop-portal-gtk
-    xdg-desktop-portal-hyprland
     socat
     mpvpaper
     ffmpeg

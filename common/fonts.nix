@@ -55,4 +55,12 @@ in
     };
 
     config.myFont.font = (builtins.elemAt font_list 1);
+
+    config.fonts.fontconfig = {
+        defaultFonts = {
+            serif = [ "Inter" ];
+            sansSerif = [ "Inter" ];
+            monospace = [ config.myFont.font.name ];
+        };
+    };
 }

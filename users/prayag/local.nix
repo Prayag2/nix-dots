@@ -1,7 +1,8 @@
 { ... }: {
   imports = [
-    ../../environments/hyprland
-    ../../environments/awesome
+    ../../environments/kde
+    # ../../environments/hyprland
+    # ../../environments/awesome
     ../../packages/local.nix
     ../../common/fonts.nix
   ];

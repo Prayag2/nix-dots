@@ -1,4 +1,4 @@
-{ pkgs, ... }: {
+{ pkgs, inputs, ... }: {
 
   imports = [
     ./env.nix
@@ -16,11 +16,11 @@
     enable = true;
     systemd.enable = true;
     systemd.enableXdgAutostart = true;
+
     plugins = [
-        pkgs.hyprlandPlugins.hypr-dynamic-cursors
-        # pkgs.hyprlandPlugins.hyprspace
-        pkgs.hyprlandPlugins.hyprexpo
+        # pkgs.hypr-dynamic-cursors
     ];
+
     settings = {
       "plugin:dynamic-cursors" = {
         enabled = true;

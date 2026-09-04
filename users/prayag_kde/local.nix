@@ -1,6 +1,6 @@
 { ... }: {
   imports = [
-    ../../environments/kde
+    ../../environments/gnome
     ../../packages/local.nix
     ../../common/fonts.nix
   ];

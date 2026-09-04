@@ -1,4 +1,4 @@
-{ config, inputs, pkgs, lib, ...}:
+{ inputs, pkgs, unstable-pkgs, lib, ...}:
 let
   overlays = import ../overlays {inherit inputs;};
 in
@@ -13,6 +13,7 @@ in
     ./configs/xournalpp
     ./configs/firefox
     ./configs/mpv
+    ./configs/ranger
     ./configs/flatpak/local.nix
     ./drv/cp
   ];
@@ -21,10 +22,6 @@ in
     {
       name = "flathub";
       location = "https://flathub.org/repo/flathub.flatpakrepo";
-    }
-    {
-      name = "drawy-nightly";
-      location = "https://origin.cdn.kde.org/flatpak/drawy-nightly/drawy-nightly.flatpakrepo";
     }
   ];
 
@@ -35,8 +32,7 @@ in
     "org.gtk.Gtk3theme.Adwaita-dark"
     "org.kde.neochat"
     "org.kde.iconexplorer"
-    "net.shadps4.shadPS4"
-    "org.kde.drawy"
+    "org.inkscape.Inkscape"
   ];
 
   services.flatpak.overrides = {
@@ -51,11 +47,12 @@ in
         "xdg-config/gtkrc:ro"
         "xdg-config/gtkrc-2.0:ro"
         "xdg-config/fontconfig/conf.d"
+        "xdg-config/kdeglobals"
         "home/me:ro"
+        "/nix/store:ro"
       ];
       Environment = {
         XCURSOR_PATH = "/run/host/user-share/icons:/run/host/share/icons";
-        # GTK_THEME = "Adwaita:dark";
       };
     };
   };
@@ -65,14 +62,11 @@ in
     cava
     tree
     btop
-    neofetch
-    logseq
-    inkscape
+    fastfetch
     ookla-speedtest
     gnome-disk-utility
     obs-studio
-    baobab
-    simple-scan
+    kdePackages.filelight
     gimp
     corefonts
     libreoffice-fresh
@@ -86,11 +80,11 @@ in
     open-dyslexic
     tauon
     discord
-    rpcs3
     devenv
-    thunderbird
-    telegram-desktop
     unrar
+    localsend
+    ollama
+    sysstat
 
     # for dev
     # yes i don't want to enter a nix shell again and again when I'm just brainstorming
@@ -98,14 +92,13 @@ in
     clang
     (lib.hiPrio gcc)
     gdb
-    jdk
-    aseprite
     zed-editor
     wineWow64Packages.stable
 
     python3 # temp
+
+    unstable-pkgs.antigravity-cli
     
-    (pkgs.callPackage ./drv/lyrics-in-terminal.nix {})
     (pkgs.callPackage ./drv/fonts {})
 
     # (pkgs.libsForQt5.callPackage ./drv/xp-pen {})

@@ -1,6 +1,6 @@
 { pkgs, ... }: {
   imports = [
-    ../../environments/kde/packages/global.nix
+    ../../environments/gnome/packages/global.nix
     ../../packages/global.nix
     ../../devices/printers
 
