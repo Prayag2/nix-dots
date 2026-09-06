@@ -16,6 +16,8 @@
   programs = {
     neovim = {
       enable = true;
+      withRuby = false;
+      withPython3 = true;
       vimAlias = true;
       plugins = with pkgs.vimPlugins; [
         vim-vsnip

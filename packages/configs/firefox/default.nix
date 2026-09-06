@@ -2,6 +2,7 @@
   home.packages = [ pkgs.pywalfox-native ];
   programs.firefox = {
     enable = true;
+    configPath = ".mozilla/firefox";
     policies = {
       # always install these extensions
       ExtensionSettings = {

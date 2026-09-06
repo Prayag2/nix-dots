@@ -1,4 +1,4 @@
-{ inputs, pkgs, unstable-pkgs, lib, ...}:
+{ inputs, pkgs, unstable-pkgs, lib, config, ...}:
 let
   overlays = import ../overlays {inherit inputs;};
 in
@@ -130,6 +130,7 @@ in
   programs = {
     zsh = {
       enable = true;
+      dotDir = config.home.homeDirectory;
       enableCompletion = true;
       autosuggestion.enable = true;
       syntaxHighlighting.enable = true;

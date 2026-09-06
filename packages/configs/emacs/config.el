@@ -163,7 +163,7 @@
   :init
   (persp-mode))
 
-(use-package 'htmlize
+(use-package htmlize
  :ensure t)
 
 (use-package ewal-doom-themes
