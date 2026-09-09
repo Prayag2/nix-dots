@@ -2,14 +2,13 @@
   description = "haxnix";
   
   inputs = {
-    nixpkgs.url = "github:NixOS/nixpkgs/nixos-26.05";
+    nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
     nixpkgs-unstable.url = "github:nixos/nixpkgs/nixos-unstable";
 
     nix-flatpak.url = "github:gmodena/nix-flatpak/?ref=v0.6.0";
 
     home-manager = {
-      url = "github:nix-community/home-manager/release-26.05";
-      # url = "github:nix-community/home-manager";
+      url = "github:nix-community/home-manager";
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
@@ -35,7 +34,7 @@
         modules = [
           ./hosts/ideapad-2023/configuration.nix
           ./users/prayag/global.nix
-          ./users/prayag_kde/global.nix
+          # ./users/prayag_kde/global.nix
 
           inputs.nix-flatpak.nixosModules.nix-flatpak
 
@@ -51,10 +50,10 @@
               ./users/prayag/local.nix
             ];
 
-            home-manager.users.prayag_kde.imports = [
-              inputs.nix-flatpak.homeManagerModules.nix-flatpak
-              ./users/prayag_kde/local.nix
-            ];
+            # home-manager.users.prayag_kde.imports = [
+            #   inputs.nix-flatpak.homeManagerModules.nix-flatpak
+            #   ./users/prayag_kde/local.nix
+            # ];
 
             home-manager.backupFileExtension = "bak";
           }

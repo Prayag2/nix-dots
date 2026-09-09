@@ -26,14 +26,6 @@ in
   ];
 
   services.flatpak.uninstallUnmanaged = false;
-  services.flatpak.packages = [
-    "app.zen_browser.zen"
-    "com.github.flxzt.rnote"
-    "org.gtk.Gtk3theme.Adwaita-dark"
-    "org.kde.neochat"
-    "org.kde.iconexplorer"
-    "org.inkscape.Inkscape"
-  ];
 
   services.flatpak.overrides = {
     global = {
@@ -69,14 +61,12 @@ in
     kdePackages.filelight
     gimp
     corefonts
-    libreoffice-fresh
+    libreoffice-stable
     cachix
     qbittorrent
     jamesdsp
     megasync
-    vesktop
     ani-cli
-    lorien
     open-dyslexic
     tauon
     discord
@@ -85,6 +75,9 @@ in
     localsend
     ollama
     sysstat
+
+    qmk-udev-rules
+    vial # qmk/via keyboard app
 
     # for dev
     # yes i don't want to enter a nix shell again and again when I'm just brainstorming
@@ -186,8 +179,5 @@ in
   };
 
   nixpkgs.config.allowUnfree = true;
-  nixpkgs.overlays = [
-      (import ../overlays/gcc-overlay.nix)
-      overlays.emacs-overlay
-  ];
+  nixpkgs.overlays = [];
 }

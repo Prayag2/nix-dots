@@ -15,11 +15,11 @@ in {
     ./configs/flatpak
   ];
 
-  services.flatpak.uninstallUnmanaged = true;
+  services.flatpak.uninstallUnmanaged = false;
   environment.systemPackages = with pkgs; [
     distrobox
     openrgb-with-all-plugins
-    pinentry-gtk2
+    pinentry-gnome3
   ];
 
   programs.appimage = {
@@ -108,6 +108,7 @@ in {
   services.pcscd.enable = true;
   programs.gnupg.agent = {
     enable = true;
+    pinentryPackage = pkgs.pinentry-gnome3;
   };
 
   # aliases

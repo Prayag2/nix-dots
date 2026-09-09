@@ -1,4 +1,5 @@
 { config, pkgs, ... }: {
+
   home.file.".emacs.d/init.el" = {
     text = builtins.readFile ./config.el + ''
         ;; FONT
@@ -11,18 +12,13 @@
     '';
     force = true;
   };
+
+  programs.emacs = {
+    enable = true;
+    package = pkgs.emacs-pgtk;
+  };
+
   home.packages = [
     pkgs.texliveFull
-
-    (pkgs.emacsWithPackagesFromUsePackage {
-      package = pkgs.emacs30-pgtk;
-      config = ./config.el;
-      defaultInitFile = true;
-      alwaysEnsure = true;
-      extraEmacsPackages = epkgs: [
-        epkgs.use-package
-      ];
-    })
-
   ];
 }

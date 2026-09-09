@@ -5,7 +5,9 @@
 
     # lsp servers
     pyright
-    python312Packages.python-lsp-server
+    (python312Packages.python-lsp-server.overrideAttrs (oldAttrs: {
+      doCheck = false;
+    }))
     clang-tools
     nil
 
