@@ -41,5 +41,5 @@
     0.0.0.0 www.instagram.com
   '';
 
-  programs.xppen.enable = true;
+  # programs.xppen.enable = true;
 }

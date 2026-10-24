@@ -53,7 +53,7 @@ in
     brave
     cava
     tree
-    btop
+    btop-cuda
     fastfetch
     ookla-speedtest
     gnome-disk-utility
@@ -73,8 +73,10 @@ in
     devenv
     unrar
     localsend
-    ollama
     sysstat
+    anki
+
+    obsidian
 
     qmk-udev-rules
     vial # qmk/via keyboard app
@@ -87,6 +89,7 @@ in
     gdb
     zed-editor
     wineWow64Packages.stable
+    pi-coding-agent
 
     python3 # temp
 
@@ -180,4 +183,49 @@ in
 
   nixpkgs.config.allowUnfree = true;
   nixpkgs.overlays = [];
+
+  services.syncthing = {
+    enable = true;
+
+    tray.enable = true;
+
+    overrideDevices = false;
+    overrideFolders = true;
+
+    settings = {
+      folders = {
+        "obsidian-vault" = {
+          path = "${config.home.homeDirectory}/me/obsidian";
+          id = "obsidian-data";
+          label = "Obsidian Data";
+
+          type = "sendreceive";
+          fsWatcherEnabled = true;
+          rescanIntervalS = 300;
+
+          versioning = {
+            type = "simple";
+            params.keep = "10";
+          };
+
+          ignores = [
+            ".obsidian/workspace.json"
+            ".obsidian/workspace-mobile.json"
+    	    ".stversions"
+            "**/*.sync-conflict-*"
+          ];
+        };
+      };
+
+      gui = {
+        theme = "black";
+      };
+
+      options = {
+        urAccepted = -1;
+        relaysEnabled = true;
+      };
+    };
+  };
+
 }

@@ -56,8 +56,8 @@ in {
 
   hardware = {
     opentabletdriver = {
-      enable = false;
-      daemon.enable = false;
+      enable = true;
+      daemon.enable = true;
     };
   };
 
@@ -97,7 +97,7 @@ in {
     };
   };
 
-  virtualisation.virtualbox.host.enable = true;
+  virtualisation.virtualbox.host.enable = false;
 
   xdg.portal = {
     enable = true;
@@ -110,6 +110,20 @@ in {
     enable = true;
     pinentryPackage = pkgs.pinentry-gnome3;
   };
+
+  services.ollama = {
+    enable = true;
+    package = pkgs.ollama-cuda;
+
+    environmentVariables = {
+      OLLAMA_FLASH_ATTENTION = "1";
+      OLLAMA_KV_CACHE_TYPE = "q8_0";
+      OLLAMA_NUM_PARALLEL = "1";
+      OLLAMA_MAX_LOADED_MODELS = "1";
+    };
+  };
+
+  # systemd.services.ollama.wantedBy = lib.mkForce [ ];
 
   # aliases
   programs.zsh.shellAliases = {

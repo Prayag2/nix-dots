@@ -69,6 +69,12 @@
       # fix ESC delay in vim
       set -s escape-time 0
       set-option -g default-command ${pkgs.zsh}/bin/zsh
+
+      set -g extended-keys on
+      set -g extended-keys-format csi-u
+
+      bind-key -T copy-mode-vi Enter send-keys -X copy-pipe-and-cancel "wl-copy"
+      bind-key -T copy-mode-vi C-j send-keys -X copy-pipe-and-cancel "wl-copy"
     '';
   };
 }
